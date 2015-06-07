@@ -22,15 +22,15 @@ public class Loader {
 		trainData = new LinkedList<>();
 	}
 	
-	public void loadDocuments() {
+	public void loadDocuments(String docFolder) {
 		
 	}
 	
-	public void loadData() {
+	public void loadData(String dataFolder) {
 		
 	}
 	
-	public void loadParses() {
+	public void loadParses(String parseFilePath) {
 		
 	}
 	
