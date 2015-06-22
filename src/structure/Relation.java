@@ -20,7 +20,4 @@ public class Relation {
 		this.type = type;
 	}
 	
-	public static void main(String[] args) {
-	}
-
 }
