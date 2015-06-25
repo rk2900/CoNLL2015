@@ -1,12 +1,15 @@
 package entry;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Scanner;
 import java.util.Set;
 
 import org.json.simple.JSONArray;
@@ -65,7 +68,8 @@ public class Loader {
 				JSONObject conn = (JSONObject) jObject.get("Connective");
 				String docId = jObject.get("DocID").toString();
 				String id = jObject.get("ID").toString();
-				String sense = jObject.get("Sense").toString();
+				JSONArray senseArr = (JSONArray) jObject.get("Sense");
+				String sense = senseArr.get(0).toString();
 				String type = jObject.get("Type").toString();
 				
 				// parse
@@ -77,6 +81,13 @@ public class Loader {
 				Argument connective = parseArgument(conn);
 				Relation relation = new Relation(argument1, argument2, connective, docId, idNum, sense, type);
 				trainData.put(idNum, relation);
+				
+//				if(docId.equals("wsj_2149")) {
+//					System.out.println(sense);
+//					Scanner scanner = new Scanner(System.in);
+//					scanner.next();
+//				}
+				
 			}
 			bf.close();
 		} catch (FileNotFoundException e) {
@@ -138,5 +149,5 @@ public class Loader {
 		
 		return argument;
 	}
-
+	
 }

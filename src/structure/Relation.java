@@ -1,5 +1,7 @@
 package structure;
 
+import org.json.simple.JSONArray;
+
 public class Relation {
 
 	public Argument arg1;
@@ -18,6 +20,12 @@ public class Relation {
 		this.id = id;
 		this.sense = sense;
 		this.type = type;
+	}
+	
+	public JSONArray getSenseList() {
+		JSONArray jSenseList = new JSONArray();
+		jSenseList.add(sense);
+		return jSenseList;
 	}
 	
 }

@@ -7,6 +7,7 @@ import org.json.simple.JSONObject;
 public class Document {
 	public String text;
 	public LinkedList<JSONObject> sentences;
+	/*  */
 	
 	public Document() {
 		text = new String();

@@ -1,6 +1,7 @@
 package structure;
 
 import java.util.LinkedList;
+import java.util.List;
 
 import org.json.simple.JSONArray;
 
@@ -9,7 +10,12 @@ import basic.format.Pair;
 public class Argument {
 	public LinkedList<Pair<Integer, Integer>> characterSpanList;
 	public String rawText;
-	public LinkedList<Integer[]> tokenList;
+	public LinkedList<Integer[]> tokenList; 
+//	character offset begin, 
+//	character offset end, 
+//	token offset within the document, 
+//	sentence offset, 
+//	token offset within the sentence
 	
 	public Argument() {
 		initialize();
@@ -43,6 +49,14 @@ public class Argument {
 							Integer.parseInt(tokenArray.get(3).toString()),
 							Integer.parseInt(tokenArray.get(4).toString()),};
 		tokenList.add(token);
+	}
+	
+	public JSONArray getTokenList() {
+		JSONArray jTokenList = new JSONArray();
+		for (Integer[] token : tokenList) {
+			jTokenList.add(token[2]);
+		}
+		return jTokenList;
 	}
 	
 }
