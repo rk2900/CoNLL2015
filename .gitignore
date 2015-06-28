@@ -3,3 +3,4 @@
 /target/
 /tool/
 /output.json
+*.DS_Store

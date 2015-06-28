@@ -44,7 +44,7 @@ public class Predict {
       eval(predicates,false);
     }
     
-    private void eval (String predicates, boolean real) {
+    private String eval (String predicates, boolean real) {
       String[] contexts = predicates.split(" ");
       double[] ocs;
       if (!real) {
@@ -55,6 +55,7 @@ public class Predict {
         ocs = _model.eval(contexts,values);
       }
       System.out.println("For context: " + predicates+ "\n" + _model.getAllOutcomes(ocs) + "\n");
+      return _model.getBestOutcome(ocs);
 	
     }
     
@@ -116,11 +117,35 @@ public class Predict {
 		DataStream ds =
 		    new PlainTextByLineDataStream(
 			new FileReader(new File(dataFileName)));
-
+		
+		int totalCount = 0;
+		int true_positive = 0;
+		int true_negative = 0;
+		int false_positive = 0;
+		int false_negative = 0;
 		while (ds.hasNext()) {
+			totalCount++;
 		    String s = (String)ds.nextToken();
-		    predictor.eval(s.substring(0, s.lastIndexOf(' ')),real);
+		    String label = predictor.eval(s.substring(0, s.lastIndexOf(' ')),real);
+		    if(totalCount <= 79) {
+		    	if(label.equals("connective"))
+		    		true_positive++;
+		    	else {
+					false_positive++;
+				}
+		    } else {
+		    	if(label.equals("non_connective"))
+		    		true_negative++;
+		    	else {
+					false_negative++;
+				}
+		    }
 		}
+		System.out.println("TP: "+true_positive);
+		System.out.println("FP: "+false_positive);
+		System.out.println("TN: "+true_negative);
+		System.out.println("FN: "+false_negative);
+		
 		return;
 	    }
 	    catch (Exception e) {
