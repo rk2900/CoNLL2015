@@ -11,11 +11,11 @@ public class Argument {
 	public LinkedList<Pair<Integer, Integer>> characterSpanList;
 	public String rawText;
 	public LinkedList<Integer[]> tokenList; 
-//	character offset begin, 
-//	character offset end, 
-//	token offset within the document, 
-//	sentence offset, 
-//	token offset within the sentence
+//	0 character offset begin, 
+//	1 character offset end, 
+//	2 token offset within the document, 
+//	3 sentence offset, 
+//	4 token offset within the sentence
 	
 	public Argument() {
 		initialize();
@@ -57,6 +57,14 @@ public class Argument {
 			jTokenList.add(token[2]);
 		}
 		return jTokenList;
+	}
+	
+	/**
+	 * to judge whether the arguments/connective contains multi words in the sentence.
+	 * @return
+	 */
+	public boolean ifMultiWords() {
+		return (tokenList.getFirst())[4] != (tokenList.getLast())[4];
 	}
 	
 }

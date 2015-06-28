@@ -1,5 +1,7 @@
 package entry;
 
+import java.util.Scanner;
+
 public class Const {
 	// train
 	public static final String dataFolder_train = "./data/conll15-st-03-04-15-train/";
@@ -14,4 +16,16 @@ public class Const {
 
 	// output
 	public static final String outputFile = "./output.json";
+	
+	// configurations
+	public static final boolean explicitFlag = true;
+	public static final String connCategoryFilePath = "./data/connective-category-mod.txt";
+	
+	
+	public static void pause() {
+		@SuppressWarnings("resource")
+		Scanner scanner = new Scanner(System.in);
+		scanner.next();
+	}
+	
 }

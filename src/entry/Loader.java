@@ -1,15 +1,13 @@
 package entry;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Scanner;
+import java.util.LinkedList;
 import java.util.Set;
 
 import org.json.simple.JSONArray;
@@ -28,6 +26,8 @@ public class Loader {
 	public HashSet<String> types;
 	public HashMap<String, Document> docs;
 	public HashMap<Integer, Relation> trainData;
+	public HashMap<String, LinkedList<Relation>> trainDocData;
+	public HashMap<String, String> connCategory;
 	
 	public Loader() {
 		initialize();
@@ -38,6 +38,8 @@ public class Loader {
 		types = new HashSet<>();
 		docs = new HashMap<>();
 		trainData = new HashMap<>();
+		trainDocData = new HashMap<>();
+		connCategory = new HashMap<>();
 	}
 
 	public void loadDocuments(String docFolder) {
@@ -72,6 +74,9 @@ public class Loader {
 				String sense = senseArr.get(0).toString();
 				String type = jObject.get("Type").toString();
 				
+				if(Const.explicitFlag && !type.equals("Explicit"))
+					continue;
+				
 				// parse
 				int idNum = Integer.parseInt(id);
 				senses.add(sense);
@@ -79,9 +84,17 @@ public class Loader {
 				Argument argument1 = parseArgument(arg1);
 				Argument argument2 = parseArgument(arg2);
 				Argument connective = parseArgument(conn);
+				if(connective.ifMultiWords()) 
+					continue;
 				Relation relation = new Relation(argument1, argument2, connective, docId, idNum, sense, type);
 				trainData.put(idNum, relation);
-				
+				if(!trainDocData.containsKey(docId)) {
+					LinkedList<Relation> list = new LinkedList<>();
+					list.add(relation);
+					trainDocData.put(docId, list);
+				} else {
+					trainDocData.get(docId).add(relation);
+				}
 //				if(docId.equals("wsj_2149")) {
 //					System.out.println(sense);
 //					Scanner scanner = new Scanner(System.in);
@@ -107,13 +120,14 @@ public class Loader {
 			String line;
 			while((line = bf.readLine()) != null) {
 				JSONObject jObject = (JSONObject) jParser.parse(line);
+				@SuppressWarnings("unchecked")
 				Set<String> docSet = jObject.keySet();
 				for (String docKey : docSet) {
 					JSONArray doc = (JSONArray) ((JSONObject) jObject.get(docKey)).get("sentences");
 					Document document = docs.get(docKey);
 					
 					for (Object sentence : doc) {
-						document.addSentence((JSONObject) sentence);
+						document.addSentences((JSONObject) sentence);
 					}
 				}
 			}
@@ -148,6 +162,40 @@ public class Loader {
 		}
 		
 		return argument;
+	}
+	
+	public void loadConnCategory(String categoryFilePath) {
+		try {
+			BufferedReader bf = new BufferedReader(new FileReader(new File(categoryFilePath)));
+			String line;
+			
+			while( (line = bf.readLine()) != null) {
+				String[] segs = line.split(" # ");
+				if(connCategory.containsKey(segs[0]))
+					connCategory.replace(segs[0], segs[1]);
+				else 
+					connCategory.put(segs[0], segs[1]);
+			}
+			
+			bf.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void main(String[] args) {
+		Loader loader = new Loader();
+		loader.loadDocuments(Const.docFolder_train);
+		loader.loadParses(Const.parses_train);
+		
+		JSONObject sentence = loader.docs.get("wsj_0292").getSentence(3);
+		System.out.println(sentence.get("parsetree"));
+		JSONArray words = (JSONArray) sentence.get("words");
+		words.get(0);
+		System.out.println(words);
+		
 	}
 	
 }

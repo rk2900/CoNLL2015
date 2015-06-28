@@ -7,6 +7,9 @@ import java.io.IOException;
 import java.util.Collection;
 import java.util.LinkedList;
 
+import model.ConnClassifier;
+import model.Model;
+
 import org.json.simple.JSONObject;
 
 import structure.Relation;
@@ -49,24 +52,39 @@ public class Main {
 		loader.loadDocuments(Const.docFolder_train);
 		loader.loadData(Const.data_train);
 		loader.loadParses(Const.parses_train);
+		loader.loadConnCategory(Const.connCategoryFilePath);
+//		System.out.println(loader.docs.get("wsj_0292").getSentence(3));
+//		Const.pause();
 		System.out.println("Train data loaded.\n");
 		
 		// loading test data
+		/**
 		Loader testLoader = new Loader();
 		testLoader.initialize();
 		testLoader.loadDocuments(Const.docFolder_test);
 		testLoader.loadParses(Const.parses_test);
 		System.out.println("Test data loaded.\n");
+		/**/
 		
-		// output results
+		// train
+		/**/
+		Model connClassifier = new ConnClassifier();
+		connClassifier.run(loader, new LinkedList<>(loader.docs.values()));
+		/**/
+		
 		Main.relations = (Collection<Relation>) loader.trainData.values();
+		// output results
+		/**
 		Main.outputResults(Const.outputFile);
+		/**/
 		
 		// validate and score
-		for (String string : loader.senses) {
-			System.out.println(string);
+		/**
+		for (Relation rel : relations) {
+//			System.out.println(rel.type+"\t"+rel.connective.rawText);
+			System.out.println(rel.connective.rawText);
 		}
-		
+		/**/
 	}
 
 }

@@ -19,8 +19,12 @@ public class Document {
 		sentences = new LinkedList<>();
 	}
 	
-	public void addSentence(JSONObject obj) {
+	public void addSentences(JSONObject obj) {
 		sentences.add(obj);
+	}
+	
+	public JSONObject getSentence(int index) {
+		return sentences.get(index);
 	}
 	
 }
