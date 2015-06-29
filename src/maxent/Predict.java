@@ -145,8 +145,11 @@ public class Predict {
 		System.out.println("TN: "+true_negative);
 		System.out.println("FN: "+false_negative);
 		
-		System.out.println("Precision = "+(1.0*true_positive/(true_positive+false_positive)));
-		System.out.println("Recall = "+(1.0*true_positive/(true_positive+false_negative)));
+		double precision = 1.0*true_positive/(true_positive+false_positive);
+		double recall = 1.0*true_positive/(true_positive+false_negative);
+		System.out.println("Precision = "+precision);
+		System.out.println("Recall = "+recall);
+		System.out.println("F1 Score = "+ (2*precision*recall/(precision+recall)) );
 		
 		return;
 	    }

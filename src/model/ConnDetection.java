@@ -6,7 +6,9 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.Set;
 
 import javax.print.attribute.DocAttributeSet;
 import javax.swing.text.Segment;
@@ -42,7 +44,7 @@ public class ConnDetection extends Model {
 	public static boolean USE_SMOOTHING = false;
 	public static double SMOOTHING_OBSERVATION = 0.1;
 	public static String dataFilePath = "./train/conn_features.dat";
-	public static String modelFilePath = "./train/conn_classify_model.txt";
+	public static String modelFilePath = "./train/conn_featuresModel.txt";
 	public static String testFilePath = "./train/conn_classify.test";
 	public HashMap<String, String> connCategory;
 	public MaxentModel _model;
@@ -65,8 +67,10 @@ public class ConnDetection extends Model {
 			int trainNum = (int) (loader.docs.keySet().size()*Const.ratio);
 			int trainCount = 0;
 			for (String docId : loader.docs.keySet()) {
-				if(trainCount++ > trainNum)
+				if(Const.splitFlag && trainCount++ > trainNum) {
+					System.err.println("Passed doc. trainNum = "+trainNum+", trainCount = "+trainCount);
 					break;
+				}
 				Document document = loader.docs.get(docId);
 				for (int i = 0; i < document.sentences.size(); i++) {
 					JSONObject sentence = document.getSentence(i);
@@ -74,27 +78,26 @@ public class ConnDetection extends Model {
 					for (int j = 0; j < words.size(); j++) {
 						JSONArray word = (JSONArray) words.get(j);
 						String wordStr = word.get(0).toString();
-						if (Loader.connCategory.containsKey(wordStr
-								.toLowerCase())) { // the word is a connective
-													// candidate
+						int k = getTailPosition(words, j);
+						if (k >= 0) { // the word phrase is a connective candidate
+							Integer[] firstToken = {-1,-1,-1,i,j};
+							Integer[] lastToken = {-1,-1,-1,i,k};
 							boolean nonConnFlag = true;
-							if (!loader.trainDocData.containsKey(docId))
-								;
+							if (!loader.trainDocData.containsKey(docId));
 							else {
-								LinkedList<Relation> relList = loader.trainDocData
-										.get(docId);
+								LinkedList<Relation> relList = loader.trainDocData.get(docId);
 								for (Relation relation : relList) {
-									Integer[] idx = relation.connective.tokenList
-											.getFirst();
-									if (idx[3] == i && idx[4] == j) {
+									Integer[] fIdx = relation.connective.tokenList.getFirst();
+									Integer[] lIdx = relation.connective.tokenList.getLast();
+									if (fIdx[3] == i && fIdx[4] ==j && lIdx[4] == k) {
 										nonConnFlag = false;
 										break;
 									}
 								}
 							}
-							Integer[] index = { -1, -1, -1, i, j };
-							bw.write(genFeature(words, index, nonConnFlag?"non_connective":"connective"));
+							bw.write(genFeature(words, firstToken, lastToken, nonConnFlag?"non_connective":"connective"));
 							bw.newLine();
+							j=k;
 						}
 					}
 				}
@@ -103,9 +106,37 @@ public class ConnDetection extends Model {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
+		System.err.println("Train feature generated.");
+		Const.pause();
 		trainModel();
 
+	}
+	
+	public int getTailPosition(JSONArray words, int start) {
+		int position = -1;
+		Set<String> dict = Loader.connCategory.keySet();
+		for (String term : dict) {
+			String[] termWords = term.split(" ");
+			boolean matched = true;
+			if(start+termWords.length > words.size()) {
+				matched = false;
+				break;
+			}
+			for(int i=0; i<termWords.length; i++) {
+				String word = ( (JSONArray) (words.get(start+i))).get(0).toString().toLowerCase();
+				if(!termWords[i].equals(word)) {
+					matched = false;
+					break;
+				}
+			}
+			if(!matched) {
+				continue;
+			} else {
+				position = start+termWords.length-1;
+				break;
+			}
+		}
+		return position;
 	}
 
 	public void trainModel() {
@@ -150,22 +181,28 @@ public class ConnDetection extends Model {
 		}
 	}
 
-	public String genFeature(JSONArray words, Integer[] token, String label) {
+	public String genFeature(JSONArray words, Integer[] firstToken, Integer[] lastToken, String label) {
 		StringBuilder sb = new StringBuilder();
-		JSONArray connWord = (JSONArray) words.get(token[4]);
-
-		String connStr = connWord.get(0).toString();
-
+		String connStr = "";
+		String connPOS = "";
+		for(int i=firstToken[4]; i<=lastToken[4]; i++) {
+			JSONArray w = (JSONArray)words.get(i);
+			if(connStr.length()>0) {
+				connStr = connStr+"_";
+				connPOS = connPOS+"_";
+			}
+			connStr = connStr+w.get(0).toString();
+			connPOS = connPOS+((JSONObject)w.get(1)).get("PartOfSpeech").toString();
+		}
+		
 		// POS of C
-		String connPOS = ((JSONObject) connWord.get(1)).get("PartOfSpeech")
-				.toString();
 		sb.append("pos_of_c=").append(connPOS).append(" ");
 
 		// prev + C
 		// prev POS
 		// prev POS + C POS
-		if (token[4] > 0) {
-			JSONArray prevWord = (JSONArray) words.get(token[4] - 1);
+		if (firstToken[4] > 0) {
+			JSONArray prevWord = (JSONArray) words.get(firstToken[4] - 1);
 			String prevStr = prevWord.get(0).toString();
 			sb.append("prev_c=").append(prevStr).append(seg).append(connStr)
 					.append(" ");
@@ -186,8 +223,8 @@ public class ConnDetection extends Model {
 		// C + next
 		// next POS
 		// C POS + next POS
-		if (token[4] < words.size() - 1) {
-			JSONArray nextWord = (JSONArray) words.get(token[4] + 1);
+		if (lastToken[4] < words.size() - 1) {
+			JSONArray nextWord = (JSONArray) words.get(lastToken[4] + 1);
 			String nextStr = nextWord.get(0).toString();
 			sb.append("c_next=").append(connStr).append(seg).append(nextStr)
 					.append(" ");
@@ -286,7 +323,7 @@ public class ConnDetection extends Model {
 						continue;
 					else {
 						Integer[] token = { -1, -1, -1, i, j };
-						String sample = genFeature(words, token, "?");
+						String sample = genFeature(words, token, token, "?");
 						try {
 							bw.write(sample);
 							bw.newLine();
