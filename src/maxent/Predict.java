@@ -131,13 +131,13 @@ public class Predict {
 		    	if(label.equals("connective"))
 		    		true_positive++;
 		    	else {
-					false_positive++;
+					false_negative++;
 				}
 		    } else {
 		    	if(label.equals("non_connective"))
 		    		true_negative++;
 		    	else {
-					false_negative++;
+					false_positive++;
 				}
 		    }
 		}

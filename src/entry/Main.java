@@ -5,9 +5,10 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.LinkedList;
 
-import model.ConnClassifier;
+import model.ConnDetection;
 import model.Model;
 
 import org.json.simple.JSONObject;
@@ -53,26 +54,28 @@ public class Main {
 		loader.loadData(Const.data_train);
 		loader.loadParses(Const.parses_train);
 		loader.loadConnCategory(Const.connCategoryFilePath);
-//		System.out.println(loader.docs.get("wsj_0292").getSentence(3));
-//		Const.pause();
 		System.out.println("Train data loaded.\n");
 		
 		// loading test data
-		/**
-		Loader testLoader = new Loader();
-		testLoader.initialize();
-		testLoader.loadDocuments(Const.docFolder_test);
-		testLoader.loadParses(Const.parses_test);
-		System.out.println("Test data loaded.\n");
-		/**/
+//		Loader testLoader = new Loader();
+//		testLoader.initialize();
+//		testLoader.loadDocuments(Const.docFolder_test);
+//		testLoader.loadParses(Const.parses_test);
+//		System.out.println("Test data loaded.\n");
 		
-		// train
-		/**/
-		Model connClassifier = new ConnClassifier();
-		connClassifier.run(loader, new LinkedList<>(loader.docs.values()));
-		/**/
+		// connective detection
+		Model connDetector = new ConnDetection();
+		HashMap<String, LinkedList<Relation>> connDetectResults = connDetector.run(loader, loader.docs);
+		for (String docId : connDetectResults.keySet()) {
+			System.out.println(docId);
+			for (Relation relation : connDetectResults.get(docId)) {
+				System.out.println("\t"+relation.connective.rawText);
+			}
+			System.out.println();
+		}
 		
 		Main.relations = (Collection<Relation>) loader.trainData.values();
+		
 		// output results
 		/**
 		Main.outputResults(Const.outputFile);

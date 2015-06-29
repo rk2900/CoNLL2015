@@ -1,5 +1,6 @@
 package model;
 
+import java.util.HashMap;
 import java.util.LinkedList;
 
 import structure.Document;
@@ -13,9 +14,9 @@ public abstract class Model {
 	
 	protected abstract void train(Loader loader);
 	
-	protected abstract LinkedList<Relation> predict(LinkedList<Document> docs);
+	protected abstract HashMap<String, LinkedList<Relation>> predict(HashMap<String, Document> docs);
 	
-	public LinkedList<Relation> run(Loader loader, LinkedList<Document> docs) {
+	public HashMap<String, LinkedList<Relation>> run(Loader loader, HashMap<String, Document> docs) {
 		this.init();
 		this.train(loader);
 		return this.predict(docs);

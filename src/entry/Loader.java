@@ -27,7 +27,7 @@ public class Loader {
 	public HashMap<String, Document> docs;
 	public HashMap<Integer, Relation> trainData;
 	public HashMap<String, LinkedList<Relation>> trainDocData;
-	public HashMap<String, String> connCategory;
+	public static HashMap<String, String> connCategory;
 	
 	public Loader() {
 		initialize();
@@ -191,11 +191,8 @@ public class Loader {
 		loader.loadParses(Const.parses_train);
 		
 		JSONObject sentence = loader.docs.get("wsj_0292").getSentence(3);
-		System.out.println(sentence.get("parsetree"));
-		JSONArray words = (JSONArray) sentence.get("words");
-		words.get(0);
-		System.out.println(words);
-		
+		String parseTree = sentence.get("parsetree").toString();
+		System.out.println(parseTree.charAt(parseTree.length()-1)+"+"+parseTree.charAt(parseTree.length()-2));
 	}
 	
 }

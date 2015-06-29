@@ -22,10 +22,17 @@ public class Relation {
 		this.type = type;
 	}
 	
+	public Relation() {}
+	
+	@SuppressWarnings("unchecked")
 	public JSONArray getSenseList() {
 		JSONArray jSenseList = new JSONArray();
 		jSenseList.add(sense);
 		return jSenseList;
+	}
+	
+	public void setConnective(Argument conn) {
+		this.connective = conn;
 	}
 	
 }

@@ -51,6 +51,11 @@ public class Argument {
 		tokenList.add(token);
 	}
 	
+	public void setToken(Integer[] token) {
+		tokenList.add(token);
+	}
+	
+	@SuppressWarnings("unchecked")
 	public JSONArray getTokenList() {
 		JSONArray jTokenList = new JSONArray();
 		for (Integer[] token : tokenList) {
