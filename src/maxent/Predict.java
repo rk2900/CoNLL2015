@@ -118,23 +118,22 @@ public class Predict {
 		    new PlainTextByLineDataStream(
 			new FileReader(new File(dataFileName)));
 		
-		int totalCount = 0;
 		int true_positive = 0;
 		int true_negative = 0;
 		int false_positive = 0;
 		int false_negative = 0;
 		while (ds.hasNext()) {
-			totalCount++;
 		    String s = (String)ds.nextToken();
-		    String label = predictor.eval(s.substring(0, s.lastIndexOf(' ')),real);
-		    if(totalCount <= 79) {
-		    	if(label.equals("connective"))
+		    String label = s.substring(s.lastIndexOf(' ')+1, s.length());
+		    String predict = predictor.eval(s.substring(0, s.lastIndexOf(' ')),real);
+		    if(label.equals("connective")) {
+		    	if(predict.equals("connective"))
 		    		true_positive++;
 		    	else {
 					false_negative++;
 				}
 		    } else {
-		    	if(label.equals("non_connective"))
+		    	if(predict.equals("non_connective"))
 		    		true_negative++;
 		    	else {
 					false_positive++;
@@ -145,6 +144,9 @@ public class Predict {
 		System.out.println("FP: "+false_positive);
 		System.out.println("TN: "+true_negative);
 		System.out.println("FN: "+false_negative);
+		
+		System.out.println("Precision = "+(1.0*true_positive/(true_positive+false_positive)));
+		System.out.println("Recall = "+(1.0*true_positive/(true_positive+false_negative)));
 		
 		return;
 	    }

@@ -18,8 +18,11 @@ public class Const {
 	public static final String outputFile = "./output.json";
 	
 	// configurations
+	public static final boolean modelEval = true;
 	public static final boolean explicitFlag = true;
+	public static final boolean splitFlag = false;
 	public static final String connCategoryFilePath = "./data/connective-category-mod.txt";
+	public static final double ratio = 0.8;
 	
 	
 	public static void pause() {

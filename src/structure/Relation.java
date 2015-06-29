@@ -35,4 +35,8 @@ public class Relation {
 		this.connective = conn;
 	}
 	
+	public void setDocId(String did) {
+		this.docId = new String(did);
+	}
+	
 }

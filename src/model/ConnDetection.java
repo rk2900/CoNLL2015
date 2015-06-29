@@ -6,8 +6,10 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedList;
+
+import javax.print.attribute.DocAttributeSet;
+import javax.swing.text.Segment;
 
 import opennlp.maxent.BasicContextGenerator;
 import opennlp.maxent.BasicEventStream;
@@ -32,6 +34,7 @@ import org.json.simple.JSONObject;
 import structure.Argument;
 import structure.Document;
 import structure.Relation;
+import entry.Const;
 import entry.Loader;
 
 public class ConnDetection extends Model {
@@ -40,9 +43,12 @@ public class ConnDetection extends Model {
 	public static double SMOOTHING_OBSERVATION = 0.1;
 	public static String dataFilePath = "./train/conn_features.dat";
 	public static String modelFilePath = "./train/conn_classify_model.txt";
+	public static String testFilePath = "./train/conn_classify.test";
 	public HashMap<String, String> connCategory;
 	public MaxentModel _model;
 	public ContextGenerator _cg = new BasicContextGenerator();
+	public String seg = "_";
+	public Loader loader;
 
 	@Override
 	protected void init() {
@@ -51,25 +57,16 @@ public class ConnDetection extends Model {
 
 	@Override
 	protected void train(Loader loader) {
+		this.loader = loader;
 		try {
 			BufferedWriter bw = new BufferedWriter(new FileWriter(new File(
 					dataFilePath)));
 
-			for (Relation relation : loader.trainData.values()) {
-				Document document = loader.docs.get(relation.docId);
-				Argument conn = relation.connective;
-				Integer[] token = conn.tokenList.get(0);
-				int sentenceOffset = token[3]; // get the sentence offset
-				JSONObject sentence = document.getSentence(sentenceOffset);
-				if (token[4] == 0 || token[4] == sentence.size() - 1)
-					continue;
-				JSONArray words = (JSONArray) sentence.get("words");
-
-				bw.write(genFeature(words, token, "connective"));
-				bw.newLine();
-			}
-
+			int trainNum = (int) (loader.docs.keySet().size()*Const.ratio);
+			int trainCount = 0;
 			for (String docId : loader.docs.keySet()) {
+				if(trainCount++ > trainNum)
+					break;
 				Document document = loader.docs.get(docId);
 				for (int i = 0; i < document.sentences.size(); i++) {
 					JSONObject sentence = document.getSentence(i);
@@ -77,7 +74,7 @@ public class ConnDetection extends Model {
 					for (int j = 0; j < words.size(); j++) {
 						JSONArray word = (JSONArray) words.get(j);
 						String wordStr = word.get(0).toString();
-						if (loader.connCategory.containsKey(wordStr
+						if (Loader.connCategory.containsKey(wordStr
 								.toLowerCase())) { // the word is a connective
 													// candidate
 							boolean nonConnFlag = true;
@@ -95,17 +92,13 @@ public class ConnDetection extends Model {
 									}
 								}
 							}
-							if (nonConnFlag) {
-								Integer[] index = { -1, -1, -1, i, j };
-								bw.write(genFeature(words, index,
-										"non_connective"));
-								bw.newLine();
-							}
+							Integer[] index = { -1, -1, -1, i, j };
+							bw.write(genFeature(words, index, nonConnFlag?"non_connective":"connective"));
+							bw.newLine();
 						}
 					}
 				}
 			}
-
 			bw.close();
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -174,19 +167,19 @@ public class ConnDetection extends Model {
 		if (token[4] > 0) {
 			JSONArray prevWord = (JSONArray) words.get(token[4] - 1);
 			String prevStr = prevWord.get(0).toString();
-			sb.append("prev_c=").append(prevStr).append("_").append(connStr)
+			sb.append("prev_c=").append(prevStr).append(seg).append(connStr)
 					.append(" ");
 
 			String prevPOS = ((JSONObject) (prevWord.get(1))).get(
 					"PartOfSpeech").toString();
 			sb.append("pos_of_prev=").append(prevPOS).append(" ");
-			sb.append("pos_prev_pos_c=").append(prevPOS).append("_")
+			sb.append("pos_prev_pos_c=").append(prevPOS).append(seg)
 					.append(connPOS).append(" ");
 		} else {
-			sb.append("prev_c=").append("null").append("_").append(connStr)
+			sb.append("prev_c=").append("null").append(seg).append(connStr)
 					.append(" ");
 			sb.append("pos_of_prev=").append("null").append(" ");
-			sb.append("pos_prev_pos_c=").append("null").append("_")
+			sb.append("pos_prev_pos_c=").append("null").append(seg)
 					.append(connPOS).append(" ");
 		}
 
@@ -196,23 +189,42 @@ public class ConnDetection extends Model {
 		if (token[4] < words.size() - 1) {
 			JSONArray nextWord = (JSONArray) words.get(token[4] + 1);
 			String nextStr = nextWord.get(0).toString();
-			sb.append("c_next=").append(connStr).append("_").append(nextStr)
+			sb.append("c_next=").append(connStr).append(seg).append(nextStr)
 					.append(" ");
 
 			String nextPOS = ((JSONObject) (nextWord.get(1))).get(
 					"PartOfSpeech").toString();
 			sb.append("pos_of_next=").append(nextPOS).append(" ");
-			sb.append("pos_c_pos_next=").append(connPOS).append("_")
+			sb.append("pos_c_pos_next=").append(connPOS).append(seg)
 					.append(nextPOS).append(" ");
 		} else {
-			sb.append("c_next=").append(connStr).append("_").append("null")
+			sb.append("c_next=").append(connStr).append(seg).append("null")
 					.append(" ");
 			sb.append("pos_of_next=").append("null").append(" ");
-			sb.append("pos_c_pos_next=").append(connPOS).append("_")
+			sb.append("pos_c_pos_next=").append(connPOS).append(seg)
 					.append("null").append(" ");
 		}
 		sb.append(label);
 		return sb.toString();
+	}
+	
+	/**
+	 * to judge whether the conn-candidate is a real connective in train data
+	 * @return
+	 */
+	public boolean isConneTrain(int i, int j, String docId) {
+		boolean nonConnFlag = true;
+		LinkedList<Relation> relList = loader.trainDocData
+				.get(docId);
+		for (Relation relation : relList) {
+			Integer[] idx = relation.connective.tokenList
+					.getFirst();
+			if (idx[3] == i && idx[4] == j) {
+				nonConnFlag = false;
+				break;
+			}
+		}
+		return !nonConnFlag;
 	}
 
 	public void initializeModel(MaxentModel m) {
@@ -242,18 +254,27 @@ public class ConnDetection extends Model {
 	protected HashMap<String, LinkedList<Relation>> predict(
 			HashMap<String, Document> docs) {
 		HashMap<String, LinkedList<Relation>> results = new HashMap<>();
-		
+		BufferedWriter bw = null;
+		try {
+			bw = new BufferedWriter(new FileWriter(new File(testFilePath)));
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
 		// load maxent model
 		MaxentModel m;
 		try {
 			m = new GenericModelReader(new File(modelFilePath)).getModel();
 			initializeModel(m);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+		int trainNum = (int) (docs.keySet().size()*Const.ratio);
+		int count = 0;
 		for (String docId : docs.keySet()) {
+			count++;
+			if(Const.splitFlag && (count <= trainNum)) {
+				continue;
+			}
 			Document document = docs.get(docId);
 			for (int i = 0; i < document.sentences.size(); i++) {
 				JSONObject sentence = document.getSentence(i);
@@ -266,6 +287,12 @@ public class ConnDetection extends Model {
 					else {
 						Integer[] token = { -1, -1, -1, i, j };
 						String sample = genFeature(words, token, "?");
+						try {
+							bw.write(sample);
+							bw.newLine();
+						} catch (IOException e) {
+							e.printStackTrace();
+						}
 						String feature = sample.substring(0, sample.lastIndexOf(" "));
 						if(eval(feature).equals("connective")) { // result is a connective
 							Argument conn = new Argument();
@@ -273,6 +300,7 @@ public class ConnDetection extends Model {
 							conn.setToken(token);
 							Relation relation = new Relation();
 							relation.setConnective(conn);
+							relation.setDocId(docId);
 							if(results.containsKey(docId)) {
 								results.get(docId).add(relation);
 							} else {
@@ -284,8 +312,11 @@ public class ConnDetection extends Model {
 				}
 			}
 		}
-
-		// TODO Auto-generated method stub
+		try {
+			bw.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		return results;
 	}
 }
