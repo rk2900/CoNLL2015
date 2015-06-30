@@ -23,10 +23,10 @@ If you have no idea about the usage of Maven, you may add all *.jar* files in th
 The Java environment version is above *JRE 1.8*.
 
 ## Solution
-My solution is based on Lin et al. [^lin] and  Kong et al. [^kong]. The task is split into two phases as below.
+My solution is based on [Lin et al.](#lin) and  [Kong et al.](#kong). The task is split into two phases as below.
 
 ### Connective Detection
-Firstly, we build a connective phrase dictionary for candidate detection. Our dictionary is based on the connective-category list provided by Knott et al. [^knott] For each sentence, my system detects the appearance of connective phrase found in the dictionary. And then it classify the phrase as whether it is a true connective.
+Firstly, we build a connective phrase dictionary for candidate detection. Our dictionary is based on the connective-category list provided by [Knott et al.](#knott). For each sentence, my system detects the appearance of connective phrase found in the dictionary. And then it classify the phrase as whether it is a true connective.
 
 The features used in our setting are listed as below. And *C* is the connective candidate, *prev* is the previous word, and *next* is the next word after *C*. The example sentence is "But its competitors have much broader business  interests and so are better cushioned against price swings.".
 
@@ -88,9 +88,9 @@ This output file is generated from the test data set whose label in unknown.
 
 
 
-
-[^lin]: A PDTB-styled end-to-end discourse parser
-
-[^kong]: A Constituent-Based Approach to Argument Labeling with Joint Inference in Discourse Parsing
-
-[^knott]: A Data-Driven Methodology for Motivating a Set of Coherence Relations
+<a name="ling"/>
+[lin]: A PDTB-styled end-to-end discourse parser
+<a name="kong"/>
+[kong]: A Constituent-Based Approach to Argument Labeling with Joint Inference in Discourse Parsing
+<a name="knott"/>
+[knott]: A Data-Driven Methodology for Motivating a Set of Coherence Relations
