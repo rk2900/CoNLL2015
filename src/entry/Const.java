@@ -21,14 +21,17 @@ public class Const {
 	public static final boolean modelEval = true;
 	public static final boolean explicitFlag = true;
 	public static final boolean splitFlag = false;
-	public static final String connCategoryFilePath = "./data/connective_dictionary.txt";
+	public static final String connCategoryFilePath = "./connective-category-mod.txt";
 	public static final double ratio = 0.8;
+	public static final String defaultSense = "Comparison.Concession";
+	public static final String defaultType = "Explicit";
+	private static Scanner scanner;
 	
 	
 	public static void pause() {
 		System.err.println("Paused ......");
-		Scanner scanner = new Scanner(System.in);
-		scanner.next();
+		scanner = new Scanner(System.in);
+		scanner.nextLine();
 	}
 	
 }

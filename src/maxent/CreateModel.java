@@ -25,7 +25,6 @@ import opennlp.maxent.BasicEventStream;
 import opennlp.maxent.GIS;
 import opennlp.maxent.PlainTextByLineDataStream;
 import opennlp.maxent.RealBasicEventStream;
-import opennlp.maxent.io.GISModelWriter;
 import opennlp.maxent.io.SuffixSensitiveGISModelWriter;
 import opennlp.model.AbstractModel;
 import opennlp.model.AbstractModelWriter;
@@ -49,11 +48,8 @@ public class CreateModel {
     // with large data sets and lots of outcomes.
     public static boolean USE_SMOOTHING = false;
     public static double SMOOTHING_OBSERVATION = 0.1;
-    
-    private static void usage() {
-      System.err.println("java CreateModel [-real] [-perceptron] dataFile");
-      System.exit(1);
-    }
+//    public static String trainDataPath = "./train/conn_features.dat";
+    public static String trainDataPath = "./train/arg_features.dat";
     
     /**
      * Main method. Call as follows:
@@ -61,26 +57,10 @@ public class CreateModel {
      * java CreateModel dataFile
      */
     public static void main (String[] args) {
-      int ai = 0;
       boolean real = false;
       String type = "maxent";
-      if(args.length == 0) {
-        usage();
-      }
-      while (args[ai].startsWith("-")) {
-        if (args[ai].equals("-real")) {
-          real = true;
-        }
-        else if (args[ai].equals("-perceptron")) {
-          type = "perceptron";
-        }
-        else {
-          System.err.println("Unknown option: "+args[ai]);
-          usage();
-        }
-        ai++;
-      }
-      String dataFileName = args[ai];
+      
+      String dataFileName = CreateModel.trainDataPath;
       String modelFileName =
         dataFileName.substring(0,dataFileName.lastIndexOf('.'))
         + "Model.txt";

@@ -1,7 +1,6 @@
 package structure;
 
 import java.util.LinkedList;
-import java.util.List;
 
 import org.json.simple.JSONArray;
 

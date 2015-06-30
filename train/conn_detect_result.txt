@@ -1,0 +1,1348 @@
+For context: pos_of_c=CC prev_c=economy_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_higher pos_of_next=JJR pos_c_pos_next=CC_JJR
+non_connective[0.9966]  connective[0.0034]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_, pos_of_next=, pos_c_pos_next=CC_,
+non_connective[0.0001]  connective[0.9999]
+
+For context: pos_of_c=IN prev_c=changed_for pos_of_prev=VBN pos_prev_pos_c=VBN_IN c_next=for_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9771]  connective[0.0229]
+
+For context: pos_of_c=RBR prev_c=even_further pos_of_prev=RB pos_prev_pos_c=RB_RBR c_next=further_against pos_of_next=IN pos_c_pos_next=RBR_IN
+non_connective[0.9985]  connective[0.0015]
+
+For context: pos_of_c=RB prev_c=null_Meanwhile pos_of_prev=null pos_prev_pos_c=null_RB c_next=Meanwhile_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.0107]  connective[0.9893]
+
+For context: pos_of_c=RB prev_c=news_also pos_of_prev=NN pos_prev_pos_c=NN_RB c_next=also_knocked pos_of_next=VBD pos_c_pos_next=RB_VBD
+non_connective[0.1765]  connective[0.8235]
+
+For context: pos_of_c=CC prev_c=,_but pos_of_prev=, pos_prev_pos_c=,_CC c_next=but_a pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.2098]  connective[0.7902]
+
+For context: pos_of_c=JJ prev_c=its_earlier pos_of_prev=PRP$ pos_prev_pos_c=PRP$_JJ c_next=earlier_losses pos_of_next=NNS pos_c_pos_next=JJ_NNS
+non_connective[0.9995]  connective[0.0005]
+
+For context: pos_of_c=IN prev_c=gold_for pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=for_current pos_of_next=JJ pos_c_pos_next=IN_JJ
+non_connective[0.9895]  connective[0.0105]
+
+For context: pos_of_c=WRB prev_c=null_When pos_of_prev=null pos_prev_pos_c=null_WRB c_next=When_his pos_of_next=PRP$ pos_c_pos_next=WRB_PRP$
+non_connective[0.0108]  connective[0.9892]
+
+For context: pos_of_c=CC prev_c=workers_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_a pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.9972]  connective[0.0028]
+
+For context: pos_of_c=RB prev_c=He_also pos_of_prev=PRP pos_prev_pos_c=PRP_RB c_next=also_says pos_of_next=VBZ pos_c_pos_next=RB_VBZ
+non_connective[0.0170]  connective[0.9830]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_just pos_of_next=RB pos_c_pos_next=CC_RB
+non_connective[0.0013]  connective[0.9987]
+
+For context: pos_of_c=CC prev_c=line_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_expanded pos_of_next=VBD pos_c_pos_next=CC_VBD
+non_connective[0.9999]  connective[0.0001]
+
+For context: pos_of_c=CC prev_c=competition_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_transformation pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.9973]  connective[0.0027]
+
+For context: pos_of_c=IN prev_c=,_while pos_of_prev=, pos_prev_pos_c=,_IN c_next=while_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.0244]  connective[0.9756]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_the pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.2875]  connective[0.7125]
+
+For context: pos_of_c=RB prev_c=,_though pos_of_prev=, pos_prev_pos_c=,_RB c_next=though_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.0097]  connective[0.9903]
+
+For context: pos_of_c=IN prev_c=worked_for pos_of_prev=VBN pos_prev_pos_c=VBN_IN c_next=for_most pos_of_next=JJS pos_c_pos_next=IN_JJS
+non_connective[0.9811]  connective[0.0189]
+
+For context: pos_of_c=IN prev_c=competition_for pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=for_U.S. pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.9856]  connective[0.0144]
+
+For context: pos_of_c=IN prev_c=sharply_since pos_of_prev=RB pos_prev_pos_c=RB_IN c_next=since_furriers pos_of_next=NNS pos_c_pos_next=IN_NNS
+non_connective[0.9961]  connective[0.0039]
+
+For context: pos_of_c=CC prev_c=''_and pos_of_prev='' pos_prev_pos_c=''_CC c_next=and_similar pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9482]  connective[0.0518]
+
+For context: pos_of_c=RB prev_c=It_also pos_of_prev=PRP pos_prev_pos_c=PRP_RB c_next=also_opened pos_of_next=VBD pos_c_pos_next=RB_VBD
+non_connective[0.0140]  connective[0.9860]
+
+For context: pos_of_c=CC prev_c=Kong_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_other pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9997]  connective[0.0003]
+
+For context: pos_of_c=CC prev_c=U.S._and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_plans pos_of_next=VBZ pos_c_pos_next=CC_VBZ
+non_connective[0.9951]  connective[0.0049]
+
+For context: pos_of_c=JJ prev_c=of_next pos_of_prev=IN pos_prev_pos_c=IN_JJ c_next=next_year pos_of_next=NN pos_c_pos_next=JJ_NN
+non_connective[0.9996]  connective[0.0004]
+
+For context: pos_of_c=CC prev_c=Purnick_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_other pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9996]  connective[0.0004]
+
+For context: pos_of_c=CC prev_c=unstylish_and pos_of_prev=JJ pos_prev_pos_c=JJ_CC c_next=and_poorly pos_of_next=RB pos_c_pos_next=CC_RB
+non_connective[0.9970]  connective[0.0030]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_low-priced pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.0015]  connective[0.9985]
+
+For context: pos_of_c=CC prev_c=low-priced_and pos_of_prev=JJ pos_prev_pos_c=JJ_CC c_next=and_middle-priced pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9958]  connective[0.0042]
+
+For context: pos_of_c=RB prev_c=who_once pos_of_prev=WP pos_prev_pos_c=WP_RB c_next=once_saturated pos_of_next=VBN pos_c_pos_next=RB_VBN
+non_connective[0.9927]  connective[0.0073]
+
+For context: pos_of_c=RB prev_c=who_once pos_of_prev=WP pos_prev_pos_c=WP_RB c_next=once_would pos_of_next=MD pos_c_pos_next=RB_MD
+non_connective[0.9610]  connective[0.0390]
+
+For context: pos_of_c=IN prev_c=saved_for pos_of_prev=VBN pos_prev_pos_c=VBN_IN c_next=for_two pos_of_next=CD pos_c_pos_next=IN_CD
+non_connective[0.9955]  connective[0.0045]
+
+For context: pos_of_c=CC prev_c=two_or pos_of_prev=CD pos_prev_pos_c=CD_CC c_next=or_three pos_of_next=CD pos_c_pos_next=CC_CD
+non_connective[0.9949]  connective[0.0051]
+
+For context: pos_of_c=CC prev_c=null_Yet pos_of_prev=null pos_prev_pos_c=null_CC c_next=Yet_Mr. pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.0072]  connective[0.9928]
+
+For context: pos_of_c=CC prev_c=counterparts_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_were pos_of_next=VBD pos_c_pos_next=CC_VBD
+non_connective[1.0000]  connective[0.0000]
+
+For context: pos_of_c=RB prev_c=years_later pos_of_prev=NNS pos_prev_pos_c=NNS_RB c_next=later_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.9761]  connective[0.0239]
+
+For context: pos_of_c=RB prev_c=He_also pos_of_prev=PRP pos_prev_pos_c=PRP_RB c_next=also_noticed pos_of_next=VBD pos_c_pos_next=RB_VBD
+non_connective[0.0163]  connective[0.9837]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_he pos_of_next=PRP pos_c_pos_next=CC_PRP
+non_connective[0.0007]  connective[0.9993]
+
+For context: pos_of_c=CC prev_c=innovation_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_quality pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.9985]  connective[0.0015]
+
+For context: pos_of_c=CC prev_c=production_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_avoid pos_of_next=VB pos_c_pos_next=CC_VB
+non_connective[0.9996]  connective[0.0004]
+
+For context: pos_of_c=RB prev_c=he_still pos_of_prev=PRP pos_prev_pos_c=PRP_RB c_next=still_makes pos_of_next=VBZ pos_c_pos_next=RB_VBZ
+non_connective[0.9494]  connective[0.0506]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_six pos_of_next=CD pos_c_pos_next=CC_CD
+non_connective[0.0028]  connective[0.9972]
+
+For context: pos_of_c=RB prev_c=he_also pos_of_prev=PRP pos_prev_pos_c=PRP_RB c_next=also_began pos_of_next=VBD pos_c_pos_next=RB_VBD
+non_connective[0.0013]  connective[0.9987]
+
+For context: pos_of_c=CC prev_c=line_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_offers pos_of_next=VBZ pos_c_pos_next=CC_VBZ
+non_connective[0.9997]  connective[0.0003]
+
+For context: pos_of_c=CC prev_c=blue_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_forest pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.9969]  connective[0.0031]
+
+For context: pos_of_c=CC prev_c=skin_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_topped pos_of_next=VBD pos_c_pos_next=CC_VBD
+non_connective[0.9999]  connective[0.0001]
+
+For context: pos_of_c=IN prev_c=null_Next pos_of_prev=null pos_prev_pos_c=null_IN c_next=Next_he pos_of_next=PRP pos_c_pos_next=IN_PRP
+non_connective[0.3241]  connective[0.6759]
+
+For context: pos_of_c=IN prev_c=null_Besides pos_of_prev=null pos_prev_pos_c=null_IN c_next=Besides_adding pos_of_next=VBG pos_c_pos_next=IN_VBG
+non_connective[0.2564]  connective[0.7436]
+
+For context: pos_of_c=RB prev_c=leathers_also pos_of_prev=NNS pos_prev_pos_c=NNS_RB c_next=also_attract pos_of_next=VBP pos_c_pos_next=RB_VBP
+non_connective[0.1746]  connective[0.8254]
+
+For context: pos_of_c=RB prev_c=furs_later pos_of_prev=NNS pos_prev_pos_c=NNS_RB c_next=later_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.9362]  connective[0.0638]
+
+For context: pos_of_c=RB prev_c=have_also pos_of_prev=VBP pos_prev_pos_c=VBP_RB c_next=also_benefited pos_of_next=VBN pos_c_pos_next=RB_VBN
+non_connective[0.2664]  connective[0.7336]
+
+For context: pos_of_c=IN prev_c=accounts_for pos_of_prev=VBZ pos_prev_pos_c=VBZ_IN c_next=for_25 pos_of_next=CD pos_c_pos_next=IN_CD
+non_connective[0.9964]  connective[0.0036]
+
+For context: pos_of_c=RB prev_c=is_also pos_of_prev=VBZ pos_prev_pos_c=VBZ_RB c_next=also_pushing pos_of_next=VBG pos_c_pos_next=RB_VBG
+non_connective[0.0163]  connective[0.9837]
+
+For context: pos_of_c=CC prev_c=Brooklyn_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_one pos_of_next=CD pos_c_pos_next=CC_CD
+non_connective[0.9988]  connective[0.0012]
+
+For context: pos_of_c=RB prev_c=have_also pos_of_prev=VBP pos_prev_pos_c=VBP_RB c_next=also_placed pos_of_next=VBN pos_c_pos_next=RB_VBN
+non_connective[0.0534]  connective[0.9466]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_now pos_of_next=RB pos_c_pos_next=CC_RB
+non_connective[0.4388]  connective[0.5612]
+
+For context: pos_of_c=IN prev_c=account_for pos_of_prev=VBP pos_prev_pos_c=VBP_IN c_next=for_about pos_of_next=IN pos_c_pos_next=IN_IN
+non_connective[0.9994]  connective[0.0006]
+
+For context: pos_of_c=IN prev_c=null_Since pos_of_prev=null pos_prev_pos_c=null_IN c_next=Since_then pos_of_next=RB pos_c_pos_next=IN_RB
+non_connective[0.9594]  connective[0.0406]
+
+For context: pos_of_c=RB prev_c=Since_then pos_of_prev=IN pos_prev_pos_c=IN_RB c_next=then_he pos_of_next=PRP pos_c_pos_next=RB_PRP
+non_connective[0.8049]  connective[0.1951]
+
+For context: pos_of_c=CC prev_c=fleet_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_can pos_of_next=MD pos_c_pos_next=CC_MD
+non_connective[0.9997]  connective[0.0003]
+
+For context: pos_of_c=RB prev_c=retailers_as pos_of_prev=NNS pos_prev_pos_c=NNS_RB c_next=as_far pos_of_next=RB pos_c_pos_next=RB_RB
+non_connective[0.9963]  connective[0.0037]
+
+For context: pos_of_c=CC prev_c=,_but pos_of_prev=, pos_prev_pos_c=,_CC c_next=but_since pos_of_next=IN pos_c_pos_next=CC_IN
+non_connective[0.1987]  connective[0.8013]
+
+For context: pos_of_c=IN prev_c=but_since pos_of_prev=CC pos_prev_pos_c=CC_IN c_next=since_1986 pos_of_next=CD pos_c_pos_next=IN_CD
+non_connective[0.9727]  connective[0.0273]
+
+For context: pos_of_c=IN prev_c=such_as pos_of_prev=JJ pos_prev_pos_c=JJ_IN c_next=as_Antonovich pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.9836]  connective[0.0164]
+
+For context: pos_of_c=CC prev_c=Inc._and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_Evans pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9982]  connective[0.0018]
+
+For context: pos_of_c=IN_NN prev_c=null_In_addition pos_of_prev=null pos_prev_pos_c=null_IN_NN c_next=In_addition_, pos_of_next=, pos_c_pos_next=IN_NN_,
+non_connective[0.0074]  connective[0.9926]
+
+For context: pos_of_c=CC prev_c=skins_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_coats pos_of_next=NNS pos_c_pos_next=CC_NNS
+non_connective[0.9940]  connective[0.0060]
+
+For context: pos_of_c=CC prev_c=null_And pos_of_prev=null pos_prev_pos_c=null_CC c_next=And_those pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.0010]  connective[0.9990]
+
+For context: pos_of_c=RB prev_c=not_as pos_of_prev=RB pos_prev_pos_c=RB_RB c_next=as_available pos_of_next=JJ pos_c_pos_next=RB_JJ
+non_connective[0.9993]  connective[0.0007]
+
+For context: pos_of_c=IN prev_c=available_as pos_of_prev=JJ pos_prev_pos_c=JJ_IN c_next=as_it pos_of_next=PRP pos_c_pos_next=IN_PRP
+non_connective[0.8977]  connective[0.1023]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_even pos_of_next=RB pos_c_pos_next=CC_RB
+non_connective[0.0013]  connective[0.9987]
+
+For context: pos_of_c=CC prev_c=imports_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_the pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.9859]  connective[0.0141]
+
+For context: pos_of_c=CC prev_c=ways_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_taking pos_of_next=VBG pos_c_pos_next=CC_VBG
+non_connective[0.9989]  connective[0.0011]
+
+For context: pos_of_c=IN prev_c=manager_for pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=for_Marshall pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.9714]  connective[0.0286]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_Mr. pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.0004]  connective[0.9996]
+
+For context: pos_of_c=CC prev_c=,_but pos_of_prev=, pos_prev_pos_c=,_CC c_next=but_economists pos_of_next=NNS pos_c_pos_next=CC_NNS
+non_connective[0.0459]  connective[0.9541]
+
+For context: pos_of_c=CC prev_c=August_but pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=but_was pos_of_next=VBD pos_c_pos_next=CC_VBD
+non_connective[1.0000]  connective[0.0000]
+
+For context: pos_of_c=RB prev_c=null_However pos_of_prev=null pos_prev_pos_c=null_RB c_next=However_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.0236]  connective[0.9764]
+
+For context: pos_of_c=IN prev_c=clue_as pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=as_to pos_of_next=TO pos_c_pos_next=IN_TO
+non_connective[0.9883]  connective[0.0117]
+
+For context: pos_of_c=RB prev_c=null_So pos_of_prev=null pos_prev_pos_c=null_RB c_next=So_far pos_of_next=RB pos_c_pos_next=RB_RB
+non_connective[0.9624]  connective[0.0376]
+
+For context: pos_of_c=CC prev_c=months_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_remained pos_of_next=VBD pos_c_pos_next=CC_VBD
+non_connective[0.9999]  connective[0.0001]
+
+For context: pos_of_c=CC prev_c=Northeast_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_in pos_of_next=IN pos_c_pos_next=CC_IN
+non_connective[0.9983]  connective[0.0017]
+
+For context: pos_of_c=IN prev_c=null_Although pos_of_prev=null pos_prev_pos_c=null_IN c_next=Although_September pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.1252]  connective[0.8748]
+
+For context: pos_of_c=IN prev_c=months_for pos_of_prev=NNS pos_prev_pos_c=NNS_IN c_next=for_home pos_of_next=NN pos_c_pos_next=IN_NN
+non_connective[0.9860]  connective[0.0140]
+
+For context: pos_of_c=RBR prev_c=rates_earlier pos_of_prev=NNS pos_prev_pos_c=NNS_RBR c_next=earlier_this pos_of_next=DT pos_c_pos_next=RBR_DT
+non_connective[0.9908]  connective[0.0092]
+
+For context: pos_of_c=IN prev_c=largest_since pos_of_prev=JJS pos_prev_pos_c=JJS_IN c_next=since_a pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9983]  connective[0.0017]
+
+For context: pos_of_c=CC prev_c=,_but pos_of_prev=, pos_prev_pos_c=,_CC c_next=but_monthly pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.5506]  connective[0.4494]
+
+For context: pos_of_c=IN prev_c=null_Because pos_of_prev=null pos_prev_pos_c=null_IN c_next=Because_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.0343]  connective[0.9657]
+
+For context: pos_of_c=CC prev_c=%_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_23 pos_of_next=CD pos_c_pos_next=CC_CD
+non_connective[0.9846]  connective[0.0154]
+
+For context: pos_of_c=RB prev_c=department_also pos_of_prev=NN pos_prev_pos_c=NN_RB c_next=also_said pos_of_next=VBD pos_c_pos_next=RB_VBD
+non_connective[0.0257]  connective[0.9743]
+
+For context: pos_of_c=RB prev_c=null_So pos_of_prev=null pos_prev_pos_c=null_RB c_next=So_far pos_of_next=RB pos_c_pos_next=RB_RB
+non_connective[0.9624]  connective[0.0376]
+
+For context: pos_of_c=IN prev_c=expectations_as pos_of_prev=NNS pos_prev_pos_c=NNS_IN c_next=as_measured pos_of_next=VBN pos_c_pos_next=IN_VBN
+non_connective[0.8986]  connective[0.1014]
+
+For context: pos_of_c=IN_DT_NN prev_c=that_as_a_result pos_of_prev=IN pos_prev_pos_c=IN_IN_DT_NN c_next=as_a_result_of pos_of_next=IN pos_c_pos_next=IN_DT_NN_IN
+non_connective[0.9890]  connective[0.0110]
+
+For context: pos_of_c=CC prev_c=week_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_stock pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.6490]  connective[0.3510]
+
+For context: pos_of_c=IN prev_c=orders_for pos_of_prev=NNS pos_prev_pos_c=NNS_IN c_next=for_manufactured pos_of_next=JJ pos_c_pos_next=IN_JJ
+non_connective[0.9903]  connective[0.0097]
+
+For context: pos_of_c=IN prev_c=orders_for pos_of_prev=NNS pos_prev_pos_c=NNS_IN c_next=for_new pos_of_next=JJ pos_c_pos_next=IN_JJ
+non_connective[0.9903]  connective[0.0097]
+
+For context: pos_of_c=CC prev_c=plant_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_equipment pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.9499]  connective[0.0501]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_backlogs pos_of_next=NNS pos_c_pos_next=CC_NNS
+non_connective[0.5883]  connective[0.4117]
+
+For context: pos_of_c=RB prev_c=null_Meanwhile pos_of_prev=null pos_prev_pos_c=null_RB c_next=Meanwhile_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.0107]  connective[0.9893]
+
+For context: pos_of_c=IN prev_c=null_Although pos_of_prev=null pos_prev_pos_c=null_IN c_next=Although_manufacturers pos_of_next=NNS pos_c_pos_next=IN_NNS
+non_connective[0.1062]  connective[0.8938]
+
+For context: pos_of_c=IN prev_c=call_for pos_of_prev=VB pos_prev_pos_c=VB_IN c_next=for_lower pos_of_next=JJR pos_c_pos_next=IN_JJR
+non_connective[0.9929]  connective[0.0071]
+
+For context: pos_of_c=IN prev_c=inflation-fighting_as pos_of_prev=JJ pos_prev_pos_c=JJ_IN c_next=as_its pos_of_next=PRP$ pos_c_pos_next=IN_PRP$
+non_connective[0.8311]  connective[0.1689]
+
+For context: pos_of_c=CC prev_c=inflation_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_bring pos_of_next=VB pos_c_pos_next=CC_VB
+non_connective[0.9997]  connective[0.0003]
+
+For context: pos_of_c=IN prev_c=null_After pos_of_prev=null pos_prev_pos_c=null_IN c_next=After_various pos_of_next=JJ pos_c_pos_next=IN_JJ
+non_connective[0.7480]  connective[0.2520]
+
+For context: pos_of_c=IN prev_c=index_for pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=for_August pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.9864]  connective[0.0136]
+
+For context: pos_of_c=CC prev_c=August_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_a pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.9991]  connective[0.0009]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_the pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.2875]  connective[0.7125]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_thus pos_of_next=RB pos_c_pos_next=CC_RB
+non_connective[0.9317]  connective[0.0683]
+
+For context: pos_of_c=RB prev_c=and_thus pos_of_prev=CC pos_prev_pos_c=CC_RB c_next=thus_to pos_of_next=TO pos_c_pos_next=RB_TO
+non_connective[0.1058]  connective[0.8942]
+
+For context: pos_of_c=RB prev_c=,_however pos_of_prev=, pos_prev_pos_c=,_RB c_next=however_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.0170]  connective[0.9830]
+
+For context: pos_of_c=IN prev_c=precondition_for pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=for_a pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9791]  connective[0.0209]
+
+For context: pos_of_c=IN prev_c=terrorism_since pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=since_Dec. pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.9458]  connective[0.0542]
+
+For context: pos_of_c=RB prev_c=``_So pos_of_prev=`` pos_prev_pos_c=``_RB c_next=So_far pos_of_next=RB pos_c_pos_next=RB_RB
+non_connective[0.9914]  connective[0.0086]
+
+For context: pos_of_c=CC prev_c=,_but pos_of_prev=, pos_prev_pos_c=,_CC c_next=but_our pos_of_next=PRP$ pos_c_pos_next=CC_PRP$
+non_connective[0.1193]  connective[0.8807]
+
+For context: pos_of_c=RB prev_c=he_also pos_of_prev=PRP pos_prev_pos_c=PRP_RB c_next=also_presented pos_of_next=VBD pos_c_pos_next=RB_VBD
+non_connective[0.0106]  connective[0.9894]
+
+For context: pos_of_c=RB prev_c=null_Separately pos_of_prev=null pos_prev_pos_c=null_RB c_next=Separately_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.0106]  connective[0.9894]
+
+For context: pos_of_c=RB prev_c=n't_yet pos_of_prev=RB pos_prev_pos_c=RB_RB c_next=yet_seen pos_of_next=VBN pos_c_pos_next=RB_VBN
+non_connective[0.9931]  connective[0.0069]
+
+For context: pos_of_c=IN prev_c=``_If pos_of_prev=`` pos_prev_pos_c=``_IN c_next=If_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.0904]  connective[0.9096]
+
+For context: pos_of_c=CC prev_c=Arafat_or pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=or_the pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.9997]  connective[0.0003]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_we pos_of_next=PRP pos_c_pos_next=CC_PRP
+non_connective[0.0006]  connective[0.9994]
+
+For context: pos_of_c=IN prev_c=particularly_because pos_of_prev=RB pos_prev_pos_c=RB_IN c_next=because_he pos_of_next=PRP pos_c_pos_next=IN_PRP
+non_connective[0.7023]  connective[0.2977]
+
+For context: pos_of_c=CC prev_c=he_and pos_of_prev=PRP pos_prev_pos_c=PRP_CC c_next=and_his pos_of_next=PRP$ pos_c_pos_next=CC_PRP$
+non_connective[0.9974]  connective[0.0026]
+
+For context: pos_of_c=CC prev_c=acts_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_plans pos_of_next=NNS pos_c_pos_next=CC_NNS
+non_connective[0.8489]  connective[0.1511]
+
+For context: pos_of_c=CC prev_c=Israel_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_Palestinian pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9996]  connective[0.0004]
+
+For context: pos_of_c=IN prev_c=it_as pos_of_prev=PRP pos_prev_pos_c=PRP_IN c_next=as_`` pos_of_next=`` pos_c_pos_next=IN_``
+non_connective[0.9914]  connective[0.0086]
+
+For context: pos_of_c=CC prev_c=civilians_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_occurred pos_of_next=VBD pos_c_pos_next=CC_VBD
+non_connective[0.9999]  connective[0.0001]
+
+For context: pos_of_c=CC prev_c=bombs_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_Molotov pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9938]  connective[0.0062]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_U.S. pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.0004]  connective[0.9996]
+
+For context: pos_of_c=IN prev_c=terrorism_because pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=because_they pos_of_next=PRP pos_c_pos_next=IN_PRP
+non_connective[0.0257]  connective[0.9743]
+
+For context: pos_of_c=IN_NN prev_c=null_In_addition pos_of_prev=null pos_prev_pos_c=null_IN_NN c_next=In_addition_, pos_of_next=, pos_c_pos_next=IN_NN_,
+non_connective[0.0074]  connective[0.9926]
+
+For context: pos_of_c=CC prev_c=Fatah_or pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=or_by pos_of_next=IN pos_c_pos_next=CC_IN
+non_connective[0.9985]  connective[0.0015]
+
+For context: pos_of_c=RB prev_c=experts_also pos_of_prev=NNS pos_prev_pos_c=NNS_RB c_next=also_say pos_of_next=VBP pos_c_pos_next=RB_VBP
+non_connective[0.1066]  connective[0.8934]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_State pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.0004]  connective[0.9996]
+
+For context: pos_of_c=IN prev_c=null_As pos_of_prev=null pos_prev_pos_c=null_IN c_next=As_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.2479]  connective[0.7521]
+
+For context: pos_of_c=IN prev_c=limit_for pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=for_people pos_of_next=NNS pos_c_pos_next=IN_NNS
+non_connective[0.9660]  connective[0.0340]
+
+For context: pos_of_c=CC prev_c=65_and pos_of_prev=CD pos_prev_pos_c=CD_CC c_next=and_older pos_of_next=JJR pos_c_pos_next=CC_JJR
+non_connective[0.9940]  connective[0.0060]
+
+For context: pos_of_c=IN prev_c=null_For pos_of_prev=null pos_prev_pos_c=null_IN c_next=For_every pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9992]  connective[0.0008]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_the pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.0002]  connective[0.9998]
+
+For context: pos_of_c=IN prev_c=had_before pos_of_prev=VBD pos_prev_pos_c=VBD_IN c_next=before_she pos_of_next=PRP pos_c_pos_next=IN_PRP
+non_connective[0.5930]  connective[0.4070]
+
+For context: pos_of_c=IN prev_c=null_Although pos_of_prev=null pos_prev_pos_c=null_IN c_next=Although_this pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.0349]  connective[0.9651]
+
+For context: pos_of_c=CC prev_c=seniors_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_reduce pos_of_next=VB pos_c_pos_next=CC_VB
+non_connective[0.9998]  connective[0.0002]
+
+For context: pos_of_c=IN prev_c=null_Since pos_of_prev=null pos_prev_pos_c=null_IN c_next=Since_all pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.5420]  connective[0.4580]
+
+For context: pos_of_c=IN prev_c=accountable_if pos_of_prev=JJ pos_prev_pos_c=JJ_IN c_next=if_an pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.7941]  connective[0.2059]
+
+For context: pos_of_c=CC prev_c=disclosed_but pos_of_prev=VBN pos_prev_pos_c=VBN_CC c_next=but_one pos_of_next=CD pos_c_pos_next=CC_CD
+non_connective[0.6810]  connective[0.3190]
+
+For context: pos_of_c=IN prev_c=Canada_since pos_of_prev=NNP pos_prev_pos_c=NNP_IN c_next=since_July pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.9590]  connective[0.0410]
+
+For context: pos_of_c=RB prev_c=move_also pos_of_prev=NN pos_prev_pos_c=NN_RB c_next=also_would pos_of_next=MD pos_c_pos_next=RB_MD
+non_connective[0.0299]  connective[0.9701]
+
+For context: pos_of_c=RB prev_c=null_Moreover pos_of_prev=null pos_prev_pos_c=null_RB c_next=Moreover_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.0107]  connective[0.9893]
+
+For context: pos_of_c=CC prev_c=investors_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_deter pos_of_next=VB pos_c_pos_next=CC_VB
+non_connective[0.9998]  connective[0.0002]
+
+For context: pos_of_c=CC prev_c=,_or pos_of_prev=, pos_prev_pos_c=,_CC c_next=or_almost pos_of_next=RB pos_c_pos_next=CC_RB
+non_connective[0.9938]  connective[0.0062]
+
+For context: pos_of_c=IN_IN prev_c=plants_so_that pos_of_prev=NNS pos_prev_pos_c=NNS_IN_IN c_next=so_that_it pos_of_next=PRP pos_c_pos_next=IN_IN_PRP
+non_connective[0.0692]  connective[0.9308]
+
+For context: pos_of_c=IN prev_c=null_For pos_of_prev=null pos_prev_pos_c=null_IN c_next=For_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9992]  connective[0.0008]
+
+For context: pos_of_c=CC prev_c=year_or pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=or_two pos_of_next=CD pos_c_pos_next=CC_CD
+non_connective[0.9988]  connective[0.0012]
+
+For context: pos_of_c=CC prev_c=,_but pos_of_prev=, pos_prev_pos_c=,_CC c_next=but_disappointing pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.5506]  connective[0.4494]
+
+For context: pos_of_c=IN prev_c=margins_for pos_of_prev=NNS pos_prev_pos_c=NNS_IN c_next=for_two pos_of_next=CD pos_c_pos_next=IN_CD
+non_connective[0.9979]  connective[0.0021]
+
+For context: pos_of_c=CC prev_c=flooring_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_building pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.9958]  connective[0.0042]
+
+For context: pos_of_c=IN prev_c=transaction_as pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=as_being pos_of_next=VBG pos_c_pos_next=IN_VBG
+non_connective[0.9736]  connective[0.0264]
+
+For context: pos_of_c=CC prev_c=Armstrong_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_Shaw pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9984]  connective[0.0016]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_has pos_of_next=VBZ pos_c_pos_next=CC_VBZ
+non_connective[0.9857]  connective[0.0143]
+
+For context: pos_of_c=CC prev_c=scale_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_lower pos_of_next=JJR pos_c_pos_next=CC_JJR
+non_connective[0.9990]  connective[0.0010]
+
+For context: pos_of_c=CC prev_c=Armstrong_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_Evans-Black pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9984]  connective[0.0016]
+
+For context: pos_of_c=RB prev_c=,_also pos_of_prev=, pos_prev_pos_c=,_RB c_next=also_listed pos_of_next=VBN pos_c_pos_next=RB_VBN
+non_connective[0.3469]  connective[0.6531]
+
+For context: pos_of_c=IN prev_c=earnings_for pos_of_prev=NNS pos_prev_pos_c=NNS_IN c_next=for_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9890]  connective[0.0110]
+
+For context: pos_of_c=CC prev_c=quarter_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_nine pos_of_next=CD pos_c_pos_next=CC_CD
+non_connective[0.9919]  connective[0.0081]
+
+For context: pos_of_c=RBR prev_c=adopted_earlier pos_of_prev=VBN pos_prev_pos_c=VBN_RBR c_next=earlier_this pos_of_next=DT pos_c_pos_next=RBR_DT
+non_connective[0.9924]  connective[0.0076]
+
+For context: pos_of_c=IN prev_c=null_For pos_of_prev=null pos_prev_pos_c=null_IN c_next=For_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9992]  connective[0.0008]
+
+For context: pos_of_c=CC prev_c=,_or pos_of_prev=, pos_prev_pos_c=,_CC c_next=or_92 pos_of_next=CD pos_c_pos_next=CC_CD
+non_connective[0.9961]  connective[0.0039]
+
+For context: pos_of_c=CC prev_c=November_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_the pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.9955]  connective[0.0045]
+
+For context: pos_of_c=CC prev_c=files_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_desks pos_of_next=NNS pos_c_pos_next=CC_NNS
+non_connective[0.9940]  connective[0.0060]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_seating pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.8071]  connective[0.1929]
+
+For context: pos_of_c=CC prev_c=seating_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_office pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.9963]  connective[0.0037]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_that pos_of_next=IN pos_c_pos_next=CC_IN
+non_connective[0.0005]  connective[0.9995]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_chief pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.8624]  connective[0.1376]
+
+For context: pos_of_c=IN prev_c=null_For pos_of_prev=null pos_prev_pos_c=null_IN c_next=For_Cheap pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.9985]  connective[0.0015]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_his pos_of_next=PRP$ pos_c_pos_next=CC_PRP$
+non_connective[0.0001]  connective[0.9999]
+
+For context: pos_of_c=IN prev_c=qualify_for pos_of_prev=VB pos_prev_pos_c=VB_IN c_next=for_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9899]  connective[0.0101]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_there pos_of_next=EX pos_c_pos_next=CC_EX
+non_connective[0.0000]  connective[1.0000]
+
+For context: pos_of_c=RB prev_c=there_still pos_of_prev=EX pos_prev_pos_c=EX_RB c_next=still_are pos_of_next=VBP pos_c_pos_next=RB_VBP
+non_connective[0.9904]  connective[0.0096]
+
+For context: pos_of_c=RB prev_c=,_though pos_of_prev=, pos_prev_pos_c=,_RB c_next=though_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.0097]  connective[0.9903]
+
+For context: pos_of_c=CC prev_c=--_and pos_of_prev=: pos_prev_pos_c=:_CC c_next=and_slowest pos_of_next=JJS pos_c_pos_next=CC_JJS
+non_connective[0.3209]  connective[0.6791]
+
+For context: pos_of_c=IN prev_c=waited_until pos_of_prev=VBN pos_prev_pos_c=VBN_IN c_next=until_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.6491]  connective[0.3509]
+
+For context: pos_of_c=CC prev_c=null_So pos_of_prev=null pos_prev_pos_c=null_CC c_next=So_this pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.0582]  connective[0.9418]
+
+For context: pos_of_c=RB prev_c=by_as pos_of_prev=IN pos_prev_pos_c=IN_RB c_next=as_much pos_of_next=JJ pos_c_pos_next=RB_JJ
+non_connective[0.9997]  connective[0.0003]
+
+For context: pos_of_c=JJ_IN prev_c=as_much_as pos_of_prev=RB pos_prev_pos_c=RB_JJ_IN c_next=much_as_70 pos_of_next=CD pos_c_pos_next=JJ_IN_CD
+non_connective[0.9925]  connective[0.0075]
+
+For context: pos_of_c=IN prev_c=levels_for pos_of_prev=NNS pos_prev_pos_c=NNS_IN c_next=for_travel pos_of_next=NN pos_c_pos_next=IN_NN
+non_connective[0.9914]  connective[0.0086]
+
+For context: pos_of_c=CC prev_c=30_and pos_of_prev=CD pos_prev_pos_c=CD_CC c_next=and_31 pos_of_next=CD pos_c_pos_next=CC_CD
+non_connective[0.9959]  connective[0.0041]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_Jan. pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.5805]  connective[0.4195]
+
+For context: pos_of_c=CC prev_c=148_and pos_of_prev=CD pos_prev_pos_c=CD_CC c_next=and_$ pos_of_next=$ pos_c_pos_next=CC_$
+non_connective[0.9922]  connective[0.0078]
+
+For context: pos_of_c=WRB prev_c=holidays_when pos_of_prev=NNS pos_prev_pos_c=NNS_WRB c_next=when_the pos_of_next=DT pos_c_pos_next=WRB_DT
+non_connective[0.2308]  connective[0.7692]
+
+For context: pos_of_c=IN prev_c=null_IF pos_of_prev=null pos_prev_pos_c=null_IN c_next=IF_CONTINENTAL pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.0932]  connective[0.9068]
+
+For context: pos_of_c=CC prev_c=Thomas_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_Phil pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9984]  connective[0.0016]
+
+For context: pos_of_c=CC prev_c=business-class_and pos_of_prev=JJ pos_prev_pos_c=JJ_CC c_next=and_first-class pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9958]  connective[0.0042]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_they pos_of_next=PRP pos_c_pos_next=CC_PRP
+non_connective[0.0002]  connective[0.9998]
+
+For context: pos_of_c=IN prev_c=name_as pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=as_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9094]  connective[0.0906]
+
+For context: pos_of_c=CC prev_c=ticket_or pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=or_legal pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9957]  connective[0.0043]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_gay pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.0015]  connective[0.9985]
+
+For context: pos_of_c=CC prev_c=Defense_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_Education pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9987]  connective[0.0013]
+
+For context: pos_of_c=WRB prev_c=null_WHEN pos_of_prev=null pos_prev_pos_c=null_WRB c_next=WHEN_HURRICANE pos_of_next=NNP pos_c_pos_next=WRB_NNP
+non_connective[0.0284]  connective[0.9716]
+
+For context: pos_of_c=CC prev_c=Caribbean_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_the pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.9961]  connective[0.0039]
+
+For context: pos_of_c=CC prev_c=electric_and pos_of_prev=JJ pos_prev_pos_c=JJ_CC c_next=and_telephone pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.9972]  connective[0.0028]
+
+For context: pos_of_c=CC prev_c=windows_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_uprooted pos_of_next=VBD pos_c_pos_next=CC_VBD
+non_connective[1.0000]  connective[0.0000]
+
+For context: pos_of_c=RB prev_c=It_also pos_of_prev=PRP pos_prev_pos_c=PRP_RB c_next=also_lowered pos_of_next=VBD pos_c_pos_next=RB_VBD
+non_connective[0.0084]  connective[0.9916]
+
+For context: pos_of_c=IN prev_c=null_Since pos_of_prev=null pos_prev_pos_c=null_IN c_next=Since_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.5843]  connective[0.4157]
+
+For context: pos_of_c=CC prev_c=Inc._and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_American pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9973]  connective[0.0027]
+
+For context: pos_of_c=CC prev_c=Compassion_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_Virgin pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9984]  connective[0.0016]
+
+For context: pos_of_c=CC prev_c=,_but pos_of_prev=, pos_prev_pos_c=,_CC c_next=but_reservation pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.5225]  connective[0.4775]
+
+For context: pos_of_c=RB prev_c=rates_as pos_of_prev=NNS pos_prev_pos_c=NNS_RB c_next=as_low pos_of_next=JJ pos_c_pos_next=RB_JJ
+non_connective[0.9900]  connective[0.0100]
+
+For context: pos_of_c=IN prev_c=low_as pos_of_prev=JJ pos_prev_pos_c=JJ_IN c_next=as_$ pos_of_next=$ pos_c_pos_next=IN_$
+non_connective[0.9997]  connective[0.0003]
+
+For context: pos_of_c=CC prev_c=,_or pos_of_prev=, pos_prev_pos_c=,_CC c_next=or_as pos_of_next=RB pos_c_pos_next=CC_RB
+non_connective[0.9947]  connective[0.0053]
+
+For context: pos_of_c=RB prev_c=or_as pos_of_prev=CC pos_prev_pos_c=CC_RB c_next=as_much pos_of_next=JJ pos_c_pos_next=RB_JJ
+non_connective[0.9903]  connective[0.0097]
+
+For context: pos_of_c=JJ_IN prev_c=as_much_as pos_of_prev=RB pos_prev_pos_c=RB_JJ_IN c_next=much_as_22 pos_of_next=CD pos_c_pos_next=JJ_IN_CD
+non_connective[0.9925]  connective[0.0075]
+
+For context: pos_of_c=CC prev_c=bar_or pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=or_VCR pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9854]  connective[0.0146]
+
+For context: pos_of_c=CC prev_c=,_but pos_of_prev=, pos_prev_pos_c=,_CC c_next=but_we pos_of_next=PRP pos_c_pos_next=CC_PRP
+non_connective[0.0002]  connective[0.9998]
+
+For context: pos_of_c=RB prev_c=we_still pos_of_prev=PRP pos_prev_pos_c=PRP_RB c_next=still_have pos_of_next=VBP pos_c_pos_next=RB_VBP
+non_connective[0.9657]  connective[0.0343]
+
+For context: pos_of_c=CC prev_c=pool_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_Jacuzzi pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9854]  connective[0.0146]
+
+For context: pos_of_c=CC prev_c=62_and pos_of_prev=CD pos_prev_pos_c=CD_CC c_next=and_70 pos_of_next=CD pos_c_pos_next=CC_CD
+non_connective[0.9943]  connective[0.0057]
+
+For context: pos_of_c=CC prev_c=null_And pos_of_prev=null pos_prev_pos_c=null_CC c_next=And_centenarians pos_of_next=NNS pos_c_pos_next=CC_NNS
+non_connective[0.0025]  connective[0.9975]
+
+For context: pos_of_c=JJ prev_c=null_Next pos_of_prev=null pos_prev_pos_c=null_JJ c_next=Next_month pos_of_next=NN pos_c_pos_next=JJ_NN
+non_connective[0.9980]  connective[0.0020]
+
+For context: pos_of_c=WRB prev_c=year_when pos_of_prev=NN pos_prev_pos_c=NN_WRB c_next=when_Northwest pos_of_next=NNP pos_c_pos_next=WRB_NNP
+non_connective[0.9269]  connective[0.0731]
+
+For context: pos_of_c=NNP prev_c=All_Else pos_of_prev=DT pos_prev_pos_c=DT_NNP c_next=Else_Fails pos_of_next=NNS pos_c_pos_next=NNP_NNS
+non_connective[0.9983]  connective[0.0017]
+
+For context: pos_of_c=RB prev_c=carriers_also pos_of_prev=NNS pos_prev_pos_c=NNS_RB c_next=also_provide pos_of_next=VBP pos_c_pos_next=RB_VBP
+non_connective[0.3515]  connective[0.6485]
+
+For context: pos_of_c=CC prev_c=personnel_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_medical pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9986]  connective[0.0014]
+
+For context: pos_of_c=IN prev_c=fare_for pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=for_clergy pos_of_next=NN pos_c_pos_next=IN_NN
+non_connective[0.9732]  connective[0.0268]
+
+For context: pos_of_c=CC prev_c=Congress_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_the pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.9960]  connective[0.0040]
+
+For context: pos_of_c=IN prev_c=pay_for pos_of_prev=VB pos_prev_pos_c=VB_IN c_next=for_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9909]  connective[0.0091]
+
+For context: pos_of_c=IN prev_c=hearing_before pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=before_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.8650]  connective[0.1350]
+
+For context: pos_of_c=CC prev_c=Ways_and pos_of_prev=NNPS pos_prev_pos_c=NNPS_CC c_next=and_Means pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9992]  connective[0.0008]
+
+For context: pos_of_c=CC prev_c=Office_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_the pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.9944]  connective[0.0056]
+
+For context: pos_of_c=RB prev_c=null_Instead pos_of_prev=null pos_prev_pos_c=null_RB c_next=Instead_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.0146]  connective[0.9854]
+
+For context: pos_of_c=CC prev_c=GAO_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_the pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.9944]  connective[0.0056]
+
+For context: pos_of_c=CC prev_c=expensive_and pos_of_prev=JJ pos_prev_pos_c=JJ_CC c_next=and_subject pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9975]  connective[0.0025]
+
+For context: pos_of_c=IN prev_c=off_as pos_of_prev=RP pos_prev_pos_c=RP_IN c_next=as_assets pos_of_next=NNS pos_c_pos_next=IN_NNS
+non_connective[0.6595]  connective[0.3405]
+
+For context: pos_of_c=IN prev_c=notes_for pos_of_prev=NNS pos_prev_pos_c=NNS_IN c_next=for_as pos_of_next=RB pos_c_pos_next=IN_RB
+non_connective[0.9945]  connective[0.0055]
+
+For context: pos_of_c=RB prev_c=for_as pos_of_prev=IN pos_prev_pos_c=IN_RB c_next=as_much pos_of_next=JJ pos_c_pos_next=RB_JJ
+non_connective[0.9997]  connective[0.0003]
+
+For context: pos_of_c=JJ_IN prev_c=as_much_as pos_of_prev=RB pos_prev_pos_c=RB_JJ_IN c_next=much_as_85 pos_of_next=CD pos_c_pos_next=JJ_IN_CD
+non_connective[0.9925]  connective[0.0075]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_higher pos_of_next=JJR pos_c_pos_next=CC_JJR
+non_connective[0.0034]  connective[0.9966]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_would pos_of_next=MD pos_c_pos_next=CC_MD
+non_connective[0.9821]  connective[0.0179]
+
+For context: pos_of_c=CC prev_c=Ways_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_Means pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9990]  connective[0.0010]
+
+For context: pos_of_c=CC prev_c=sell_or pos_of_prev=VB pos_prev_pos_c=VB_CC c_next=or_merge pos_of_next=VB pos_c_pos_next=CC_VB
+non_connective[0.9987]  connective[0.0013]
+
+For context: pos_of_c=JJ prev_c=the_next pos_of_prev=DT pos_prev_pos_c=DT_JJ c_next=next_three pos_of_next=CD pos_c_pos_next=JJ_CD
+non_connective[1.0000]  connective[0.0000]
+
+For context: pos_of_c=CC prev_c=sell_or pos_of_prev=VB pos_prev_pos_c=VB_CC c_next=or_merge pos_of_next=VB pos_c_pos_next=CC_VB
+non_connective[0.9987]  connective[0.0013]
+
+For context: pos_of_c=CC prev_c=S&Ls_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_their pos_of_next=PRP$ pos_c_pos_next=CC_PRP$
+non_connective[0.9434]  connective[0.0566]
+
+For context: pos_of_c=CC prev_c=,_but pos_of_prev=, pos_prev_pos_c=,_CC c_next=but_that pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.0248]  connective[0.9752]
+
+For context: pos_of_c=NN prev_c=the_meantime pos_of_prev=DT pos_prev_pos_c=DT_NN c_next=meantime_, pos_of_next=, pos_c_pos_next=NN_,
+non_connective[0.9987]  connective[0.0013]
+
+For context: pos_of_c=IN prev_c=such_as pos_of_prev=JJ pos_prev_pos_c=JJ_IN c_next=as_real pos_of_next=JJ pos_c_pos_next=IN_JJ
+non_connective[0.9906]  connective[0.0094]
+
+For context: pos_of_c=RB prev_c=null_Then pos_of_prev=null pos_prev_pos_c=null_RB c_next=Then_the pos_of_next=DT pos_c_pos_next=RB_DT
+non_connective[0.0244]  connective[0.9756]
+
+For context: pos_of_c=CC prev_c=savings_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_loans pos_of_next=NNS pos_c_pos_next=CC_NNS
+non_connective[0.9989]  connective[0.0011]
+
+For context: pos_of_c=RB prev_c=,_then pos_of_prev=, pos_prev_pos_c=,_RB c_next=then_hold pos_of_next=VB pos_c_pos_next=RB_VB
+non_connective[0.7287]  connective[0.2713]
+
+For context: pos_of_c=IN prev_c=assets_until pos_of_prev=NNS pos_prev_pos_c=NNS_IN c_next=until_they pos_of_next=PRP pos_c_pos_next=IN_PRP
+non_connective[0.6005]  connective[0.3995]
+
+For context: pos_of_c=RB prev_c=n't_yet pos_of_prev=RB pos_prev_pos_c=RB_RB c_next=yet_been pos_of_next=VBN pos_c_pos_next=RB_VBN
+non_connective[0.9936]  connective[0.0064]
+
+For context: pos_of_c=CC prev_c=,_but pos_of_prev=, pos_prev_pos_c=,_CC c_next=but_the pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.0036]  connective[0.9964]
+
+For context: pos_of_c=IN prev_c=,_because pos_of_prev=, pos_prev_pos_c=,_IN c_next=because_it pos_of_next=PRP pos_c_pos_next=IN_PRP
+non_connective[0.0006]  connective[0.9994]
+
+For context: pos_of_c=CC prev_c=Gramm-Rudman_or pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=or_big pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9995]  connective[0.0005]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_the pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.0002]  connective[0.9998]
+
+For context: pos_of_c=IN prev_c=``_If pos_of_prev=`` pos_prev_pos_c=``_IN c_next=If_working pos_of_next=VBG pos_c_pos_next=IN_VBG
+non_connective[0.0802]  connective[0.9198]
+
+For context: pos_of_c=CC prev_c=-RCB-_or pos_of_prev=-RRB- pos_prev_pos_c=-RRB-_CC c_next=or_dump pos_of_next=VB pos_c_pos_next=CC_VB
+non_connective[0.9991]  connective[0.0009]
+
+For context: pos_of_c=IN prev_c=partly_because pos_of_prev=RB pos_prev_pos_c=RB_IN c_next=because_of pos_of_next=IN pos_c_pos_next=IN_IN
+non_connective[1.0000]  connective[0.0000]
+
+For context: pos_of_c=IN prev_c=demand_for pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=for_petroleum pos_of_next=NN pos_c_pos_next=IN_NN
+non_connective[0.9854]  connective[0.0146]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_partly pos_of_next=RB pos_c_pos_next=CC_RB
+non_connective[0.9421]  connective[0.0579]
+
+For context: pos_of_c=IN prev_c=partly_because pos_of_prev=RB pos_prev_pos_c=RB_IN c_next=because_of pos_of_next=IN pos_c_pos_next=IN_IN
+non_connective[1.0000]  connective[0.0000]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_Southeast pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.5805]  connective[0.4195]
+
+For context: pos_of_c=IN prev_c=null_While pos_of_prev=null pos_prev_pos_c=null_IN c_next=While_Mideast pos_of_next=JJ pos_c_pos_next=IN_JJ
+non_connective[0.0182]  connective[0.9818]
+
+For context: pos_of_c=RB prev_c=,_however pos_of_prev=, pos_prev_pos_c=,_RB c_next=however_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.0170]  connective[0.9830]
+
+For context: pos_of_c=IN prev_c=such_as pos_of_prev=JJ pos_prev_pos_c=JJ_IN c_next=as_Sun pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.9836]  connective[0.0164]
+
+For context: pos_of_c=CC prev_c=Inc._and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_Digital pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9992]  connective[0.0008]
+
+For context: pos_of_c=RB prev_c=company_also pos_of_prev=NN pos_prev_pos_c=NN_RB c_next=also_will pos_of_next=MD pos_c_pos_next=RB_MD
+non_connective[0.0152]  connective[0.9848]
+
+For context: pos_of_c=CC prev_c=second_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_uses pos_of_next=VBZ pos_c_pos_next=CC_VBZ
+non_connective[0.9997]  connective[0.0003]
+
+For context: pos_of_c=IN prev_c=itself_as pos_of_prev=PRP pos_prev_pos_c=PRP_IN c_next=as_a pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9869]  connective[0.0131]
+
+For context: pos_of_c=RB prev_c=Mips_also pos_of_prev=NNS pos_prev_pos_c=NNS_RB c_next=also_wants pos_of_next=VBZ pos_c_pos_next=RB_VBZ
+non_connective[0.2476]  connective[0.7524]
+
+For context: pos_of_c=IN prev_c=such_as pos_of_prev=JJ pos_prev_pos_c=JJ_IN c_next=as_engineering pos_of_next=NN pos_c_pos_next=IN_NN
+non_connective[0.9938]  connective[0.0062]
+
+For context: pos_of_c=RB prev_c=will_also pos_of_prev=MD pos_prev_pos_c=MD_RB c_next=also_be pos_of_next=VB pos_c_pos_next=RB_VB
+non_connective[0.1435]  connective[0.8565]
+
+For context: pos_of_c=CC prev_c=businesses_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_for pos_of_next=IN pos_c_pos_next=CC_IN
+non_connective[0.9967]  connective[0.0033]
+
+For context: pos_of_c=RB prev_c=company_rather pos_of_prev=NN pos_prev_pos_c=NN_RB c_next=rather_than pos_of_next=IN pos_c_pos_next=RB_IN
+non_connective[0.9925]  connective[0.0075]
+
+For context: pos_of_c=IN prev_c=boon_for pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=for_Mips pos_of_next=NNPS pos_c_pos_next=IN_NNPS
+non_connective[0.9446]  connective[0.0554]
+
+For context: pos_of_c=IN prev_c=Mips_because pos_of_prev=NNPS pos_prev_pos_c=NNPS_IN c_next=because_it pos_of_next=PRP pos_c_pos_next=IN_PRP
+non_connective[0.0347]  connective[0.9653]
+
+For context: pos_of_c=IN prev_c=ally_as pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=as_it pos_of_next=PRP pos_c_pos_next=IN_PRP
+non_connective[0.7778]  connective[0.2222]
+
+For context: pos_of_c=IN prev_c=such_as pos_of_prev=JJ pos_prev_pos_c=JJ_IN c_next=as_Sun pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.9836]  connective[0.0164]
+
+For context: pos_of_c=CC prev_c=Inc._and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_Intel pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9978]  connective[0.0022]
+
+For context: pos_of_c=IN prev_c=Corp._for pos_of_prev=NNP pos_prev_pos_c=NNP_IN c_next=for_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9766]  connective[0.0234]
+
+For context: pos_of_c=IN prev_c=null_For pos_of_prev=null pos_prev_pos_c=null_IN c_next=For_Mips pos_of_next=NNS pos_c_pos_next=IN_NNS
+non_connective[0.9982]  connective[0.0018]
+
+For context: pos_of_c=IN prev_c=such_as pos_of_prev=JJ pos_prev_pos_c=JJ_IN c_next=as_Control pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.9836]  connective[0.0164]
+
+For context: pos_of_c=IN_NN prev_c=,_for_example pos_of_prev=, pos_prev_pos_c=,_IN_NN c_next=for_example_, pos_of_next=, pos_c_pos_next=IN_NN_,
+non_connective[0.0544]  connective[0.9456]
+
+For context: pos_of_c=CC prev_c=Germany_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_France pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9997]  connective[0.0003]
+
+For context: pos_of_c=CC prev_c=Inc._and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_Digital pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9992]  connective[0.0008]
+
+For context: pos_of_c=CC prev_c=computers_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_companies pos_of_next=NNS pos_c_pos_next=CC_NNS
+non_connective[0.9311]  connective[0.0689]
+
+For context: pos_of_c=IN prev_c=such_as pos_of_prev=JJ pos_prev_pos_c=JJ_IN c_next=as_Japan pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.9882]  connective[0.0118]
+
+For context: pos_of_c=CC prev_c=Corp._and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_West pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9992]  connective[0.0008]
+
+For context: pos_of_c=CC prev_c=Digital_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_other pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9999]  connective[0.0001]
+
+For context: pos_of_c=CC prev_c=Bull_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_others pos_of_next=NNS pos_c_pos_next=CC_NNS
+non_connective[0.9983]  connective[0.0017]
+
+For context: pos_of_c=RB prev_c=will_also pos_of_prev=MD pos_prev_pos_c=MD_RB c_next=also_sell pos_of_next=VB pos_c_pos_next=RB_VB
+non_connective[0.0235]  connective[0.9765]
+
+For context: pos_of_c=IN prev_c=written_for pos_of_prev=VBN pos_prev_pos_c=VBN_IN c_next=for_other pos_of_next=JJ pos_c_pos_next=IN_JJ
+non_connective[0.9817]  connective[0.0183]
+
+For context: pos_of_c=IN prev_c=struggling_as pos_of_prev=VBG pos_prev_pos_c=VBG_IN c_next=as_it pos_of_next=PRP pos_c_pos_next=IN_PRP
+non_connective[0.9185]  connective[0.0815]
+
+For context: pos_of_c=CC prev_c=retailing_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_financial pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9968]  connective[0.0032]
+
+For context: pos_of_c=CC prev_c=,_or pos_of_prev=, pos_prev_pos_c=,_CC c_next=or_75 pos_of_next=CD pos_c_pos_next=CC_CD
+non_connective[0.9947]  connective[0.0053]
+
+For context: pos_of_c=CC prev_c=,_or pos_of_prev=, pos_prev_pos_c=,_CC c_next=or_80 pos_of_next=CD pos_c_pos_next=CC_CD
+non_connective[0.9961]  connective[0.0039]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_the pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.0002]  connective[0.9998]
+
+For context: pos_of_c=IN prev_c=worse_for pos_of_prev=JJR pos_prev_pos_c=JJR_IN c_next=for_Sears pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.9472]  connective[0.0528]
+
+For context: pos_of_c=IN prev_c=deficit_for pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=for_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9792]  connective[0.0208]
+
+For context: pos_of_c=IN prev_c=March_as pos_of_prev=NNP pos_prev_pos_c=NNP_IN c_next=as_part pos_of_next=NN pos_c_pos_next=IN_NN
+non_connective[0.9816]  connective[0.0184]
+
+For context: pos_of_c=CC prev_c=''_and pos_of_prev='' pos_prev_pos_c=''_CC c_next=and_`` pos_of_next=`` pos_c_pos_next=CC_``
+non_connective[0.9145]  connective[0.0855]
+
+For context: pos_of_c=RB prev_c=null_Instead pos_of_prev=null pos_prev_pos_c=null_RB c_next=Instead_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.0146]  connective[0.9854]
+
+For context: pos_of_c=IN prev_c=climate_for pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=for_sales pos_of_next=NNS pos_c_pos_next=IN_NNS
+non_connective[0.9684]  connective[0.0316]
+
+For context: pos_of_c=IN prev_c=account_for pos_of_prev=VBP pos_prev_pos_c=VBP_IN c_next=for_roughly pos_of_next=RB pos_c_pos_next=IN_RB
+non_connective[0.9936]  connective[0.0064]
+
+For context: pos_of_c=IN prev_c=,_after pos_of_prev=, pos_prev_pos_c=,_IN c_next=after_an pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9229]  connective[0.0771]
+
+For context: pos_of_c=JJ prev_c=the_next pos_of_prev=DT pos_prev_pos_c=DT_JJ c_next=next_two pos_of_next=CD pos_c_pos_next=JJ_CD
+non_connective[1.0000]  connective[0.0000]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_analysts pos_of_next=NNS pos_c_pos_next=CC_NNS
+non_connective[0.0004]  connective[0.9996]
+
+For context: pos_of_c=IN prev_c=unsuccessful_if pos_of_prev=JJ pos_prev_pos_c=JJ_IN c_next=if_it pos_of_next=PRP pos_c_pos_next=IN_PRP
+non_connective[0.5955]  connective[0.4045]
+
+For context: pos_of_c=WRB prev_c=policy_when pos_of_prev=NN pos_prev_pos_c=NN_WRB c_next=when_everyone pos_of_next=NN pos_c_pos_next=WRB_NN
+non_connective[0.1388]  connective[0.8612]
+
+For context: pos_of_c=RB prev_c=everyone_else pos_of_prev=NN pos_prev_pos_c=NN_RB c_next=else_is pos_of_next=VBZ pos_c_pos_next=RB_VBZ
+non_connective[0.9213]  connective[0.0787]
+
+For context: pos_of_c=RB prev_c=gone_as pos_of_prev=VBN pos_prev_pos_c=VBN_RB c_next=as_smoothly pos_of_next=RB pos_c_pos_next=RB_RB
+non_connective[0.9936]  connective[0.0064]
+
+For context: pos_of_c=IN prev_c=smoothly_as pos_of_prev=RB pos_prev_pos_c=RB_IN c_next=as_Sears pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.9977]  connective[0.0023]
+
+For context: pos_of_c=CC prev_c=advertising_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_stores pos_of_next=NNS pos_c_pos_next=CC_NNS
+non_connective[0.9931]  connective[0.0069]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_it pos_of_next=PRP pos_c_pos_next=CC_PRP
+non_connective[0.0008]  connective[0.9992]
+
+For context: pos_of_c=RB prev_c=is_also pos_of_prev=VBZ pos_prev_pos_c=VBZ_RB c_next=also_stepping pos_of_next=VBG pos_c_pos_next=RB_VBG
+non_connective[0.0163]  connective[0.9837]
+
+For context: pos_of_c=CC prev_c=ads_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_changing pos_of_next=VBG pos_c_pos_next=CC_VBG
+non_connective[0.9994]  connective[0.0006]
+
+For context: pos_of_c=IN_NN prev_c=,_for_instance pos_of_prev=, pos_prev_pos_c=,_IN_NN c_next=for_instance_, pos_of_next=, pos_c_pos_next=IN_NN_,
+non_connective[0.0570]  connective[0.9430]
+
+For context: pos_of_c=IN prev_c=brands_as pos_of_prev=NNS pos_prev_pos_c=NNS_IN c_next=as_hype pos_of_next=NN pos_c_pos_next=IN_NN
+non_connective[0.9869]  connective[0.0131]
+
+For context: pos_of_c=IN prev_c=goods_for pos_of_prev=NNS pos_prev_pos_c=NNS_IN c_next=for_`` pos_of_next=`` pos_c_pos_next=IN_``
+non_connective[0.9714]  connective[0.0286]
+
+For context: pos_of_c=CC prev_c=%_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_70 pos_of_next=CD pos_c_pos_next=CC_CD
+non_connective[0.9786]  connective[0.0214]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_the pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.0002]  connective[0.9998]
+
+For context: pos_of_c=RB prev_c=ad_also pos_of_prev=NN pos_prev_pos_c=NN_RB c_next=also_mentions pos_of_next=VBZ pos_c_pos_next=RB_VBZ
+non_connective[0.5285]  connective[0.4715]
+
+For context: pos_of_c=WRB prev_c=``_When pos_of_prev=`` pos_prev_pos_c=``_WRB c_next=When_Sears pos_of_next=NNP pos_c_pos_next=WRB_NNP
+non_connective[0.0291]  connective[0.9709]
+
+For context: pos_of_c=IN prev_c=shoppers_because pos_of_prev=NNS pos_prev_pos_c=NNS_IN c_next=because_it pos_of_next=PRP pos_c_pos_next=IN_PRP
+non_connective[0.0360]  connective[0.9640]
+
+For context: pos_of_c=RB prev_c=n't_yet pos_of_prev=RB pos_prev_pos_c=RB_RB c_next=yet_done pos_of_next=VBN pos_c_pos_next=RB_VBN
+non_connective[0.9892]  connective[0.0108]
+
+For context: pos_of_c=WRB prev_c=,_when pos_of_prev=, pos_prev_pos_c=,_WRB c_next=when_Sears pos_of_next=NNP pos_c_pos_next=WRB_NNP
+non_connective[0.8397]  connective[0.1603]
+
+For context: pos_of_c=RB prev_c=null_Moreover pos_of_prev=null pos_prev_pos_c=null_RB c_next=Moreover_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.0107]  connective[0.9893]
+
+For context: pos_of_c=IN prev_c=prices_as pos_of_prev=NNS pos_prev_pos_c=NNS_IN c_next=as_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9277]  connective[0.0723]
+
+For context: pos_of_c=IN prev_c=reason_for pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=for_their pos_of_next=PRP$ pos_c_pos_next=IN_PRP$
+non_connective[0.9888]  connective[0.0112]
+
+For context: pos_of_c=IN prev_c=price_as pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=as_an pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9970]  connective[0.0030]
+
+For context: pos_of_c=CC prev_c=March_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_April pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9984]  connective[0.0016]
+
+For context: pos_of_c=CC prev_c=,_but pos_of_prev=, pos_prev_pos_c=,_CC c_next=but_it pos_of_next=PRP pos_c_pos_next=CC_PRP
+non_connective[0.0002]  connective[0.9998]
+
+For context: pos_of_c=CC prev_c=small_and pos_of_prev=JJ pos_prev_pos_c=JJ_CC c_next=and_slow pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9973]  connective[0.0027]
+
+For context: pos_of_c=IN prev_c=null_For pos_of_prev=null pos_prev_pos_c=null_IN c_next=For_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9992]  connective[0.0008]
+
+For context: pos_of_c=CC prev_c=international_and pos_of_prev=JJ pos_prev_pos_c=JJ_CC c_next=and_credit pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.9963]  connective[0.0037]
+
+For context: pos_of_c=RB_RB prev_c=,_as_well pos_of_prev=, pos_prev_pos_c=,_RB_RB c_next=as_well_as pos_of_next=IN pos_c_pos_next=RB_RB_IN
+non_connective[0.9977]  connective[0.0023]
+
+For context: pos_of_c=IN prev_c=well_as pos_of_prev=RB pos_prev_pos_c=RB_IN c_next=as_U.S. pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.9849]  connective[0.0151]
+
+For context: pos_of_c=IN prev_c=million_because pos_of_prev=CD pos_prev_pos_c=CD_IN c_next=because_of pos_of_next=IN pos_c_pos_next=IN_IN
+non_connective[0.9929]  connective[0.0071]
+
+For context: pos_of_c=IN prev_c=,_as pos_of_prev=, pos_prev_pos_c=,_IN c_next=as_expected pos_of_next=VBN pos_c_pos_next=IN_VBN
+non_connective[0.9619]  connective[0.0381]
+
+For context: pos_of_c=IN prev_c=quarter_as pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=as_claims pos_of_next=NNS pos_c_pos_next=IN_NNS
+non_connective[0.1698]  connective[0.8302]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_a pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.0002]  connective[0.9998]
+
+For context: pos_of_c=RB prev_c=have_as pos_of_prev=VB pos_prev_pos_c=VB_RB c_next=as_big pos_of_next=JJ pos_c_pos_next=RB_JJ
+non_connective[0.9972]  connective[0.0028]
+
+For context: pos_of_c=RB prev_c=,_meanwhile pos_of_prev=, pos_prev_pos_c=,_RB c_next=meanwhile_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.0030]  connective[0.9970]
+
+For context: pos_of_c=CC prev_c=brokerage_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_Discover pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9942]  connective[0.0058]
+
+For context: pos_of_c=IN prev_c=million_because pos_of_prev=CD pos_prev_pos_c=CD_IN c_next=because_of pos_of_next=IN pos_c_pos_next=IN_IN
+non_connective[0.9929]  connective[0.0071]
+
+For context: pos_of_c=CC prev_c=Amon_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_George pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9987]  connective[0.0013]
+
+For context: pos_of_c=IN prev_c=served_as pos_of_prev=VBD pos_prev_pos_c=VBD_IN c_next=as_vice pos_of_next=NN pos_c_pos_next=IN_NN
+non_connective[0.9936]  connective[0.0064]
+
+For context: pos_of_c=IN prev_c=manager_for pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=for_corporate pos_of_next=JJ pos_c_pos_next=IN_JJ
+non_connective[0.9905]  connective[0.0095]
+
+For context: pos_of_c=CC prev_c=,_but pos_of_prev=, pos_prev_pos_c=,_CC c_next=but_it pos_of_next=PRP pos_c_pos_next=CC_PRP
+non_connective[0.0002]  connective[0.9998]
+
+For context: pos_of_c=RB prev_c='s_also pos_of_prev=VBZ pos_prev_pos_c=VBZ_RB c_next=also_unnecessary pos_of_next=JJ pos_c_pos_next=RB_JJ
+non_connective[0.2137]  connective[0.7863]
+
+For context: pos_of_c=CC prev_c=,_or pos_of_prev=, pos_prev_pos_c=,_CC c_next=or_as pos_of_next=IN pos_c_pos_next=CC_IN
+non_connective[0.9730]  connective[0.0270]
+
+For context: pos_of_c=IN prev_c=or_as pos_of_prev=CC pos_prev_pos_c=CC_IN c_next=as_he pos_of_next=PRP pos_c_pos_next=IN_PRP
+non_connective[0.6033]  connective[0.3967]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_something pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.8071]  connective[0.1929]
+
+For context: pos_of_c=RB prev_c=He_once pos_of_prev=PRP pos_prev_pos_c=PRP_RB c_next=once_described pos_of_next=VBD pos_c_pos_next=RB_VBD
+non_connective[0.4295]  connective[0.5705]
+
+For context: pos_of_c=IN prev_c=himself_as pos_of_prev=PRP pos_prev_pos_c=PRP_IN c_next=as_a pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9921]  connective[0.0079]
+
+For context: pos_of_c=CC prev_c=''_and pos_of_prev='' pos_prev_pos_c=''_CC c_next=and_played pos_of_next=VBD pos_c_pos_next=CC_VBD
+non_connective[0.9981]  connective[0.0019]
+
+For context: pos_of_c=CC prev_c=hair_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_rejection pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.9964]  connective[0.0036]
+
+For context: pos_of_c=IN prev_c=,_for pos_of_prev=, pos_prev_pos_c=,_IN c_next=for_a pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9855]  connective[0.0145]
+
+For context: pos_of_c=RB prev_c=He_also pos_of_prev=PRP pos_prev_pos_c=PRP_RB c_next=also_is pos_of_next=VBZ pos_c_pos_next=RB_VBZ
+non_connective[0.0046]  connective[0.9954]
+
+For context: pos_of_c=CC prev_c=wisecracks_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_wordplay pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.9985]  connective[0.0015]
+
+For context: pos_of_c=CC prev_c=detail_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_lucid pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9957]  connective[0.0043]
+
+For context: pos_of_c=CC prev_c=U.S._and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_Europe pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9968]  connective[0.0032]
+
+For context: pos_of_c=CC prev_c=Europe_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_selling pos_of_next=VBG pos_c_pos_next=CC_VBG
+non_connective[0.9976]  connective[0.0024]
+
+For context: pos_of_c=CC prev_c=,_but pos_of_prev=, pos_prev_pos_c=,_CC c_next=but_the pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.0036]  connective[0.9964]
+
+For context: pos_of_c=CC prev_c=Carl_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_Dirk pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.9984]  connective[0.0016]
+
+For context: pos_of_c=IN prev_c=15,000_for pos_of_prev=CD pos_prev_pos_c=CD_IN c_next=for_some pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9831]  connective[0.0169]
+
+For context: pos_of_c=RB prev_c=promised_yet pos_of_prev=VBD pos_prev_pos_c=VBD_RB c_next=yet_more pos_of_next=JJR pos_c_pos_next=RB_JJR
+non_connective[0.9291]  connective[0.0709]
+
+For context: pos_of_c=IN prev_c=program_for pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=for_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9914]  connective[0.0086]
+
+For context: pos_of_c=IN prev_c=null_Once pos_of_prev=null pos_prev_pos_c=null_IN c_next=Once_his pos_of_next=PRP$ pos_c_pos_next=IN_PRP$
+non_connective[0.1199]  connective[0.8801]
+
+For context: pos_of_c=CC prev_c=Unix_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_become pos_of_next=VB pos_c_pos_next=CC_VB
+non_connective[0.9999]  connective[0.0001]
+
+For context: pos_of_c=WRB prev_c=1986_when pos_of_prev=CD pos_prev_pos_c=CD_WRB c_next=when_his pos_of_next=PRP$ pos_c_pos_next=WRB_PRP$
+non_connective[0.9896]  connective[0.0104]
+
+For context: pos_of_c=CC prev_c=low_and pos_of_prev=JJ pos_prev_pos_c=JJ_CC c_next=and_he pos_of_next=PRP pos_c_pos_next=CC_PRP
+non_connective[0.0002]  connective[0.9998]
+
+For context: pos_of_c=IN prev_c=departments_for pos_of_prev=NNS pos_prev_pos_c=NNS_IN c_next=for_computer pos_of_next=NN pos_c_pos_next=IN_NN
+non_connective[0.9840]  connective[0.0160]
+
+For context: pos_of_c=CC prev_c=time_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_traced pos_of_next=VBZ pos_c_pos_next=CC_VBZ
+non_connective[0.9932]  connective[0.0068]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_after pos_of_next=IN pos_c_pos_next=CC_IN
+non_connective[0.0003]  connective[0.9997]
+
+For context: pos_of_c=IN prev_c=But_after pos_of_prev=CC pos_prev_pos_c=CC_IN c_next=after_much pos_of_next=JJ pos_c_pos_next=IN_JJ
+non_connective[0.9745]  connective[0.0255]
+
+For context: pos_of_c=RB_IN prev_c=on_so_that pos_of_prev=IN pos_prev_pos_c=IN_RB_IN c_next=so_that_he pos_of_next=PRP pos_c_pos_next=RB_IN_PRP
+non_connective[0.1213]  connective[0.8787]
+
+For context: pos_of_c=IN prev_c=null_After pos_of_prev=null pos_prev_pos_c=null_IN c_next=After_discovering pos_of_next=VBG pos_c_pos_next=IN_VBG
+non_connective[0.3418]  connective[0.6582]
+
+For context: pos_of_c=WRB prev_c=him_when pos_of_prev=PRP pos_prev_pos_c=PRP_WRB c_next=when_Sventek pos_of_next=NNP pos_c_pos_next=WRB_NNP
+non_connective[0.0805]  connective[0.9195]
+
+For context: pos_of_c=CC prev_c=files_but pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=but_also pos_of_next=RB pos_c_pos_next=CC_RB
+non_connective[0.9998]  connective[0.0002]
+
+For context: pos_of_c=RB prev_c=but_also pos_of_prev=CC pos_prev_pos_c=CC_RB c_next=also_using pos_of_next=VBG pos_c_pos_next=RB_VBG
+non_connective[0.4602]  connective[0.5398]
+
+For context: pos_of_c=CC prev_c=Berkeley_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_other pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9996]  connective[0.0004]
+
+For context: pos_of_c=IN prev_c=computers_as pos_of_prev=NNS pos_prev_pos_c=NNS_IN c_next=as_stepping pos_of_next=VBG pos_c_pos_next=IN_VBG
+non_connective[0.8447]  connective[0.1553]
+
+For context: pos_of_c=CC prev_c=military_and pos_of_prev=JJ pos_prev_pos_c=JJ_CC c_next=and_national pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9046]  connective[0.0954]
+
+For context: pos_of_c=CC prev_c=range_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_CIA pos_of_next=NNP pos_c_pos_next=CC_NNP
+non_connective[0.6486]  connective[0.3514]
+
+For context: pos_of_c=WRB prev_c=null_When pos_of_prev=null pos_prev_pos_c=null_WRB c_next=When_the pos_of_next=DT pos_c_pos_next=WRB_DT
+non_connective[0.0136]  connective[0.9864]
+
+For context: pos_of_c=CC prev_c=them_but pos_of_prev=PRP pos_prev_pos_c=PRP_CC c_next=but_keeping pos_of_next=VBG pos_c_pos_next=CC_VBG
+non_connective[0.9998]  connective[0.0002]
+
+For context: pos_of_c=IN prev_c=,_if pos_of_prev=, pos_prev_pos_c=,_IN c_next=if_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.0874]  connective[0.9126]
+
+For context: pos_of_c=CC prev_c=static_or pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=or_slow pos_of_next=VB pos_c_pos_next=CC_VB
+non_connective[0.9995]  connective[0.0005]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_he pos_of_next=PRP pos_c_pos_next=CC_PRP
+non_connective[0.0007]  connective[0.9993]
+
+For context: pos_of_c=CC prev_c=,_or pos_of_prev=, pos_prev_pos_c=,_CC c_next=or_seems pos_of_next=VBZ pos_c_pos_next=CC_VBZ
+non_connective[0.9989]  connective[0.0011]
+
+For context: pos_of_c=IN prev_c=''_because pos_of_prev='' pos_prev_pos_c=''_IN c_next=because_it pos_of_next=PRP pos_c_pos_next=IN_PRP
+non_connective[0.0003]  connective[0.9997]
+
+For context: pos_of_c=CC prev_c=CIA_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_the pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.9957]  connective[0.0043]
+
+For context: pos_of_c=RB prev_c=null_Finally pos_of_prev=null pos_prev_pos_c=null_RB c_next=Finally_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.0612]  connective[0.9388]
+
+For context: pos_of_c=RB prev_c=,_ultimately pos_of_prev=, pos_prev_pos_c=,_RB c_next=ultimately_tracing pos_of_next=VBG pos_c_pos_next=RB_VBG
+non_connective[0.8371]  connective[0.1629]
+
+For context: pos_of_c=RB prev_c=Germans_then pos_of_prev=NNPS pos_prev_pos_c=NNPS_RB c_next=then_took pos_of_next=VBD pos_c_pos_next=RB_VBD
+non_connective[0.1415]  connective[0.8585]
+
+For context: pos_of_c=CC prev_c=over_and pos_of_prev=RP pos_prev_pos_c=RP_CC c_next=and_finally pos_of_next=RB pos_c_pos_next=CC_RB
+non_connective[0.9974]  connective[0.0026]
+
+For context: pos_of_c=RB prev_c=and_finally pos_of_prev=CC pos_prev_pos_c=CC_RB c_next=finally_found pos_of_next=VBD pos_c_pos_next=RB_VBD
+non_connective[0.0341]  connective[0.9659]
+
+For context: pos_of_c=CC prev_c=CIA_and pos_of_prev=NNP pos_prev_pos_c=NNP_CC c_next=and_NSA pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9996]  connective[0.0004]
+
+For context: pos_of_c=IN prev_c=hatred_for pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=for_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9792]  connective[0.0208]
+
+For context: pos_of_c=CC prev_c=hacker_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_a pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.9903]  connective[0.0097]
+
+For context: pos_of_c=RB_RB prev_c=-LRB-_as_well pos_of_prev=-LRB- pos_prev_pos_c=-LRB-_RB_RB c_next=as_well_as pos_of_next=IN pos_c_pos_next=RB_RB_IN
+non_connective[0.9985]  connective[0.0015]
+
+For context: pos_of_c=IN prev_c=well_as pos_of_prev=RB pos_prev_pos_c=RB_IN c_next=as_other pos_of_next=JJ pos_c_pos_next=IN_JJ
+non_connective[0.9733]  connective[0.0267]
+
+For context: pos_of_c=CC prev_c=journalists_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_staff pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.9982]  connective[0.0018]
+
+For context: pos_of_c=IN prev_c=paying_for pos_of_prev=VBG pos_prev_pos_c=VBG_IN c_next=for_added pos_of_next=JJ pos_c_pos_next=IN_JJ
+non_connective[0.9946]  connective[0.0054]
+
+For context: pos_of_c=CC prev_c=,_or pos_of_prev=, pos_prev_pos_c=,_CC c_next=or_corporate pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9934]  connective[0.0066]
+
+For context: pos_of_c=RB prev_c=Citicorp_also pos_of_prev=NNP pos_prev_pos_c=NNP_RB c_next=also_said pos_of_next=VBD pos_c_pos_next=RB_VBD
+non_connective[0.0070]  connective[0.9930]
+
+For context: pos_of_c=IN prev_c=maturity_next pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=next_Tuesday pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.9834]  connective[0.0166]
+
+For context: pos_of_c=IN prev_c=mainly_because pos_of_prev=RB pos_prev_pos_c=RB_IN c_next=because_a pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9510]  connective[0.0490]
+
+For context: pos_of_c=IN prev_c=news_for pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=for_its pos_of_next=PRP$ pos_c_pos_next=IN_PRP$
+non_connective[0.9894]  connective[0.0106]
+
+For context: pos_of_c=CC prev_c=banking_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_money pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.9938]  connective[0.0062]
+
+For context: pos_of_c=IN_NN prev_c=,_for_example pos_of_prev=, pos_prev_pos_c=,_IN_NN c_next=for_example_, pos_of_next=, pos_c_pos_next=IN_NN_,
+non_connective[0.0544]  connective[0.9456]
+
+For context: pos_of_c=IN prev_c=,_while pos_of_prev=, pos_prev_pos_c=,_IN c_next=while_Shearson pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.0233]  connective[0.9767]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_people pos_of_next=NNS pos_c_pos_next=CC_NNS
+non_connective[0.0002]  connective[0.9998]
+
+For context: pos_of_c=IN prev_c=million_for pos_of_prev=CD pos_prev_pos_c=CD_IN c_next=for_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9829]  connective[0.0171]
+
+For context: pos_of_c=IN prev_c=,_after pos_of_prev=, pos_prev_pos_c=,_IN c_next=after_barely pos_of_next=RB pos_c_pos_next=IN_RB
+non_connective[0.9115]  connective[0.0885]
+
+For context: pos_of_c=RB prev_c=,_meanwhile pos_of_prev=, pos_prev_pos_c=,_RB c_next=meanwhile_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.0030]  connective[0.9970]
+
+For context: pos_of_c=IN prev_c=million_for pos_of_prev=CD pos_prev_pos_c=CD_IN c_next=for_the pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.9829]  connective[0.0171]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_when pos_of_next=WRB pos_c_pos_next=CC_WRB
+non_connective[0.2150]  connective[0.7850]
+
+For context: pos_of_c=WRB prev_c=and_when pos_of_prev=CC pos_prev_pos_c=CC_WRB c_next=when_rates pos_of_next=NNS pos_c_pos_next=WRB_NNS
+non_connective[0.6076]  connective[0.3924]
+
+For context: pos_of_c=CC prev_c=year_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_continuing pos_of_next=VBG pos_c_pos_next=CC_VBG
+non_connective[0.9847]  connective[0.0153]
+
+For context: pos_of_c=CC prev_c=management_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_improve pos_of_next=VB pos_c_pos_next=CC_VB
+non_connective[0.9997]  connective[0.0003]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_we pos_of_next=PRP pos_c_pos_next=CC_PRP
+non_connective[0.0006]  connective[0.9994]
+
+For context: pos_of_c=IN prev_c=null_As pos_of_prev=null pos_prev_pos_c=null_IN c_next=As_some pos_of_next=DT pos_c_pos_next=IN_DT
+non_connective[0.7723]  connective[0.2277]
+
+For context: pos_of_c=CC prev_c=mature_and pos_of_prev=VBP pos_prev_pos_c=VBP_CC c_next=and_the pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.8559]  connective[0.1441]
+
+For context: pos_of_c=CC prev_c=null_But pos_of_prev=null pos_prev_pos_c=null_CC c_next=But_he pos_of_next=PRP pos_c_pos_next=CC_PRP
+non_connective[0.0000]  connective[1.0000]
+
+For context: pos_of_c=RB prev_c=he_also pos_of_prev=PRP pos_prev_pos_c=PRP_RB c_next=also_cited pos_of_next=VBD pos_c_pos_next=RB_VBD
+non_connective[0.0644]  connective[0.9356]
+
+For context: pos_of_c=CC prev_c=action_or pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=or_on pos_of_next=IN pos_c_pos_next=CC_IN
+non_connective[0.9895]  connective[0.0105]
+
+For context: pos_of_c=IN prev_c=--_except pos_of_prev=: pos_prev_pos_c=:_IN c_next=except_to pos_of_next=TO pos_c_pos_next=IN_TO
+non_connective[0.1380]  connective[0.8620]
+
+For context: pos_of_c=IN prev_c=Germeten_as pos_of_prev=NNP pos_prev_pos_c=NNP_IN c_next=as_Boston pos_of_next=NNP pos_c_pos_next=IN_NNP
+non_connective[0.9055]  connective[0.0945]
+
+For context: pos_of_c=CC prev_c=president_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_to pos_of_next=TO pos_c_pos_next=CC_TO
+non_connective[0.9973]  connective[0.0027]
+
+For context: pos_of_c=CC prev_c=expenses_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_booking pos_of_next=VBG pos_c_pos_next=CC_VBG
+non_connective[0.9991]  connective[0.0009]
+
+For context: pos_of_c=CC prev_c=--_and pos_of_prev=: pos_prev_pos_c=:_CC c_next=and_perhaps pos_of_next=RB pos_c_pos_next=CC_RB
+non_connective[0.6962]  connective[0.3038]
+
+For context: pos_of_c=IN_NN prev_c=,_in_turn pos_of_prev=, pos_prev_pos_c=,_IN_NN c_next=in_turn_, pos_of_next=, pos_c_pos_next=IN_NN_,
+non_connective[0.0081]  connective[0.9919]
+
+For context: pos_of_c=CC prev_c=accountants_and pos_of_prev=NNS pos_prev_pos_c=NNS_CC c_next=and_accused pos_of_next=VBD pos_c_pos_next=CC_VBD
+non_connective[0.9999]  connective[0.0001]
+
+For context: pos_of_c=IN prev_c=diagnosed_as pos_of_prev=VBN pos_prev_pos_c=VBN_IN c_next=as_having pos_of_next=VBG pos_c_pos_next=IN_VBG
+non_connective[0.9790]  connective[0.0210]
+
+For context: pos_of_c=CC prev_c=,_and pos_of_prev=, pos_prev_pos_c=,_CC c_next=and_city pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.8716]  connective[0.1284]
+
+For context: pos_of_c=CC prev_c=company_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_city pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.9936]  connective[0.0064]
+
+For context: pos_of_c=CC prev_c=director_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_state pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.9961]  connective[0.0039]
+
+For context: pos_of_c=CC prev_c=state_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_local pos_of_next=JJ pos_c_pos_next=CC_JJ
+non_connective[0.9877]  connective[0.0123]
+
+For context: pos_of_c=IN prev_c=afternoon_after pos_of_prev=NN pos_prev_pos_c=NN_IN c_next=after_testing pos_of_next=VBG pos_c_pos_next=IN_VBG
+non_connective[0.8430]  connective[0.1570]
+
+For context: pos_of_c=CC prev_c=determined_but pos_of_prev=VBN pos_prev_pos_c=VBN_CC c_next=but_should pos_of_next=MD pos_c_pos_next=CC_MD
+non_connective[0.9858]  connective[0.0142]
+
+For context: pos_of_c=CC prev_c=company_and pos_of_prev=NN pos_prev_pos_c=NN_CC c_next=and_city pos_of_next=NN pos_c_pos_next=CC_NN
+non_connective[0.9936]  connective[0.0064]
+
+For context: pos_of_c=IN prev_c=relieved_because pos_of_prev=VBN pos_prev_pos_c=VBN_IN c_next=because_hepatitis pos_of_next=NN pos_c_pos_next=IN_NN
+non_connective[0.9706]  connective[0.0294]
+
+For context: pos_of_c=RB prev_c=sword_though pos_of_prev=NN pos_prev_pos_c=NN_RB c_next=though_, pos_of_next=, pos_c_pos_next=RB_,
+non_connective[0.1956]  connective[0.8044]
+
+For context: pos_of_c=IN prev_c=,_because pos_of_prev=, pos_prev_pos_c=,_IN c_next=because_it pos_of_next=PRP pos_c_pos_next=IN_PRP
+non_connective[0.0006]  connective[0.9994]
+
+For context: pos_of_c=RB prev_c=is_also pos_of_prev=VBZ pos_prev_pos_c=VBZ_RB c_next=also_the pos_of_next=DT pos_c_pos_next=RB_DT
+non_connective[0.1917]  connective[0.8083]
+
+For context: pos_of_c=CC prev_c=``_and pos_of_prev=`` pos_prev_pos_c=``_CC c_next=and_that pos_of_next=DT pos_c_pos_next=CC_DT
+non_connective[0.0008]  connective[0.9992]
+
+TP: 2097
+FP: 232
+TN: 5633
+FN: 488
+Precision = 0.9003864319450408
+Recall = 0.8112185686653772
+F1 Score = 0.8534798534798536

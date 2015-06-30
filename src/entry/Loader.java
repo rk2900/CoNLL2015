@@ -28,9 +28,15 @@ public class Loader {
 	public HashMap<Integer, Relation> trainData;
 	public HashMap<String, LinkedList<Relation>> trainDocData;
 	public static LinkedList<String> connDictionary;
+	public static HashMap<String, String> connCategoryMap;
 	
 	public Loader() {
 		initialize();
+	}
+	
+	static {
+		connDictionary = new LinkedList<>();
+		connCategoryMap = new HashMap<>();
 	}
 	
 	public void initialize() {
@@ -39,7 +45,6 @@ public class Loader {
 		docs = new HashMap<>();
 		trainData = new HashMap<>();
 		trainDocData = new HashMap<>();
-		connDictionary = new LinkedList<>();
 	}
 
 	public void loadDocuments(String docFolder) {
@@ -170,7 +175,11 @@ public class Loader {
 			String line;
 			
 			while( (line = bf.readLine()) != null) {
-				connDictionary.add(line);
+				String[] seg = line.split("\t");
+				String conn = new String(seg[0]);
+				String cate = new String(seg[1]);
+				connCategoryMap.put(conn,cate);
+				connDictionary.add(conn);
 			}
 			bf.close();
 		} catch (FileNotFoundException e) {

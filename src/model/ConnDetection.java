@@ -2,33 +2,15 @@ package model;
 
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedList;
-import java.util.Set;
-
-import javax.print.attribute.DocAttributeSet;
-import javax.swing.text.Segment;
 
 import opennlp.maxent.BasicContextGenerator;
-import opennlp.maxent.BasicEventStream;
 import opennlp.maxent.ContextGenerator;
-import opennlp.maxent.GIS;
-import opennlp.maxent.PlainTextByLineDataStream;
-import opennlp.maxent.RealBasicEventStream;
-import opennlp.maxent.io.SuffixSensitiveGISModelWriter;
-import opennlp.model.AbstractModel;
-import opennlp.model.AbstractModelWriter;
-import opennlp.model.EventStream;
 import opennlp.model.GenericModelReader;
 import opennlp.model.MaxentModel;
-import opennlp.model.OnePassDataIndexer;
-import opennlp.model.OnePassRealValueDataIndexer;
-import opennlp.model.RealValueFileEventStream;
-import opennlp.perceptron.PerceptronTrainer;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -36,13 +18,10 @@ import org.json.simple.JSONObject;
 import structure.Argument;
 import structure.Document;
 import structure.Relation;
-import entry.Const;
 import entry.Loader;
 
 public class ConnDetection extends Model {
 
-	public static boolean USE_SMOOTHING = false;
-	public static double SMOOTHING_OBSERVATION = 0.1;
 	public static String dataFilePath = "./train/conn_features.dat";
 	public static String modelFilePath = "./train/conn_featuresModel.txt";
 	public static String testFilePath = "./train/conn_classify.test";
@@ -64,14 +43,7 @@ public class ConnDetection extends Model {
 			BufferedWriter bw = new BufferedWriter(new FileWriter(new File(
 					dataFilePath)));
 
-			int trainNum = (int) (loader.docs.keySet().size()*Const.ratio);
-			int trainCount = 0;
 			for (String docId : loader.docs.keySet()) {
-				trainCount++;
-				if(Const.splitFlag && (trainCount > trainNum) ) {
-					System.err.println("Passed doc. trainNum = "+trainNum+", trainCount = "+trainCount);
-					break;
-				}
 				Document document = loader.docs.get(docId);
 				for (int i = 0; i < document.sentences.size(); i++) {
 					JSONObject sentence = document.getSentence(i);
@@ -94,7 +66,8 @@ public class ConnDetection extends Model {
 									}
 								}
 							}
-							bw.write(genFeature(words, firstToken, lastToken, nonConnFlag?"non_connective":"connective"));
+							String feature = genFeature(words, firstToken, lastToken, nonConnFlag?"non_connective":"connective");
+							bw.write(feature);
 							bw.newLine();
 							j=k;
 						}
@@ -105,9 +78,9 @@ public class ConnDetection extends Model {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		System.err.println("\nTrain feature generated.");
-		trainModel();
-		System.err.println("\nModel trained.");
+		System.err.println("\nDetection features generated.");
+		trainModel(dataFilePath, modelFilePath);
+		System.err.println("\nDetection model trained.");
 	}
 	
 	public int getTailPosition(JSONArray words, int start) {
@@ -135,48 +108,6 @@ public class ConnDetection extends Model {
 			}
 		}
 		return position;
-	}
-
-	public void trainModel() {
-		boolean real = false;
-		String type = "maxent";
-		AbstractModelWriter writer = null;
-		File outputFile = new File(modelFilePath);
-		try {
-			FileReader datafr = new FileReader(new File(dataFilePath));
-			EventStream es;
-			if (!real) {
-				es = new BasicEventStream(new PlainTextByLineDataStream(datafr));
-			} else {
-				es = new RealBasicEventStream(new PlainTextByLineDataStream(
-						datafr));
-			}
-			GIS.SMOOTHING_OBSERVATION = SMOOTHING_OBSERVATION;
-			AbstractModel model;
-			if (type.equals("maxent")) {
-				if (!real) {
-					model = GIS.trainModel(es, USE_SMOOTHING);
-				} else {
-					model = GIS.trainModel(100,
-							new OnePassRealValueDataIndexer(es, 0),
-							USE_SMOOTHING);
-				}
-				writer = new SuffixSensitiveGISModelWriter(model, outputFile);
-			} else if (type.equals("perceptron")) {
-				System.err.println("Perceptron training");
-				model = new PerceptronTrainer().trainModel(10,
-						new OnePassDataIndexer(es, 0), 0);
-				writer = new SuffixSensitiveGISModelWriter(model, outputFile);
-			} else {
-				System.err.println("Unknown model type: " + type);
-				model = null;
-			}
-			writer.persist();
-		} catch (Exception e) {
-			System.out.println("Unable to create model due to exception: ");
-			System.out.println(e);
-			e.printStackTrace();
-		}
 	}
 
 	public String genFeature(JSONArray words, Integer[] firstToken, Integer[] lastToken, String label) {
@@ -262,28 +193,6 @@ public class ConnDetection extends Model {
 		return !nonConnFlag;
 	}
 
-	public void initializeModel(MaxentModel m) {
-		_model = m;
-	}
-	
-	private String eval (String predicates) {
-		return eval(predicates,false);
-	}
-
-	private String eval(String predicates, boolean real) {
-		String[] contexts = predicates.split(" ");
-		double[] ocs;
-		if (!real) {
-			ocs = _model.eval(contexts);
-		} else {
-			float[] values = RealValueFileEventStream.parseContexts(contexts);
-			ocs = _model.eval(contexts, values);
-		}
-//		System.out.println("For context: " + predicates + "\n" + _model.getAllOutcomes(ocs) + "\n");
-		return _model.getBestOutcome(ocs);
-
-	}
-
 	@Override
 	protected HashMap<String, LinkedList<Relation>> predict(HashMap<String, Document> docs) {
 		HashMap<String, LinkedList<Relation>> results = new HashMap<>();
@@ -295,13 +204,7 @@ public class ConnDetection extends Model {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		int trainNum = (int) (docs.keySet().size()*Const.ratio);
-		int count = 0;
 		for (String docId : docs.keySet()) {
-			count++;
-			if(Const.splitFlag && (count <= trainNum)) {
-				continue;
-			}
 			Document document = docs.get(docId);
 			for (int i = 0; i < document.sentences.size(); i++) {
 				JSONObject sentence = document.getSentence(i);
@@ -329,12 +232,15 @@ public class ConnDetection extends Model {
 							Relation relation = new Relation();
 							relation.setConnective(conn);
 							relation.setDocId(docId);
+							relation.setSense("Comparison.Concession");
+							relation.setType("Explicit");
 							if(results.containsKey(docId)) {
 								results.get(docId).add(relation);
 							} else {
 								LinkedList<Relation> list = new LinkedList<>();
 								results.put(docId, list);
 							}
+							document.addDetectionResult(relation);
 						} else ; // predict as negative
 						j=k;
 					} else ; // connective dictionary does not contains the phrase
@@ -342,7 +248,7 @@ public class ConnDetection extends Model {
 				}
 			}
 		}
-		System.err.println("\nPrediction finished.");
+		System.err.println("\nDetection finished.");
 		return results;
 	}
 }
