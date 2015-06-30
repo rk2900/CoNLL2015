@@ -88,9 +88,8 @@ This output file is generated from the test data set whose label in unknown.
 
 
 
-<a name="ling"/>
-[lin]: A PDTB-styled end-to-end discourse parser
-<a name="kong"/>
-[kong]: A Constituent-Based Approach to Argument Labeling with Joint Inference in Discourse Parsing
-<a name="knott"/>
-[knott]: A Data-Driven Methodology for Motivating a Set of Coherence Relations
+[lin]<a name="ling"/>: A PDTB-styled end-to-end discourse parser
+
+[kong]<a name="kong"/>: A Constituent-Based Approach to Argument Labeling with Joint Inference in Discourse Parsing
+
+[knott]<a name="knott"/>: A Data-Driven Methodology for Motivating a Set of Coherence Relations
