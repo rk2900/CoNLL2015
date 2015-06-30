@@ -88,7 +88,7 @@ This output file is generated from the test data set whose label in unknown.
 
 ## Reference
 
-[lin]<a name="ling"/>: A PDTB-styled end-to-end discourse parser
+[lin]<a name="lin"/>: A PDTB-styled end-to-end discourse parser
 
 [kong]<a name="kong"/>: A Constituent-Based Approach to Argument Labeling with Joint Inference in Discourse Parsing
 
