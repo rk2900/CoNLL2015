@@ -1,0 +1,846 @@
+null[0.9973]  arg2[0.0026]  arg1[0.0001]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_SBAR_IN(so)_null con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_VP_>_VP_>_S_>_VP_>_VP_>_SBAR_>_S con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_VP_>_VP_>_S_>_VP_>_VP_>_SBAR_>_S:<=1
+null[0.0178]  arg2[0.9680]  arg1[0.0142]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NN_VP_null_PRT con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_VP_>_VP_>_S_>_VP_>_VP_>_NN con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_VP_>_VP_>_S_>_VP_>_VP_>_NN:<=1
+null[0.8798]  arg2[0.0036]  arg1[0.1167]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=PRT_VP_NN(wall)_NP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_VP_>_VP_>_S_>_VP_>_VP_>_PRT con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_VP_>_VP_>_S_>_VP_>_VP_>_PRT:<=1
+null[0.7230]  arg2[0.0082]  arg1[0.2688]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_VP_PRT_SBAR con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_VP_>_VP_>_S_>_VP_>_VP_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_VP_>_VP_>_S_>_VP_>_VP_>_NP:<=1
+null[0.1199]  arg2[0.0014]  arg1[0.8788]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=TO_VP_null_VP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_VP_>_VP_>_S_>_VP_>_TO con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_VP_>_VP_>_S_>_VP_>_TO:<=1
+null[0.0794]  arg2[0.0010]  arg1[0.9196]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VBG_VP_null_S con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_VP_>_VP_>_VBG con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_VP_>_VP_>_VBG:<=1
+null[0.1181]  arg2[0.0031]  arg1[0.8789]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VBD_VP_null_VP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_VP_>_VBD con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_VP_>_VBD:<=1
+null[0.1083]  arg2[0.0011]  arg1[0.8907]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=CC_S_null_SBAR con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_CC con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_CC:<=1
+null[0.5763]  arg2[0.0023]  arg1[0.4214]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=SBAR_S_CC(But)_,(,) con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_SBAR con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_SBAR:<=1
+null[0.5544]  arg2[0.0057]  arg1[0.4400]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=,_S_SBAR_NP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_, con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_,:<=1
+null[0.8081]  arg2[0.0008]  arg1[0.1911]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_S_,(,)_``(``) con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_NP:<=1
+null[0.1382]  arg2[0.0008]  arg1[0.8610]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=``_S_NP_VP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_`` con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_S_>_``:<=1
+null[0.5535]  arg2[0.0066]  arg1[0.4399]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=,_SINV_S_VP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_, con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_,:<=1
+null[0.9773]  arg2[0.0139]  arg1[0.0088]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VP_SINV_,(,)_NP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_VP con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_VP:<=1
+null[0.9614]  arg2[0.0236]  arg1[0.0150]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_SINV_VP_.(.) con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_NP con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_NP:<=1
+null[0.9948]  arg2[0.0034]  arg1[0.0018]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=._SINV_NP_null con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_. con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_VP_>_S_>_SINV_>_.:<=1
+null[0.9866]  arg2[0.0082]  arg1[0.0052]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=SINV_null_null_null con_nt_path=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_SINV con_nt_position=previous con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_SINV:<=1
+null[0.9990]  arg2[0.0001]  arg1[0.0009]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_SBAR_WHADVP_null con_nt_path=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S_>_SBAR_>_S con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S_>_SBAR_>_S:<=1
+null[0.1585]  arg2[0.5655]  arg1[0.2760]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=,_S_SBAR_NP con_nt_path=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S_>_, con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S_>_,:<=1
+null[0.9071]  arg2[0.0022]  arg1[0.0908]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_S_,(,)_VP con_nt_path=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S_>_NP con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S_>_NP:<=1
+null[0.8196]  arg2[0.0028]  arg1[0.1776]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VP_S_NP_null con_nt_path=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S_>_VP con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S_>_VP:<=1
+null[0.6467]  arg2[0.0113]  arg1[0.3420]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=,_S_S_''('') con_nt_path=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_, con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_,:<=1
+null[0.9643]  arg2[0.0003]  arg1[0.0354]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=''_S_,(,)_CC(but) con_nt_path=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_'' con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_'':<=1
+null[0.9426]  arg2[0.0081]  arg1[0.0493]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=CC_S_''('')_``(``) con_nt_path=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_CC con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_CC:<=1
+null[0.8451]  arg2[0.0219]  arg1[0.1330]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=``_S_CC(but)_S con_nt_path=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_`` con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_``:<=1
+null[0.9643]  arg2[0.0050]  arg1[0.0307]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_S_``(``)_null con_nt_path=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S:<=1
+null[0.7557]  arg2[0.1350]  arg1[0.1092]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=IN_SBAR_null_S con_nt_path=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_IN con_nt_position=left con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_IN:<=1
+null[0.1931]  arg2[0.0013]  arg1[0.8056]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VBZ_VP_null_SBAR con_nt_path=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_VBZ con_nt_position=left con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_VBZ:<=1
+null[0.7831]  arg2[0.0015]  arg1[0.2155]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_S_null_VP con_nt_path=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_NP con_nt_position=left con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_NP:<=1
+null[0.5405]  arg2[0.0002]  arg1[0.4593]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=._S_VP_null con_nt_path=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_. con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_S_>_SBAR_>_VP_>_S_>_.:<=1
+null[0.9084]  arg2[0.0129]  arg1[0.0786]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=3 con_irsib=2 nt_ctx=SINV_null_null_null con_nt_path=CC_>_S_>_SBAR_>_VP_>_S_>_SINV con_nt_position=previous con_nt_path_ilsib=CC_>_S_>_SBAR_>_VP_>_S_>_SINV:>1
+null[0.9994]  arg2[0.0004]  arg1[0.0002]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=3 con_irsib=2 nt_ctx=S_S_null_,(,) con_nt_path=CC_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S con_nt_position=left con_nt_path_ilsib=CC_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S:>1
+null[0.0561]  arg2[0.0067]  arg1[0.9372]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=3 con_irsib=2 nt_ctx=,_S_S_''('') con_nt_path=CC_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_, con_nt_position=left con_nt_path_ilsib=CC_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_,:>1
+null[0.9522]  arg2[0.0001]  arg1[0.0476]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=3 con_irsib=2 nt_ctx=''_S_,(,)_CC(but) con_nt_path=CC_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_'' con_nt_position=left con_nt_path_ilsib=CC_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_'':>1
+null[0.9777]  arg2[0.0013]  arg1[0.0210]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=3 con_irsib=2 nt_ctx=``_S_CC(but)_S con_nt_path=CC_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_`` con_nt_position=right con_nt_path_ilsib=CC_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_``:>1
+null[0.6121]  arg2[0.0212]  arg1[0.3667]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=3 con_irsib=2 nt_ctx=S_S_``(``)_null con_nt_path=CC_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S con_nt_position=right con_nt_path_ilsib=CC_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S:>1
+null[0.1594]  arg2[0.7311]  arg1[0.1094]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=3 con_irsib=2 nt_ctx=IN_SBAR_null_S con_nt_path=CC_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_IN con_nt_position=left con_nt_path_ilsib=CC_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_IN:>1
+null[0.1080]  arg2[0.0120]  arg1[0.8800]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=3 con_irsib=2 nt_ctx=VBZ_VP_null_SBAR con_nt_path=CC_>_S_>_SBAR_>_VP_>_S_>_VP_>_VBZ con_nt_position=left con_nt_path_ilsib=CC_>_S_>_SBAR_>_VP_>_S_>_VP_>_VBZ:>1
+null[0.9475]  arg2[0.0035]  arg1[0.0490]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=3 con_irsib=2 nt_ctx=NP_S_null_VP con_nt_path=CC_>_S_>_SBAR_>_VP_>_S_>_NP con_nt_position=left con_nt_path_ilsib=CC_>_S_>_SBAR_>_VP_>_S_>_NP:>1
+null[0.7882]  arg2[0.0015]  arg1[0.2103]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=3 con_irsib=2 nt_ctx=._S_VP_null con_nt_path=CC_>_S_>_SBAR_>_VP_>_S_>_. con_nt_position=right con_nt_path_ilsib=CC_>_S_>_SBAR_>_VP_>_S_>_.:>1
+null[0.9754]  arg2[0.0187]  arg1[0.0059]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=SINV_null_null_null con_nt_path=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_SINV con_nt_position=previous con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_SINV:<=1
+null[0.9991]  arg2[0.0002]  arg1[0.0008]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_SBAR_IN(as)_null con_nt_path=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S_>_VP_>_SBAR_>_S con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S_>_VP_>_SBAR_>_S:<=1
+null[0.0032]  arg2[0.9615]  arg1[0.0353]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VBD_VP_null_ADJP con_nt_path=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S_>_VP_>_VBD con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S_>_VP_>_VBD:<=1
+null[0.3119]  arg2[0.0034]  arg1[0.6847]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=ADJP_VP_VBD(became)_SBAR con_nt_path=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S_>_VP_>_ADJP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S_>_VP_>_ADJP:<=1
+null[0.3922]  arg2[0.0011]  arg1[0.6067]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_S_null_VP con_nt_path=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S_>_NP:<=1
+null[0.0403]  arg2[0.0000]  arg1[0.9596]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_S_null_,(,) con_nt_path=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_S:<=1
+null[0.9655]  arg2[0.0001]  arg1[0.0345]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=,_S_S_''('') con_nt_path=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_, con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_,:<=1
+null[0.9167]  arg2[0.0000]  arg1[0.0833]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=''_S_,(,)_CC(but) con_nt_path=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_'' con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_'':<=1
+null[0.6981]  arg2[0.0020]  arg1[0.2999]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=CC_S_''('')_``(``) con_nt_path=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_CC con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_CC:<=1
+null[0.0438]  arg2[0.0004]  arg1[0.9558]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=``_S_CC(but)_S con_nt_path=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_`` con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_``:<=1
+null[0.7918]  arg2[0.0014]  arg1[0.2068]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=IN_SBAR_null_S con_nt_path=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_IN con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_IN:<=1
+null[0.1444]  arg2[0.0030]  arg1[0.8527]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VBZ_VP_null_SBAR con_nt_path=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_VBZ con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_VP_>_VBZ:<=1
+null[0.7168]  arg2[0.0040]  arg1[0.2792]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_S_null_VP con_nt_path=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_NP:<=1
+null[0.9456]  arg2[0.0001]  arg1[0.0543]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=._S_VP_null con_nt_path=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_. con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_S_>_SBAR_>_VP_>_S_>_.:<=1
+null[0.9744]  arg2[0.0066]  arg1[0.0190]
+
+For context: con_str=But con_lstr=but con_cat=Coordinator con_ilsib=0 con_irsib=4 nt_ctx=S_null_null_null con_nt_path=CC_>_S_>_S con_nt_position=previous con_nt_path_ilsib=CC_>_S_>_S:<=1
+null[1.0000]  arg2[0.0000]  arg1[0.0000]
+
+For context: con_str=But con_lstr=but con_cat=Coordinator con_ilsib=0 con_irsib=4 nt_ctx=NP_S_CC(But)_ADVP con_nt_path=CC_>_S_>_NP con_nt_position=right con_nt_path_ilsib=CC_>_S_>_NP:<=1
+null[0.9999]  arg2[0.0001]  arg1[0.0000]
+
+For context: con_str=But con_lstr=but con_cat=Coordinator con_ilsib=0 con_irsib=4 nt_ctx=ADVP_S_NP_VP con_nt_path=CC_>_S_>_ADVP con_nt_position=right con_nt_path_ilsib=CC_>_S_>_ADVP:<=1
+null[0.9998]  arg2[0.0000]  arg1[0.0002]
+
+For context: con_str=But con_lstr=but con_cat=Coordinator con_ilsib=0 con_irsib=4 nt_ctx=VP_S_ADVP_.(.) con_nt_path=CC_>_S_>_VP con_nt_position=right con_nt_path_ilsib=CC_>_S_>_VP:<=1
+null[0.9997]  arg2[0.0002]  arg1[0.0000]
+
+For context: con_str=But con_lstr=but con_cat=Coordinator con_ilsib=0 con_irsib=4 nt_ctx=._S_VP_null con_nt_path=CC_>_S_>_. con_nt_position=right con_nt_path_ilsib=CC_>_S_>_.:<=1
+null[0.9999]  arg2[0.0000]  arg1[0.0001]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_null_null_null con_nt_path=WHADVP_>_SBAR_>_S_>_S con_nt_position=previous con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_S:<=1
+null[0.9987]  arg2[0.0012]  arg1[0.0002]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_SBAR_WHADVP_null con_nt_path=WHADVP_>_SBAR_>_S_>_SBAR_>_S con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_SBAR_>_S:<=1
+null[0.0177]  arg2[0.8635]  arg1[0.1187]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=``_S_null_SBAR con_nt_path=WHADVP_>_SBAR_>_S_>_`` con_nt_position=left con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_``:<=1
+null[0.9963]  arg2[0.0006]  arg1[0.0031]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=,_S_SBAR_NP con_nt_path=WHADVP_>_SBAR_>_S_>_, con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_,:<=1
+null[0.8622]  arg2[0.0041]  arg1[0.1338]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_S_,(,)_VP con_nt_path=WHADVP_>_SBAR_>_S_>_NP con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_NP:<=1
+null[0.0402]  arg2[0.0227]  arg1[0.9371]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VP_S_NP_.(.) con_nt_path=WHADVP_>_SBAR_>_S_>_VP con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_VP:<=1
+null[0.1426]  arg2[0.0170]  arg1[0.8405]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=._S_VP_''('') con_nt_path=WHADVP_>_SBAR_>_S_>_. con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_.:<=1
+null[0.9900]  arg2[0.0055]  arg1[0.0045]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=''_S_.(.)_null con_nt_path=WHADVP_>_SBAR_>_S_>_'' con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_'':<=1
+null[0.9473]  arg2[0.0110]  arg1[0.0416]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_null_null_null con_nt_path=WHADVP_>_SBAR_>_S_>_S con_nt_position=previous con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_S:<=1
+null[0.9987]  arg2[0.0012]  arg1[0.0002]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_SBAR_WHADVP_null con_nt_path=WHADVP_>_SBAR_>_S_>_SBAR_>_S con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_SBAR_>_S:<=1
+null[0.0177]  arg2[0.8635]  arg1[0.1187]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=``_S_null_SBAR con_nt_path=WHADVP_>_SBAR_>_S_>_`` con_nt_position=left con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_``:<=1
+null[0.9963]  arg2[0.0006]  arg1[0.0031]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=,_S_SBAR_NP con_nt_path=WHADVP_>_SBAR_>_S_>_, con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_,:<=1
+null[0.8622]  arg2[0.0041]  arg1[0.1338]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_S_,(,)_VP con_nt_path=WHADVP_>_SBAR_>_S_>_NP con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_NP:<=1
+null[0.0402]  arg2[0.0227]  arg1[0.9371]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VP_S_NP_.(.) con_nt_path=WHADVP_>_SBAR_>_S_>_VP con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_VP:<=1
+null[0.1426]  arg2[0.0170]  arg1[0.8405]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=._S_VP_''('') con_nt_path=WHADVP_>_SBAR_>_S_>_. con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_.:<=1
+null[0.9900]  arg2[0.0055]  arg1[0.0045]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=''_S_.(.)_null con_nt_path=WHADVP_>_SBAR_>_S_>_'' con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_S_>_'':<=1
+null[0.9473]  arg2[0.0110]  arg1[0.0416]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_null_null_null con_nt_path=WHADVP_>_SBAR_>_VP_>_S_>_S con_nt_position=previous con_nt_path_ilsib=WHADVP_>_SBAR_>_VP_>_S_>_S:<=1
+null[0.9991]  arg2[0.0007]  arg1[0.0002]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_SBAR_WHADVP_null con_nt_path=WHADVP_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S:<=1
+null[0.0261]  arg2[0.9381]  arg1[0.0358]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VBZ_VP_null_NP con_nt_path=WHADVP_>_SBAR_>_VP_>_S_>_VP_>_VBZ con_nt_position=left con_nt_path_ilsib=WHADVP_>_SBAR_>_VP_>_S_>_VP_>_VBZ:<=1
+null[0.1432]  arg2[0.0012]  arg1[0.8556]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_VP_VBZ('s)_SBAR con_nt_path=WHADVP_>_SBAR_>_VP_>_S_>_VP_>_NP con_nt_position=left con_nt_path_ilsib=WHADVP_>_SBAR_>_VP_>_S_>_VP_>_NP:<=1
+null[0.0161]  arg2[0.0010]  arg1[0.9829]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_S_null_VP con_nt_path=WHADVP_>_SBAR_>_VP_>_S_>_NP con_nt_position=left con_nt_path_ilsib=WHADVP_>_SBAR_>_VP_>_S_>_NP:<=1
+null[0.0473]  arg2[0.0002]  arg1[0.9524]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=._S_VP_null con_nt_path=WHADVP_>_SBAR_>_VP_>_S_>_. con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_VP_>_S_>_.:<=1
+null[0.9819]  arg2[0.0026]  arg1[0.0156]
+
+For context: con_str=if con_lstr=if con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_null_null_null con_nt_path=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_S con_nt_position=previous con_nt_path_ilsib=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_S:<=1
+null[0.9992]  arg2[0.0007]  arg1[0.0001]
+
+For context: con_str=if con_lstr=if con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_SBAR_IN(if)_null con_nt_path=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_S_>_VP_>_S_>_SBAR_>_S con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_S_>_VP_>_S_>_SBAR_>_S:<=1
+null[0.0121]  arg2[0.0225]  arg1[0.9654]
+
+For context: con_str=if con_lstr=if con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=,_S_SBAR_NP con_nt_path=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_S_>_VP_>_S_>_, con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_S_>_VP_>_S_>_,:<=1
+null[0.0840]  arg2[0.0002]  arg1[0.9158]
+
+For context: con_str=if con_lstr=if con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_S_,(,)_VP con_nt_path=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_S_>_VP_>_S_>_NP con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_S_>_VP_>_S_>_NP:<=1
+null[0.0726]  arg2[0.0003]  arg1[0.9272]
+
+For context: con_str=if con_lstr=if con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VP_S_NP_null con_nt_path=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_S_>_VP_>_S_>_VP con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_S_>_VP_>_S_>_VP:<=1
+null[0.0555]  arg2[0.0010]  arg1[0.9435]
+
+For context: con_str=if con_lstr=if con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VBZ_VP_null_,(,) con_nt_path=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_S_>_VP_>_VBZ con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_S_>_VP_>_VBZ:<=1
+null[0.9843]  arg2[0.0002]  arg1[0.0155]
+
+For context: con_str=if con_lstr=if con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=,_VP_VBZ(is)_S con_nt_path=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_S_>_VP_>_, con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_S_>_VP_>_,:<=1
+null[0.0975]  arg2[0.0001]  arg1[0.9024]
+
+For context: con_str=if con_lstr=if con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_S_null_VP con_nt_path=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_S_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_S_>_NP:<=1
+null[0.9626]  arg2[0.0000]  arg1[0.0374]
+
+For context: con_str=if con_lstr=if con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=``_SINV_null_S con_nt_path=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_`` con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_``:<=1
+null[0.9719]  arg2[0.0001]  arg1[0.0279]
+
+For context: con_str=if con_lstr=if con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=,_SINV_S_''('') con_nt_path=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_, con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_,:<=1
+null[0.9650]  arg2[0.0175]  arg1[0.0174]
+
+For context: con_str=if con_lstr=if con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=''_SINV_,(,)_VP con_nt_path=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_'' con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_'':<=1
+null[0.9943]  arg2[0.0039]  arg1[0.0018]
+
+For context: con_str=if con_lstr=if con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VP_SINV_''('')_NP con_nt_path=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_VP con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_VP:<=1
+null[0.9980]  arg2[0.0002]  arg1[0.0018]
+
+For context: con_str=if con_lstr=if con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_SINV_VP_.(.) con_nt_path=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_NP con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_NP:<=1
+null[0.9958]  arg2[0.0010]  arg1[0.0032]
+
+For context: con_str=if con_lstr=if con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=._SINV_NP_null con_nt_path=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_. con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_S_>_VP_>_S_>_SINV_>_.:<=1
+null[0.9853]  arg2[0.0031]  arg1[0.0117]
+
+For context: con_str=So con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=3 nt_ctx=S_null_null_null con_nt_path=RB_>_S_>_S con_nt_position=previous con_nt_path_ilsib=RB_>_S_>_S:<=1
+null[0.9996]  arg2[0.0004]  arg1[0.0000]
+
+For context: con_str=So con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=3 nt_ctx=PRN_S_RB(So)_VP con_nt_path=RB_>_S_>_PRN con_nt_position=right con_nt_path_ilsib=RB_>_S_>_PRN:<=1
+null[0.9917]  arg2[0.0060]  arg1[0.0022]
+
+For context: con_str=So con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=3 nt_ctx=VP_S_PRN_.(.) con_nt_path=RB_>_S_>_VP con_nt_position=right con_nt_path_ilsib=RB_>_S_>_VP:<=1
+null[0.9739]  arg2[0.0245]  arg1[0.0016]
+
+For context: con_str=So con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=3 nt_ctx=._S_VP_null con_nt_path=RB_>_S_>_. con_nt_position=right con_nt_path_ilsib=RB_>_S_>_.:<=1
+null[0.9976]  arg2[0.0021]  arg1[0.0003]
+
+For context: con_str=For_instance con_lstr=for_instance con_cat=Conj-adverb con_ilsib=0 con_irsib=3 nt_ctx=S_null_null_null con_nt_path=PP_>_S_>_S_>_S con_nt_position=previous con_nt_path_ilsib=PP_>_S_>_S_>_S:<=1
+null[1.0000]  arg2[0.0000]  arg1[0.0000]
+
+For context: con_str=For_instance con_lstr=for_instance con_cat=Conj-adverb con_ilsib=0 con_irsib=3 nt_ctx=,_S_PP_NP con_nt_path=PP_>_S_>_S_>_S_>_, con_nt_position=right con_nt_path_ilsib=PP_>_S_>_S_>_S_>_,:<=1
+null[0.9931]  arg2[0.0060]  arg1[0.0009]
+
+For context: con_str=For_instance con_lstr=for_instance con_cat=Conj-adverb con_ilsib=0 con_irsib=3 nt_ctx=NP_S_,(,)_VP con_nt_path=PP_>_S_>_S_>_S_>_NP con_nt_position=right con_nt_path_ilsib=PP_>_S_>_S_>_S_>_NP:<=1
+null[0.8668]  arg2[0.1316]  arg1[0.0016]
+
+For context: con_str=For_instance con_lstr=for_instance con_cat=Conj-adverb con_ilsib=0 con_irsib=3 nt_ctx=VP_S_NP_null con_nt_path=PP_>_S_>_S_>_S_>_VP con_nt_position=right con_nt_path_ilsib=PP_>_S_>_S_>_S_>_VP:<=1
+null[0.8426]  arg2[0.1544]  arg1[0.0030]
+
+For context: con_str=For_instance con_lstr=for_instance con_cat=Conj-adverb con_ilsib=0 con_irsib=3 nt_ctx=:_S_S_``(``) con_nt_path=PP_>_S_>_S_>_: con_nt_position=right con_nt_path_ilsib=PP_>_S_>_S_>_::<=1
+null[0.9854]  arg2[0.0138]  arg1[0.0007]
+
+For context: con_str=For_instance con_lstr=for_instance con_cat=Conj-adverb con_ilsib=0 con_irsib=3 nt_ctx=``_S_:(:)_S con_nt_path=PP_>_S_>_S_>_`` con_nt_position=right con_nt_path_ilsib=PP_>_S_>_S_>_``:<=1
+null[0.9769]  arg2[0.0211]  arg1[0.0020]
+
+For context: con_str=For_instance con_lstr=for_instance con_cat=Conj-adverb con_ilsib=0 con_irsib=3 nt_ctx=S_S_``(``)_.(.) con_nt_path=PP_>_S_>_S_>_S con_nt_position=right con_nt_path_ilsib=PP_>_S_>_S_>_S:<=1
+null[0.9757]  arg2[0.0031]  arg1[0.0212]
+
+For context: con_str=For_instance con_lstr=for_instance con_cat=Conj-adverb con_ilsib=0 con_irsib=3 nt_ctx=._S_S_''('') con_nt_path=PP_>_S_>_S_>_. con_nt_position=right con_nt_path_ilsib=PP_>_S_>_S_>_.:<=1
+null[0.9911]  arg2[0.0086]  arg1[0.0003]
+
+For context: con_str=For_instance con_lstr=for_instance con_cat=Conj-adverb con_ilsib=0 con_irsib=3 nt_ctx=''_S_.(.)_null con_nt_path=PP_>_S_>_S_>_'' con_nt_position=right con_nt_path_ilsib=PP_>_S_>_S_>_'':<=1
+null[0.9906]  arg2[0.0091]  arg1[0.0004]
+
+For context: con_str=But con_lstr=but con_cat=Coordinator con_ilsib=0 con_irsib=3 nt_ctx=S_null_null_null con_nt_path=CC_>_S_>_S con_nt_position=previous con_nt_path_ilsib=CC_>_S_>_S:<=1
+null[1.0000]  arg2[0.0000]  arg1[0.0000]
+
+For context: con_str=But con_lstr=but con_cat=Coordinator con_ilsib=0 con_irsib=3 nt_ctx=NP_S_CC(But)_VP con_nt_path=CC_>_S_>_NP con_nt_position=right con_nt_path_ilsib=CC_>_S_>_NP:<=1
+null[0.9999]  arg2[0.0000]  arg1[0.0001]
+
+For context: con_str=But con_lstr=but con_cat=Coordinator con_ilsib=0 con_irsib=3 nt_ctx=VP_S_NP_.(.) con_nt_path=CC_>_S_>_VP con_nt_position=right con_nt_path_ilsib=CC_>_S_>_VP:<=1
+null[0.9998]  arg2[0.0001]  arg1[0.0001]
+
+For context: con_str=But con_lstr=but con_cat=Coordinator con_ilsib=0 con_irsib=3 nt_ctx=._S_VP_null con_nt_path=CC_>_S_>_. con_nt_position=right con_nt_path_ilsib=CC_>_S_>_.:<=1
+null[0.9998]  arg2[0.0001]  arg1[0.0002]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=1 con_irsib=2 nt_ctx=S_null_null_null con_nt_path=CC_>_S_>_S con_nt_position=previous con_nt_path_ilsib=CC_>_S_>_S:<=1
+null[0.9801]  arg2[0.0198]  arg1[0.0001]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=1 con_irsib=2 nt_ctx=S_S_null_CC(but) con_nt_path=CC_>_S_>_S con_nt_position=left con_nt_path_ilsib=CC_>_S_>_S:<=1
+null[0.2269]  arg2[0.0237]  arg1[0.7494]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=1 con_irsib=2 nt_ctx=S_S_CC(but)_.(.) con_nt_path=CC_>_S_>_S con_nt_position=right con_nt_path_ilsib=CC_>_S_>_S:<=1
+null[0.1479]  arg2[0.8243]  arg1[0.0279]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=1 con_irsib=2 nt_ctx=._S_S_null con_nt_path=CC_>_S_>_. con_nt_position=right con_nt_path_ilsib=CC_>_S_>_.:<=1
+null[0.9657]  arg2[0.0291]  arg1[0.0052]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=S_null_null_null con_nt_path=CC_>_S_>_S con_nt_position=previous con_nt_path_ilsib=CC_>_S_>_S:>1
+null[0.9705]  arg2[0.0292]  arg1[0.0003]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=S_S_null_,(,) con_nt_path=CC_>_S_>_S con_nt_position=left con_nt_path_ilsib=CC_>_S_>_S:>1
+null[0.1621]  arg2[0.0214]  arg1[0.8165]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=,_S_S_CC(but) con_nt_path=CC_>_S_>_, con_nt_position=left con_nt_path_ilsib=CC_>_S_>_,:>1
+null[0.9719]  arg2[0.0000]  arg1[0.0281]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=S_S_CC(but)_.(.) con_nt_path=CC_>_S_>_S con_nt_position=right con_nt_path_ilsib=CC_>_S_>_S:>1
+null[0.1022]  arg2[0.8483]  arg1[0.0496]
+
+For context: con_str=but con_lstr=but con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=._S_S_null con_nt_path=CC_>_S_>_. con_nt_position=right con_nt_path_ilsib=CC_>_S_>_.:>1
+null[0.9801]  arg2[0.0161]  arg1[0.0039]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_null_null_null con_nt_path=IN_>_SBAR_>_VP_>_S_>_S con_nt_position=previous con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_S:<=1
+null[0.9986]  arg2[0.0012]  arg1[0.0002]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_SBAR_IN(while)_null con_nt_path=IN_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S:<=1
+null[0.0299]  arg2[0.9607]  arg1[0.0093]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VBD_VP_null_NP con_nt_path=IN_>_SBAR_>_VP_>_S_>_VP_>_VBD con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_VP_>_VBD:<=1
+null[0.0457]  arg2[0.0018]  arg1[0.9525]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_VP_VBD(grew)_PP con_nt_path=IN_>_SBAR_>_VP_>_S_>_VP_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_VP_>_NP:<=1
+null[0.0279]  arg2[0.0025]  arg1[0.9696]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=PP_VP_NP_PP con_nt_path=IN_>_SBAR_>_VP_>_S_>_VP_>_PP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_VP_>_PP:<=1
+null[0.0077]  arg2[0.0011]  arg1[0.9912]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=PP_VP_PP_,(,) con_nt_path=IN_>_SBAR_>_VP_>_S_>_VP_>_PP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_VP_>_PP:<=1
+null[0.0167]  arg2[0.0013]  arg1[0.9819]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=,_VP_PP_SBAR con_nt_path=IN_>_SBAR_>_VP_>_S_>_VP_>_, con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_VP_>_,:<=1
+null[0.9911]  arg2[0.0011]  arg1[0.0078]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_S_null_VP con_nt_path=IN_>_SBAR_>_VP_>_S_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_NP:<=1
+null[0.0773]  arg2[0.0003]  arg1[0.9224]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=._S_VP_null con_nt_path=IN_>_SBAR_>_VP_>_S_>_. con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_VP_>_S_>_.:<=1
+null[0.9818]  arg2[0.0038]  arg1[0.0144]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=S_null_null_null con_nt_path=CC_>_SBAR_>_VP_>_S_>_S con_nt_position=previous con_nt_path_ilsib=CC_>_SBAR_>_VP_>_S_>_S:<=1
+null[0.9978]  arg2[0.0022]  arg1[0.0000]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=SBAR_SBAR_null_CC(and) con_nt_path=CC_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR con_nt_position=left con_nt_path_ilsib=CC_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR:<=1
+null[0.1347]  arg2[0.0316]  arg1[0.8337]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=SBAR_SBAR_CC(and)_null con_nt_path=CC_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR con_nt_position=right con_nt_path_ilsib=CC_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR:<=1
+null[0.0497]  arg2[0.9218]  arg1[0.0285]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=VBP_VP_null_SBAR con_nt_path=CC_>_SBAR_>_VP_>_S_>_VP_>_VBP con_nt_position=left con_nt_path_ilsib=CC_>_SBAR_>_VP_>_S_>_VP_>_VBP:<=1
+null[0.9859]  arg2[0.0019]  arg1[0.0123]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=NP_S_null_VP con_nt_path=CC_>_SBAR_>_VP_>_S_>_NP con_nt_position=left con_nt_path_ilsib=CC_>_SBAR_>_VP_>_S_>_NP:<=1
+null[0.9967]  arg2[0.0007]  arg1[0.0026]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=._S_VP_''('') con_nt_path=CC_>_SBAR_>_VP_>_S_>_. con_nt_position=right con_nt_path_ilsib=CC_>_SBAR_>_VP_>_S_>_.:<=1
+null[0.9844]  arg2[0.0109]  arg1[0.0048]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=''_S_.(.)_null con_nt_path=CC_>_SBAR_>_VP_>_S_>_'' con_nt_position=right con_nt_path_ilsib=CC_>_SBAR_>_VP_>_S_>_'':<=1
+null[0.9849]  arg2[0.0105]  arg1[0.0046]
+
+For context: con_str=thus con_lstr=thus con_cat=Conj-adverb con_ilsib=2 con_irsib=1 nt_ctx=S_null_null_null con_nt_path=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_S con_nt_position=previous con_nt_path_ilsib=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_S:>1
+null[0.9930]  arg2[0.0070]  arg1[0.0001]
+
+For context: con_str=thus con_lstr=thus con_cat=Conj-adverb con_ilsib=2 con_irsib=1 nt_ctx=VP_VP_null_CC(and) con_nt_path=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR_>_S_>_VP_>_VP_>_VP con_nt_position=left con_nt_path_ilsib=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR_>_S_>_VP_>_VP_>_VP:>1
+null[0.3941]  arg2[0.0111]  arg1[0.5948]
+
+For context: con_str=thus con_lstr=thus con_cat=Conj-adverb con_ilsib=2 con_irsib=1 nt_ctx=CC_VP_VP_ADVP con_nt_path=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR_>_S_>_VP_>_VP_>_CC con_nt_position=left con_nt_path_ilsib=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR_>_S_>_VP_>_VP_>_CC:>1
+null[0.0608]  arg2[0.2274]  arg1[0.7118]
+
+For context: con_str=thus con_lstr=thus con_cat=Conj-adverb con_ilsib=2 con_irsib=1 nt_ctx=VP_VP_ADVP_null con_nt_path=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR_>_S_>_VP_>_VP_>_VP con_nt_position=right con_nt_path_ilsib=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR_>_S_>_VP_>_VP_>_VP:>1
+null[0.5151]  arg2[0.4442]  arg1[0.0407]
+
+For context: con_str=thus con_lstr=thus con_cat=Conj-adverb con_ilsib=2 con_irsib=1 nt_ctx=MD_VP_null_VP con_nt_path=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR_>_S_>_VP_>_MD con_nt_position=left con_nt_path_ilsib=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR_>_S_>_VP_>_MD:>1
+null[0.4580]  arg2[0.0101]  arg1[0.5319]
+
+For context: con_str=thus con_lstr=thus con_cat=Conj-adverb con_ilsib=2 con_irsib=1 nt_ctx=NP_S_null_VP con_nt_path=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR_>_S_>_NP con_nt_position=left con_nt_path_ilsib=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR_>_S_>_NP:>1
+null[0.7328]  arg2[0.0019]  arg1[0.2653]
+
+For context: con_str=thus con_lstr=thus con_cat=Conj-adverb con_ilsib=2 con_irsib=1 nt_ctx=IN_SBAR_null_S con_nt_path=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR_>_IN con_nt_position=left con_nt_path_ilsib=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR_>_IN:>1
+null[0.3541]  arg2[0.0164]  arg1[0.6296]
+
+For context: con_str=thus con_lstr=thus con_cat=Conj-adverb con_ilsib=2 con_irsib=1 nt_ctx=SBAR_SBAR_null_CC(and) con_nt_path=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR con_nt_position=left con_nt_path_ilsib=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_SBAR:>1
+null[0.2509]  arg2[0.0112]  arg1[0.7379]
+
+For context: con_str=thus con_lstr=thus con_cat=Conj-adverb con_ilsib=2 con_irsib=1 nt_ctx=CC_SBAR_SBAR_SBAR con_nt_path=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_CC con_nt_position=left con_nt_path_ilsib=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_CC:>1
+null[0.6312]  arg2[0.0792]  arg1[0.2896]
+
+For context: con_str=thus con_lstr=thus con_cat=Conj-adverb con_ilsib=2 con_irsib=1 nt_ctx=VBP_VP_null_SBAR con_nt_path=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_VBP con_nt_position=left con_nt_path_ilsib=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_VP_>_VBP:>1
+null[0.9202]  arg2[0.0117]  arg1[0.0682]
+
+For context: con_str=thus con_lstr=thus con_cat=Conj-adverb con_ilsib=2 con_irsib=1 nt_ctx=NP_S_null_VP con_nt_path=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_NP con_nt_position=left con_nt_path_ilsib=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_NP:>1
+null[0.7328]  arg2[0.0019]  arg1[0.2653]
+
+For context: con_str=thus con_lstr=thus con_cat=Conj-adverb con_ilsib=2 con_irsib=1 nt_ctx=._S_VP_''('') con_nt_path=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_. con_nt_position=right con_nt_path_ilsib=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_.:>1
+null[0.8802]  arg2[0.0862]  arg1[0.0335]
+
+For context: con_str=thus con_lstr=thus con_cat=Conj-adverb con_ilsib=2 con_irsib=1 nt_ctx=''_S_.(.)_null con_nt_path=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_'' con_nt_position=right con_nt_path_ilsib=ADVP_>_VP_>_VP_>_S_>_SBAR_>_SBAR_>_VP_>_S_>_'':>1
+null[0.8829]  arg2[0.0843]  arg1[0.0328]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=3 con_irsib=1 nt_ctx=S_null_null_null con_nt_path=ADVP_>_VP_>_S_>_S con_nt_position=previous con_nt_path_ilsib=ADVP_>_VP_>_S_>_S:>1
+null[0.8968]  arg2[0.1031]  arg1[0.0000]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=3 con_irsib=1 nt_ctx=VP_VP_null_,(,) con_nt_path=ADVP_>_VP_>_S_>_VP_>_VP con_nt_position=left con_nt_path_ilsib=ADVP_>_VP_>_S_>_VP_>_VP:>1
+null[0.5614]  arg2[0.0383]  arg1[0.4004]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=3 con_irsib=1 nt_ctx=,_VP_VP_CC(and) con_nt_path=ADVP_>_VP_>_S_>_VP_>_, con_nt_position=left con_nt_path_ilsib=ADVP_>_VP_>_S_>_VP_>_,:>1
+null[0.9958]  arg2[0.0014]  arg1[0.0028]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=3 con_irsib=1 nt_ctx=CC_VP_,(,)_ADVP con_nt_path=ADVP_>_VP_>_S_>_VP_>_CC con_nt_position=left con_nt_path_ilsib=ADVP_>_VP_>_S_>_VP_>_CC:>1
+null[0.0604]  arg2[0.9320]  arg1[0.0075]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=3 con_irsib=1 nt_ctx=VP_VP_ADVP_null con_nt_path=ADVP_>_VP_>_S_>_VP_>_VP con_nt_position=right con_nt_path_ilsib=ADVP_>_VP_>_S_>_VP_>_VP:>1
+null[0.2166]  arg2[0.7669]  arg1[0.0165]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=3 con_irsib=1 nt_ctx=NP_S_null_VP con_nt_path=ADVP_>_VP_>_S_>_NP con_nt_position=left con_nt_path_ilsib=ADVP_>_VP_>_S_>_NP:>1
+null[0.8744]  arg2[0.0137]  arg1[0.1119]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=3 con_irsib=1 nt_ctx=._S_VP_null con_nt_path=ADVP_>_VP_>_S_>_. con_nt_position=right con_nt_path_ilsib=ADVP_>_VP_>_S_>_.:>1
+null[0.9801]  arg2[0.0173]  arg1[0.0026]
+
+For context: con_str=however con_lstr=however con_cat=Conj-adverb con_ilsib=2 con_irsib=4 nt_ctx=S_null_null_null con_nt_path=ADVP_>_S_>_S con_nt_position=previous con_nt_path_ilsib=ADVP_>_S_>_S:>1
+null[0.9709]  arg2[0.0291]  arg1[0.0000]
+
+For context: con_str=however con_lstr=however con_cat=Conj-adverb con_ilsib=2 con_irsib=4 nt_ctx=PP_S_null_,(,) con_nt_path=ADVP_>_S_>_PP con_nt_position=left con_nt_path_ilsib=ADVP_>_S_>_PP:>1
+null[0.9977]  arg2[0.0022]  arg1[0.0002]
+
+For context: con_str=however con_lstr=however con_cat=Conj-adverb con_ilsib=2 con_irsib=4 nt_ctx=,_S_PP_ADVP con_nt_path=ADVP_>_S_>_, con_nt_position=left con_nt_path_ilsib=ADVP_>_S_>_,:>1
+null[0.9940]  arg2[0.0059]  arg1[0.0001]
+
+For context: con_str=however con_lstr=however con_cat=Conj-adverb con_ilsib=2 con_irsib=4 nt_ctx=,_S_ADVP_NP con_nt_path=ADVP_>_S_>_, con_nt_position=right con_nt_path_ilsib=ADVP_>_S_>_,:>1
+null[0.9963]  arg2[0.0037]  arg1[0.0000]
+
+For context: con_str=however con_lstr=however con_cat=Conj-adverb con_ilsib=2 con_irsib=4 nt_ctx=NP_S_,(,)_VP con_nt_path=ADVP_>_S_>_NP con_nt_position=right con_nt_path_ilsib=ADVP_>_S_>_NP:>1
+null[0.9901]  arg2[0.0099]  arg1[0.0000]
+
+For context: con_str=however con_lstr=however con_cat=Conj-adverb con_ilsib=2 con_irsib=4 nt_ctx=VP_S_NP_.(.) con_nt_path=ADVP_>_S_>_VP con_nt_position=right con_nt_path_ilsib=ADVP_>_S_>_VP:>1
+null[0.9972]  arg2[0.0028]  arg1[0.0000]
+
+For context: con_str=however con_lstr=however con_cat=Conj-adverb con_ilsib=2 con_irsib=4 nt_ctx=._S_VP_null con_nt_path=ADVP_>_S_>_. con_nt_position=right con_nt_path_ilsib=ADVP_>_S_>_.:>1
+null[0.9976]  arg2[0.0024]  arg1[0.0000]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_null_null_null con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_S con_nt_position=previous con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_S:<=1
+null[0.9992]  arg2[0.0007]  arg1[0.0001]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_SBAR_IN(while)_null con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_VP_>_SBAR_>_S con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_VP_>_SBAR_>_S:<=1
+null[0.0419]  arg2[0.8510]  arg1[0.1071]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VBN_VP_null_NP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_VP_>_VBN con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_VP_>_VBN:<=1
+null[0.0422]  arg2[0.0003]  arg1[0.9575]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_VP_VBN(set)_PP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_VP_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_VP_>_NP:<=1
+null[0.0141]  arg2[0.0025]  arg1[0.9834]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=PP_VP_NP_SBAR con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_VP_>_PP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_VP_>_PP:<=1
+null[0.0284]  arg2[0.0004]  arg1[0.9712]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VBZ_VP_null_VP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_VBZ con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_VBZ:<=1
+null[0.0396]  arg2[0.0000]  arg1[0.9604]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_S_null_VP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_NP:<=1
+null[0.0290]  arg2[0.0004]  arg1[0.9705]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VBD_VP_null_SBAR con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_VBD con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_VBD:<=1
+null[0.9728]  arg2[0.0017]  arg1[0.0255]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_S_null_VP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_NP:<=1
+null[0.9496]  arg2[0.0004]  arg1[0.0501]
+
+For context: con_str=while con_lstr=while con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=._S_VP_null con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_. con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_SBAR_>_VP_>_S_>_.:<=1
+null[0.9804]  arg2[0.0041]  arg1[0.0155]
+
+For context: con_str=after con_lstr=after con_cat=Conj-adverb con_ilsib=0 con_irsib=1 nt_ctx=S_null_null_null con_nt_path=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_S con_nt_position=previous con_nt_path_ilsib=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_S:<=1
+null[0.9986]  arg2[0.0013]  arg1[0.0002]
+
+For context: con_str=after con_lstr=after con_cat=Conj-adverb con_ilsib=0 con_irsib=1 nt_ctx=S_PP_IN(after)_null con_nt_path=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_PP_>_S con_nt_position=right con_nt_path_ilsib=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_PP_>_S:<=1
+null[0.0127]  arg2[0.9370]  arg1[0.0503]
+
+For context: con_str=after con_lstr=after con_cat=Conj-adverb con_ilsib=0 con_irsib=1 nt_ctx=VBD_VP_null_NP con_nt_path=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_VBD con_nt_position=left con_nt_path_ilsib=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_VBD:<=1
+null[0.1200]  arg2[0.0018]  arg1[0.8783]
+
+For context: con_str=after con_lstr=after con_cat=Conj-adverb con_ilsib=0 con_irsib=1 nt_ctx=NP_VP_VBD(increased)_PP con_nt_path=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_NP:<=1
+null[0.0181]  arg2[0.0003]  arg1[0.9816]
+
+For context: con_str=after con_lstr=after con_cat=Conj-adverb con_ilsib=0 con_irsib=1 nt_ctx=PP_VP_NP_PP con_nt_path=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_PP con_nt_position=left con_nt_path_ilsib=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_PP:<=1
+null[0.0125]  arg2[0.0202]  arg1[0.9673]
+
+For context: con_str=after con_lstr=after con_cat=Conj-adverb con_ilsib=0 con_irsib=1 nt_ctx=,_VP_PP_S con_nt_path=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_, con_nt_position=right con_nt_path_ilsib=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_,:<=1
+null[0.1071]  arg2[0.8893]  arg1[0.0036]
+
+For context: con_str=after con_lstr=after con_cat=Conj-adverb con_ilsib=0 con_irsib=1 nt_ctx=S_VP_,(,)_null con_nt_path=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_S con_nt_position=right con_nt_path_ilsib=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_VP_>_S:<=1
+null[0.8856]  arg2[0.0528]  arg1[0.0616]
+
+For context: con_str=after con_lstr=after con_cat=Conj-adverb con_ilsib=0 con_irsib=1 nt_ctx=NP_S_null_VP con_nt_path=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_SBAR_>_S_>_NP:<=1
+null[0.1431]  arg2[0.0003]  arg1[0.8566]
+
+For context: con_str=after con_lstr=after con_cat=Conj-adverb con_ilsib=0 con_irsib=1 nt_ctx=VBD_VP_null_SBAR con_nt_path=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_VBD con_nt_position=left con_nt_path_ilsib=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_VP_>_VBD:<=1
+null[0.9730]  arg2[0.0003]  arg1[0.0267]
+
+For context: con_str=after con_lstr=after con_cat=Conj-adverb con_ilsib=0 con_irsib=1 nt_ctx=NP_S_null_VP con_nt_path=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_NP:<=1
+null[0.9526]  arg2[0.0000]  arg1[0.0473]
+
+For context: con_str=after con_lstr=after con_cat=Conj-adverb con_ilsib=0 con_irsib=1 nt_ctx=._S_VP_null con_nt_path=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_. con_nt_position=right con_nt_path_ilsib=IN_>_PP_>_VP_>_S_>_SBAR_>_VP_>_S_>_.:<=1
+null[0.9787]  arg2[0.0045]  arg1[0.0168]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=S_null_null_null con_nt_path=CC_>_S_>_S con_nt_position=previous con_nt_path_ilsib=CC_>_S_>_S:>1
+null[0.9776]  arg2[0.0220]  arg1[0.0004]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=S_S_null_,(,) con_nt_path=CC_>_S_>_S con_nt_position=left con_nt_path_ilsib=CC_>_S_>_S:>1
+null[0.1184]  arg2[0.0117]  arg1[0.8699]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=,_S_S_CC(and) con_nt_path=CC_>_S_>_, con_nt_position=left con_nt_path_ilsib=CC_>_S_>_,:>1
+null[0.9917]  arg2[0.0002]  arg1[0.0081]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=S_S_CC(and)_.(.) con_nt_path=CC_>_S_>_S con_nt_position=right con_nt_path_ilsib=CC_>_S_>_S:>1
+null[0.0713]  arg2[0.9143]  arg1[0.0145]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=._S_S_null con_nt_path=CC_>_S_>_. con_nt_position=right con_nt_path_ilsib=CC_>_S_>_.:>1
+null[0.9823]  arg2[0.0121]  arg1[0.0057]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=S_null_null_null con_nt_path=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_S con_nt_position=previous con_nt_path_ilsib=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_S:<=1
+null[0.9965]  arg2[0.0034]  arg1[0.0000]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=S_S_null_CC(and) con_nt_path=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_PP_>_NP_>_SBAR_>_S_>_S con_nt_position=left con_nt_path_ilsib=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_PP_>_NP_>_SBAR_>_S_>_S:<=1
+null[0.2511]  arg2[0.0118]  arg1[0.7371]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=S_S_CC(and)_null con_nt_path=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_PP_>_NP_>_SBAR_>_S_>_S con_nt_position=right con_nt_path_ilsib=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_PP_>_NP_>_SBAR_>_S_>_S:<=1
+null[0.2291]  arg2[0.7683]  arg1[0.0026]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=NP_NP_null_SBAR con_nt_path=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_PP_>_NP_>_NP con_nt_position=left con_nt_path_ilsib=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_PP_>_NP_>_NP:<=1
+null[0.7807]  arg2[0.0072]  arg1[0.2121]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=IN_PP_null_NP con_nt_path=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_PP_>_IN con_nt_position=left con_nt_path_ilsib=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_PP_>_IN:<=1
+null[0.7654]  arg2[0.0038]  arg1[0.2309]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=,_S_PP_NP con_nt_path=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_, con_nt_position=right con_nt_path_ilsib=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_,:<=1
+null[0.9425]  arg2[0.0166]  arg1[0.0409]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=NP_S_,(,)_VP con_nt_path=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_NP con_nt_position=right con_nt_path_ilsib=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_NP:<=1
+null[0.9412]  arg2[0.0103]  arg1[0.0485]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=VP_S_NP_.(.) con_nt_path=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_VP con_nt_position=right con_nt_path_ilsib=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_VP:<=1
+null[0.9604]  arg2[0.0058]  arg1[0.0338]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=._S_VP_null con_nt_path=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_. con_nt_position=right con_nt_path_ilsib=CC_>_S_>_SBAR_>_NP_>_PP_>_S_>_.:<=1
+null[0.9371]  arg2[0.0436]  arg1[0.0193]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_null_null_null con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_S con_nt_position=previous con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_S:<=1
+null[0.9978]  arg2[0.0020]  arg1[0.0002]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_SBAR_IN(as)_null con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_VP_>_SBAR_>_S con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_VP_>_SBAR_>_S:<=1
+null[0.0067]  arg2[0.9209]  arg1[0.0724]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VB_VP_null_SBAR con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_VP_>_VB con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_VP_>_VB:<=1
+null[0.0428]  arg2[0.0005]  arg1[0.9566]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=TO_VP_null_VP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_TO con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_TO:<=1
+null[0.0247]  arg2[0.0002]  arg1[0.9751]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VB_VP_null_S con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_VB con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_VB:<=1
+null[0.2857]  arg2[0.0012]  arg1[0.7131]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_S_null_VP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_NP:<=1
+null[0.0442]  arg2[0.0001]  arg1[0.9558]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VBD_VP_null_S con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_VBD con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_VBD:<=1
+null[0.9518]  arg2[0.0003]  arg1[0.0479]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=PP_S_null_,(,) con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_PP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_PP:<=1
+null[0.4195]  arg2[0.0017]  arg1[0.5788]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=,_S_PP_NP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_, con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_,:<=1
+null[0.3996]  arg2[0.0007]  arg1[0.5997]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_S_,(,)_VP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_NP:<=1
+null[0.1753]  arg2[0.0003]  arg1[0.8244]
+
+For context: con_str=as con_lstr=as con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=._S_VP_null con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_. con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_.:<=1
+null[0.9759]  arg2[0.0062]  arg1[0.0179]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_null_null_null con_nt_path=WHADVP_>_SBAR_>_SINV_>_S con_nt_position=previous con_nt_path_ilsib=WHADVP_>_SBAR_>_SINV_>_S:<=1
+null[0.9982]  arg2[0.0018]  arg1[0.0000]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_SBAR_WHADVP_null con_nt_path=WHADVP_>_SBAR_>_SINV_>_SBAR_>_S con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_SINV_>_SBAR_>_S:<=1
+null[0.1347]  arg2[0.8126]  arg1[0.0528]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=,_SINV_SBAR_ADVP con_nt_path=WHADVP_>_SBAR_>_SINV_>_, con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_SINV_>_,:<=1
+null[0.9762]  arg2[0.0132]  arg1[0.0107]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=ADVP_SINV_,(,)_SINV con_nt_path=WHADVP_>_SBAR_>_SINV_>_ADVP con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_SINV_>_ADVP:<=1
+null[0.9265]  arg2[0.0406]  arg1[0.0328]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=SINV_SINV_ADVP_.(.) con_nt_path=WHADVP_>_SBAR_>_SINV_>_SINV con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_SINV_>_SINV:<=1
+null[0.9265]  arg2[0.0406]  arg1[0.0328]
+
+For context: con_str=When con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=._SINV_SINV_null con_nt_path=WHADVP_>_SBAR_>_SINV_>_. con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_SINV_>_.:<=1
+null[0.9265]  arg2[0.0406]  arg1[0.0328]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=S_null_null_null con_nt_path=CC_>_S_>_S con_nt_position=previous con_nt_path_ilsib=CC_>_S_>_S:>1
+null[0.9776]  arg2[0.0220]  arg1[0.0004]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=S_S_null_,(,) con_nt_path=CC_>_S_>_S con_nt_position=left con_nt_path_ilsib=CC_>_S_>_S:>1
+null[0.1184]  arg2[0.0117]  arg1[0.8699]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=,_S_S_CC(and) con_nt_path=CC_>_S_>_, con_nt_position=left con_nt_path_ilsib=CC_>_S_>_,:>1
+null[0.9917]  arg2[0.0002]  arg1[0.0081]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=S_S_CC(and)_.(.) con_nt_path=CC_>_S_>_S con_nt_position=right con_nt_path_ilsib=CC_>_S_>_S:>1
+null[0.0713]  arg2[0.9143]  arg1[0.0145]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=._S_S_null con_nt_path=CC_>_S_>_. con_nt_position=right con_nt_path_ilsib=CC_>_S_>_.:>1
+null[0.9823]  arg2[0.0121]  arg1[0.0057]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_null_null_null con_nt_path=WHADVP_>_SBAR_>_VP_>_S_>_S_>_S con_nt_position=previous con_nt_path_ilsib=WHADVP_>_SBAR_>_VP_>_S_>_S_>_S:<=1
+null[0.9985]  arg2[0.0014]  arg1[0.0000]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_SBAR_WHADVP_null con_nt_path=WHADVP_>_SBAR_>_VP_>_S_>_S_>_S_>_VP_>_SBAR_>_S con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_VP_>_S_>_S_>_S_>_VP_>_SBAR_>_S:<=1
+null[0.0140]  arg2[0.9616]  arg1[0.0244]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VBD_VP_null_NP con_nt_path=WHADVP_>_SBAR_>_VP_>_S_>_S_>_S_>_VP_>_VBD con_nt_position=left con_nt_path_ilsib=WHADVP_>_SBAR_>_VP_>_S_>_S_>_S_>_VP_>_VBD:<=1
+null[0.0452]  arg2[0.0001]  arg1[0.9547]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_VP_VBD(gave)_NP con_nt_path=WHADVP_>_SBAR_>_VP_>_S_>_S_>_S_>_VP_>_NP con_nt_position=left con_nt_path_ilsib=WHADVP_>_SBAR_>_VP_>_S_>_S_>_S_>_VP_>_NP:<=1
+null[0.2711]  arg2[0.0002]  arg1[0.7288]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_VP_NP_SBAR con_nt_path=WHADVP_>_SBAR_>_VP_>_S_>_S_>_S_>_VP_>_NP con_nt_position=left con_nt_path_ilsib=WHADVP_>_SBAR_>_VP_>_S_>_S_>_S_>_VP_>_NP:<=1
+null[0.0385]  arg2[0.0001]  arg1[0.9614]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_S_null_VP con_nt_path=WHADVP_>_SBAR_>_VP_>_S_>_S_>_S_>_NP con_nt_position=left con_nt_path_ilsib=WHADVP_>_SBAR_>_VP_>_S_>_S_>_S_>_NP:<=1
+null[0.0872]  arg2[0.0002]  arg1[0.9126]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_S_null_,(,) con_nt_path=WHADVP_>_SBAR_>_VP_>_S_>_S_>_S con_nt_position=left con_nt_path_ilsib=WHADVP_>_SBAR_>_VP_>_S_>_S_>_S:<=1
+null[0.7811]  arg2[0.0049]  arg1[0.2139]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=,_S_S_CC(and) con_nt_path=WHADVP_>_SBAR_>_VP_>_S_>_S_>_, con_nt_position=left con_nt_path_ilsib=WHADVP_>_SBAR_>_VP_>_S_>_S_>_,:<=1
+null[0.8950]  arg2[0.0015]  arg1[0.1035]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=CC_S_,(,)_S con_nt_path=WHADVP_>_SBAR_>_VP_>_S_>_S_>_CC con_nt_position=left con_nt_path_ilsib=WHADVP_>_SBAR_>_VP_>_S_>_S_>_CC:<=1
+null[0.1430]  arg2[0.0012]  arg1[0.8558]
+
+For context: con_str=when con_lstr=when con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=._S_S_null con_nt_path=WHADVP_>_SBAR_>_VP_>_S_>_S_>_. con_nt_position=right con_nt_path_ilsib=WHADVP_>_SBAR_>_VP_>_S_>_S_>_.:<=1
+null[0.9840]  arg2[0.0023]  arg1[0.0138]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=S_null_null_null con_nt_path=CC_>_S_>_S con_nt_position=previous con_nt_path_ilsib=CC_>_S_>_S:>1
+null[0.9776]  arg2[0.0220]  arg1[0.0004]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=S_S_null_,(,) con_nt_path=CC_>_S_>_S con_nt_position=left con_nt_path_ilsib=CC_>_S_>_S:>1
+null[0.1184]  arg2[0.0117]  arg1[0.8699]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=,_S_S_CC(and) con_nt_path=CC_>_S_>_, con_nt_position=left con_nt_path_ilsib=CC_>_S_>_,:>1
+null[0.9917]  arg2[0.0002]  arg1[0.0081]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=S_S_CC(and)_.(.) con_nt_path=CC_>_S_>_S con_nt_position=right con_nt_path_ilsib=CC_>_S_>_S:>1
+null[0.0713]  arg2[0.9143]  arg1[0.0145]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=2 con_irsib=2 nt_ctx=._S_S_null con_nt_path=CC_>_S_>_. con_nt_position=right con_nt_path_ilsib=CC_>_S_>_.:>1
+null[0.9823]  arg2[0.0121]  arg1[0.0057]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_null_null_null con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_S con_nt_position=previous con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_S:<=1
+null[0.9958]  arg2[0.0041]  arg1[0.0001]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_SBAR_IN(so)_null con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_VP_>_SBAR_>_S con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_VP_>_SBAR_>_S:<=1
+null[0.2109]  arg2[0.6209]  arg1[0.1681]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VB_VP_null_NP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_VP_>_VB con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_VP_>_VB:<=1
+null[0.4084]  arg2[0.0057]  arg1[0.5859]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_VP_VB(make)_SBAR con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_VP_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_VP_>_NP:<=1
+null[0.5073]  arg2[0.0058]  arg1[0.4869]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=TO_VP_null_VP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_TO con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_TO:<=1
+null[0.3929]  arg2[0.0050]  arg1[0.6021]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VBN_VP_null_S con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_VBN con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_VBN:<=1
+null[0.7451]  arg2[0.0070]  arg1[0.2479]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_NP_null_VP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_NP:<=1
+null[0.6638]  arg2[0.0067]  arg1[0.3295]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=IN_PP_null_NP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_IN con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_IN:<=1
+null[0.6568]  arg2[0.0039]  arg1[0.3394]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_NP_null_PP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_NP:<=1
+null[0.7239]  arg2[0.0031]  arg1[0.2730]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=IN_PP_null_NP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_IN con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_PP_>_IN:<=1
+null[0.6568]  arg2[0.0039]  arg1[0.3394]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_NP_null_PP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_NP_>_NP:<=1
+null[0.7239]  arg2[0.0031]  arg1[0.2730]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VBG_VP_null_NP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_VBG con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S_>_VP_>_VBG:<=1
+null[0.4354]  arg2[0.0082]  arg1[0.5564]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=VBD_VP_null_S con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_VBD con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_VBD:<=1
+null[0.8536]  arg2[0.0041]  arg1[0.1424]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=S_VP_VBD(agreed)_,(,) con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_S:<=1
+null[0.8882]  arg2[0.0033]  arg1[0.1085]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=,_VP_S_S con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_, con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_VP_>_,:<=1
+null[0.8765]  arg2[0.0037]  arg1[0.1199]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=PP_S_null_,(,) con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_PP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_PP:<=1
+null[0.7133]  arg2[0.0038]  arg1[0.2829]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=,_S_PP_NP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_, con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_,:<=1
+null[0.6974]  arg2[0.0016]  arg1[0.3009]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=NP_S_,(,)_VP con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_NP con_nt_position=left con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_NP:<=1
+null[0.6607]  arg2[0.0010]  arg1[0.3383]
+
+For context: con_str=so con_lstr=so con_cat=Subordinator con_ilsib=0 con_irsib=1 nt_ctx=._S_VP_null con_nt_path=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_. con_nt_position=right con_nt_path_ilsib=IN_>_SBAR_>_VP_>_VP_>_S_>_VP_>_NP_>_PP_>_NP_>_PP_>_NP_>_VP_>_S_>_VP_>_S_>_.:<=1
+null[0.9167]  arg2[0.0510]  arg1[0.0323]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=1 con_irsib=1 nt_ctx=S_null_null_null con_nt_path=ADVP_>_VP_>_S_>_S_>_S con_nt_position=previous con_nt_path_ilsib=ADVP_>_VP_>_S_>_S_>_S:<=1
+null[0.9984]  arg2[0.0016]  arg1[0.0000]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=1 con_irsib=1 nt_ctx=MD_VP_null_ADVP con_nt_path=ADVP_>_VP_>_S_>_S_>_S_>_VP_>_MD con_nt_position=left con_nt_path_ilsib=ADVP_>_VP_>_S_>_S_>_S_>_VP_>_MD:<=1
+null[0.8698]  arg2[0.1170]  arg1[0.0132]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=1 con_irsib=1 nt_ctx=VP_VP_ADVP_null con_nt_path=ADVP_>_VP_>_S_>_S_>_S_>_VP_>_VP con_nt_position=right con_nt_path_ilsib=ADVP_>_VP_>_S_>_S_>_S_>_VP_>_VP:<=1
+null[0.8824]  arg2[0.1140]  arg1[0.0036]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=1 con_irsib=1 nt_ctx=NP_S_null_VP con_nt_path=ADVP_>_VP_>_S_>_S_>_S_>_NP con_nt_position=left con_nt_path_ilsib=ADVP_>_VP_>_S_>_S_>_S_>_NP:<=1
+null[0.8622]  arg2[0.1342]  arg1[0.0036]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=1 con_irsib=1 nt_ctx=PRN_S_S_CC(but) con_nt_path=ADVP_>_VP_>_S_>_S_>_PRN con_nt_position=right con_nt_path_ilsib=ADVP_>_VP_>_S_>_S_>_PRN:<=1
+null[0.9562]  arg2[0.0404]  arg1[0.0034]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=1 con_irsib=1 nt_ctx=CC_S_PRN_S con_nt_path=ADVP_>_VP_>_S_>_S_>_CC con_nt_position=right con_nt_path_ilsib=ADVP_>_VP_>_S_>_S_>_CC:<=1
+null[0.4012]  arg2[0.5918]  arg1[0.0069]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=1 con_irsib=1 nt_ctx=S_S_CC(but)_.(.) con_nt_path=ADVP_>_VP_>_S_>_S_>_S con_nt_position=right con_nt_path_ilsib=ADVP_>_VP_>_S_>_S_>_S:<=1
+null[0.6669]  arg2[0.2895]  arg1[0.0436]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=1 con_irsib=1 nt_ctx=._S_S_null con_nt_path=ADVP_>_VP_>_S_>_S_>_. con_nt_position=right con_nt_path_ilsib=ADVP_>_VP_>_S_>_S_>_.:<=1
+null[0.9882]  arg2[0.0109]  arg1[0.0009]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=3 con_irsib=2 nt_ctx=S_null_null_null con_nt_path=ADVP_>_S_>_S con_nt_position=previous con_nt_path_ilsib=ADVP_>_S_>_S:>1
+null[0.7675]  arg2[0.2324]  arg1[0.0001]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=3 con_irsib=2 nt_ctx=PP_S_null_,(,) con_nt_path=ADVP_>_S_>_PP con_nt_position=left con_nt_path_ilsib=ADVP_>_S_>_PP:>1
+null[0.8918]  arg2[0.0195]  arg1[0.0887]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=3 con_irsib=2 nt_ctx=,_S_PP_NP con_nt_path=ADVP_>_S_>_, con_nt_position=left con_nt_path_ilsib=ADVP_>_S_>_,:>1
+null[0.9808]  arg2[0.0100]  arg1[0.0092]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=3 con_irsib=2 nt_ctx=NP_S_,(,)_ADVP con_nt_path=ADVP_>_S_>_NP con_nt_position=left con_nt_path_ilsib=ADVP_>_S_>_NP:>1
+null[0.8620]  arg2[0.1313]  arg1[0.0066]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=3 con_irsib=2 nt_ctx=VP_S_ADVP_.(.) con_nt_path=ADVP_>_S_>_VP con_nt_position=right con_nt_path_ilsib=ADVP_>_S_>_VP:>1
+null[0.8796]  arg2[0.1156]  arg1[0.0047]
+
+For context: con_str=also con_lstr=also con_cat=Conj-adverb con_ilsib=3 con_irsib=2 nt_ctx=._S_VP_null con_nt_path=ADVP_>_S_>_. con_nt_position=right con_nt_path_ilsib=ADVP_>_S_>_.:>1
+null[0.9734]  arg2[0.0238]  arg1[0.0028]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=S_null_null_null con_nt_path=CC_>_S_>_S_>_S con_nt_position=previous con_nt_path_ilsib=CC_>_S_>_S_>_S:<=1
+null[0.9984]  arg2[0.0016]  arg1[0.0000]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=S_S_null_CC(and) con_nt_path=CC_>_S_>_S_>_S_>_S con_nt_position=left con_nt_path_ilsib=CC_>_S_>_S_>_S_>_S:<=1
+null[0.0172]  arg2[0.0124]  arg1[0.9704]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=S_S_CC(and)_null con_nt_path=CC_>_S_>_S_>_S_>_S con_nt_position=right con_nt_path_ilsib=CC_>_S_>_S_>_S_>_S:<=1
+null[0.0189]  arg2[0.9770]  arg1[0.0042]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=S_S_null_:(;) con_nt_path=CC_>_S_>_S_>_S con_nt_position=left con_nt_path_ilsib=CC_>_S_>_S_>_S:<=1
+null[0.7446]  arg2[0.0038]  arg1[0.2516]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=:_S_S_S con_nt_path=CC_>_S_>_S_>_: con_nt_position=left con_nt_path_ilsib=CC_>_S_>_S_>_::<=1
+null[0.9535]  arg2[0.0022]  arg1[0.0444]
+
+For context: con_str=and con_lstr=and con_cat=Coordinator con_ilsib=1 con_irsib=1 nt_ctx=._S_S_null con_nt_path=CC_>_S_>_S_>_. con_nt_position=right con_nt_path_ilsib=CC_>_S_>_S_>_.:<=1
+null[0.9758]  arg2[0.0168]  arg1[0.0074]
+
+For context: con_str=however con_lstr=however con_cat=Conj-adverb con_ilsib=2 con_irsib=3 nt_ctx=S_null_null_null con_nt_path=ADVP_>_S_>_S con_nt_position=previous con_nt_path_ilsib=ADVP_>_S_>_S:>1
+null[0.9412]  arg2[0.0588]  arg1[0.0000]
+
+For context: con_str=however con_lstr=however con_cat=Conj-adverb con_ilsib=2 con_irsib=3 nt_ctx=NP_S_null_,(,) con_nt_path=ADVP_>_S_>_NP con_nt_position=left con_nt_path_ilsib=ADVP_>_S_>_NP:>1
+null[0.9908]  arg2[0.0092]  arg1[0.0000]
+
+For context: con_str=however con_lstr=however con_cat=Conj-adverb con_ilsib=2 con_irsib=3 nt_ctx=,_S_NP_ADVP con_nt_path=ADVP_>_S_>_, con_nt_position=left con_nt_path_ilsib=ADVP_>_S_>_,:>1
+null[0.9967]  arg2[0.0033]  arg1[0.0001]
+
+For context: con_str=however con_lstr=however con_cat=Conj-adverb con_ilsib=2 con_irsib=3 nt_ctx=,_S_ADVP_VP con_nt_path=ADVP_>_S_>_, con_nt_position=right con_nt_path_ilsib=ADVP_>_S_>_,:>1
+null[0.9937]  arg2[0.0063]  arg1[0.0000]
+
+For context: con_str=however con_lstr=however con_cat=Conj-adverb con_ilsib=2 con_irsib=3 nt_ctx=VP_S_,(,)_.(.) con_nt_path=ADVP_>_S_>_VP con_nt_position=right con_nt_path_ilsib=ADVP_>_S_>_VP:>1
+null[0.9960]  arg2[0.0039]  arg1[0.0000]
+
+For context: con_str=however con_lstr=however con_cat=Conj-adverb con_ilsib=2 con_irsib=3 nt_ctx=._S_VP_null con_nt_path=ADVP_>_S_>_. con_nt_position=right con_nt_path_ilsib=ADVP_>_S_>_.:>1
+null[0.9950]  arg2[0.0050]  arg1[0.0000]
+
+Accuracy = 0.893971884679533
