@@ -2,13 +2,25 @@
 The project is the homework of the NLP course (F033569) in SJTU.
 
 * **Director**: Hai Zhao
-* **Student**: Kan Ren (0140339030)
+* **Student**: Kan Ren (014033****)
 * **Project Website**: [RK's Github](https://github.com/rk2900/CoNLL2015)
 
 ## Task Description
 * **Detection**:  Detect the connective phrase in discourse text.
 * **Extraction**: Having connective phrase detected, extract the two arguments in the discourse context and output the binary relation of (conn, arg1, arg2).
 * **Simplification**: The goal of this project is simplified to detect just *explicit* connective phrases.
+
+## File Organization
+* **./lib**: the library JAR files
+* **./src**: source file
+* **./train**: the train data and the model file
+* **./data**: the train data set and the test data set. (including "conll15-st-03-04-15-dev" folder and "conll15-st-03-04-15-dev" folder) The data files are not uploaded onto Github because of size. You may download it from [here](http://nbviewer.ipython.org/github/attapol/conll15st/blob/master/tutorial/tutorial.ipynb).
+
+The entry of the whole project is in Main/main method.
+And I use [Maven](http://maven.apache.org/) to manage the library. The configuration file is in *pom.xml*.
+If you have no idea about the usage of Maven, you may add all *.jar* files in the folder *./lib*.
+
+The Java environment version is above *JRE 1.8*.
 
 ## Solution
 My solution is based on Lin et al. [^lin] and  Kong et al. [^kong]. The task is split into two phases as below.
@@ -73,12 +85,8 @@ The performance of argument extraction is presented as accuracy since it is a mu
 The final result is output into ./output.json while its format is validated against the official validation method (validator.py).
 This output file is generated from the test data set whose label in unknown.
 
-## File Organization
-* ./src: source file
-* ./train: the train data and the model file
-* ./data: the train data set and the test data set. (including "conll15-st-03-04-15-dev" folder and "conll15-st-03-04-15-dev" folder, not uploaded onto Github)
 
-The entry of the whole project is in Main/main method.
+
 
 
 [^lin]: A PDTB-styled end-to-end discourse parser
