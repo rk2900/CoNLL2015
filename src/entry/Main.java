@@ -50,10 +50,10 @@ public class Main {
 		// loading train data
 		Loader loader = new Loader();
 		loader.initialize();
+		loader.loadConnCategory(Const.connCategoryFilePath);
 		loader.loadDocuments(Const.docFolder_train);
 		loader.loadData(Const.data_train);
 		loader.loadParses(Const.parses_train);
-		loader.loadConnCategory(Const.connCategoryFilePath);
 		System.out.println("Train data loaded.\n");
 		
 		// loading test data

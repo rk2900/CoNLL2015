@@ -21,12 +21,12 @@ public class Const {
 	public static final boolean modelEval = true;
 	public static final boolean explicitFlag = true;
 	public static final boolean splitFlag = false;
-	public static final String connCategoryFilePath = "./data/connective-category-mod.txt";
+	public static final String connCategoryFilePath = "./data/connective_dictionary.txt";
 	public static final double ratio = 0.8;
 	
 	
 	public static void pause() {
-		@SuppressWarnings("resource")
+		System.err.println("Paused ......");
 		Scanner scanner = new Scanner(System.in);
 		scanner.next();
 	}

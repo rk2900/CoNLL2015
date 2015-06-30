@@ -67,7 +67,8 @@ public class ConnDetection extends Model {
 			int trainNum = (int) (loader.docs.keySet().size()*Const.ratio);
 			int trainCount = 0;
 			for (String docId : loader.docs.keySet()) {
-				if(Const.splitFlag && trainCount++ > trainNum) {
+				trainCount++;
+				if(Const.splitFlag && (trainCount > trainNum) ) {
 					System.err.println("Passed doc. trainNum = "+trainNum+", trainCount = "+trainCount);
 					break;
 				}
@@ -76,8 +77,6 @@ public class ConnDetection extends Model {
 					JSONObject sentence = document.getSentence(i);
 					JSONArray words = (JSONArray) sentence.get("words");
 					for (int j = 0; j < words.size(); j++) {
-						JSONArray word = (JSONArray) words.get(j);
-						String wordStr = word.get(0).toString();
 						int k = getTailPosition(words, j);
 						if (k >= 0) { // the word phrase is a connective candidate
 							Integer[] firstToken = {-1,-1,-1,i,j};
@@ -106,15 +105,14 @@ public class ConnDetection extends Model {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		System.err.println("Train feature generated.");
-		Const.pause();
+		System.err.println("\nTrain feature generated.");
 		trainModel();
-
+		System.err.println("\nModel trained.");
 	}
 	
 	public int getTailPosition(JSONArray words, int start) {
 		int position = -1;
-		Set<String> dict = Loader.connCategory.keySet();
+		LinkedList<String> dict = Loader.connDictionary;
 		for (String term : dict) {
 			String[] termWords = term.split(" ");
 			boolean matched = true;
@@ -281,23 +279,15 @@ public class ConnDetection extends Model {
 			float[] values = RealValueFileEventStream.parseContexts(contexts);
 			ocs = _model.eval(contexts, values);
 		}
-		System.out.println("For context: " + predicates + "\n"
-				+ _model.getAllOutcomes(ocs) + "\n");
+//		System.out.println("For context: " + predicates + "\n" + _model.getAllOutcomes(ocs) + "\n");
 		return _model.getBestOutcome(ocs);
 
 	}
 
 	@Override
-	protected HashMap<String, LinkedList<Relation>> predict(
-			HashMap<String, Document> docs) {
+	protected HashMap<String, LinkedList<Relation>> predict(HashMap<String, Document> docs) {
 		HashMap<String, LinkedList<Relation>> results = new HashMap<>();
-		BufferedWriter bw = null;
-		try {
-			bw = new BufferedWriter(new FileWriter(new File(testFilePath)));
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		}
-		// load maxent model
+		// load maximum entropy model
 		MaxentModel m;
 		try {
 			m = new GenericModelReader(new File(modelFilePath)).getModel();
@@ -317,24 +307,25 @@ public class ConnDetection extends Model {
 				JSONObject sentence = document.getSentence(i);
 				JSONArray words = (JSONArray) sentence.get("words");
 				for (int j = 0; j < words.size(); j++) {
-					JSONArray word = (JSONArray) words.get(j);
-					String wordStr = word.get(0).toString();
-					if (!Loader.connCategory.containsKey(wordStr.toLowerCase()))
-						continue;
-					else {
-						Integer[] token = { -1, -1, -1, i, j };
-						String sample = genFeature(words, token, token, "?");
-						try {
-							bw.write(sample);
-							bw.newLine();
-						} catch (IOException e) {
-							e.printStackTrace();
-						}
+					int k = getTailPosition(words, j);
+					
+					if(k>0) { // connective dictionary contains the phrase, maybe it is a connective
+						Integer[] firstToken = {-1,-1,-1,i,j};
+						Integer[] lastToken = {-1,-1,-1,i,k};
+						
+						String sample = genFeature(words, firstToken, lastToken, "?");
 						String feature = sample.substring(0, sample.lastIndexOf(" "));
-						if(eval(feature).equals("connective")) { // result is a connective
+						if(eval(feature).equals("connective")) { // predict as positive
 							Argument conn = new Argument();
-							conn.setRawText(wordStr);
-							conn.setToken(token);
+							String rawText = "";
+							for(int t=j; t<=k; t++) {
+								if(rawText.length()>0)
+									rawText = rawText+" ";
+								rawText = rawText+((JSONArray)words.get(t)).get(0).toString();
+								Integer[] tokenTemp = {-1,-1,-1,i,t};
+								conn.setToken(tokenTemp);
+							}
+							conn.setRawText(rawText);
 							Relation relation = new Relation();
 							relation.setConnective(conn);
 							relation.setDocId(docId);
@@ -344,16 +335,14 @@ public class ConnDetection extends Model {
 								LinkedList<Relation> list = new LinkedList<>();
 								results.put(docId, list);
 							}
-						} else;
-					}
+						} else ; // predict as negative
+						j=k;
+					} else ; // connective dictionary does not contains the phrase
+					
 				}
 			}
 		}
-		try {
-			bw.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		System.err.println("\nPrediction finished.");
 		return results;
 	}
 }

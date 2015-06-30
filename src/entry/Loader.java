@@ -27,7 +27,7 @@ public class Loader {
 	public HashMap<String, Document> docs;
 	public HashMap<Integer, Relation> trainData;
 	public HashMap<String, LinkedList<Relation>> trainDocData;
-	public static HashMap<String, String> connCategory;
+	public static LinkedList<String> connDictionary;
 	
 	public Loader() {
 		initialize();
@@ -39,7 +39,7 @@ public class Loader {
 		docs = new HashMap<>();
 		trainData = new HashMap<>();
 		trainDocData = new HashMap<>();
-		connCategory = new HashMap<>();
+		connDictionary = new LinkedList<>();
 	}
 
 	public void loadDocuments(String docFolder) {
@@ -84,8 +84,8 @@ public class Loader {
 				Argument argument1 = parseArgument(arg1);
 				Argument argument2 = parseArgument(arg2);
 				Argument connective = parseArgument(conn);
-				if(connective.ifMultiWords()) 
-					continue;
+//				if(connective.ifMultiWords()) 
+//					continue;
 				Relation relation = new Relation(argument1, argument2, connective, docId, idNum, sense, type);
 				trainData.put(idNum, relation);
 				if(!trainDocData.containsKey(docId)) {
@@ -170,13 +170,8 @@ public class Loader {
 			String line;
 			
 			while( (line = bf.readLine()) != null) {
-				String[] segs = line.split(" # ");
-				if(connCategory.containsKey(segs[0]))
-					connCategory.replace(segs[0], segs[1]);
-				else 
-					connCategory.put(segs[0], segs[1]);
+				connDictionary.add(line);
 			}
-			
 			bf.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
