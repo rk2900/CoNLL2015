@@ -14,7 +14,8 @@ The project is the homework of the NLP course (F033569) in SJTU.
 * **./lib**: the library JAR files
 * **./src**: source file
 * **./train**: the train data and the model file
-* **./data**: the train data set and the test data set. (including "conll15-st-03-04-15-dev" folder and "conll15-st-03-04-15-dev" folder) The data files are not uploaded onto Github because of size. You may download it from [here](http://nbviewer.ipython.org/github/attapol/conll15st/blob/master/tutorial/tutorial.ipynb).
+* **./data**: the train data set and the test data set. (including "conll15-st-03-04-15-train" folder and "conll15-st-03-04-15-dev" folder) The data files are not uploaded onto Github because of size. You may download it from [here](http://nbviewer.ipython.org/github/attapol/conll15st/blob/master/tutorial/tutorial.ipynb).
+* **output.json**: the final system result in CoNLL format. You may run the main function in the project to get it again. The result is generated from the test data set which contains 100 documents.
 
 The entry of the whole project is in Main/main method.
 And I use [Maven](http://maven.apache.org/) to manage the library. The configuration file is in *pom.xml*.
